@@ -1,0 +1,45 @@
+2022-04-11 16:58:46,550 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisApplication1 using Java 1.8.0_301 on shabdita-cc with PID 11588 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication1\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication1)
+2022-04-11 16:58:46,557 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-04-11 16:58:46,648 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-04-11 16:58:46,660 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-04-11 16:58:46,661 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-04-11 16:58:46,662 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-11 16:58:46,663 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-11 16:58:48,300 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-11 16:58:48,302 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 16:58:48,439 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 113 ms. Found 3 JPA repository interfaces.
+2022-04-11 16:58:48,440 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-11 16:58:48,442 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 16:58:48,490 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+2022-04-11 16:58:48,492 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-11 16:58:48,493 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 16:58:48,562 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
+2022-04-11 16:58:50,380 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.IllegalStateException: Unable to create the directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp\logs] to use as the base directory
+2022-04-11 16:58:50,400 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-11 16:58:50,458 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.IllegalStateException: Unable to create the directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp\logs] to use as the base directory
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318)
+	at com.mis.eoffice.MisApplication1.main(MisApplication1.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Unable to create the directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp\logs] to use as the base directory
+	at org.apache.catalina.startup.Tomcat.initBaseDir(Tomcat.java:873)
+	at org.apache.catalina.startup.Tomcat.getServer(Tomcat.java:657)
+	at org.apache.catalina.startup.Tomcat.getService(Tomcat.java:589)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:190)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	... 14 common frames omitted

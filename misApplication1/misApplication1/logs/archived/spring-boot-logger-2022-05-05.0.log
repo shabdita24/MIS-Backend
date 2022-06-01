@@ -1,0 +1,190 @@
+2022-05-05 12:11:29,481 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisApplication1 using Java 1.8.0_301 on shabdita-cc with PID 4008 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication1\misApplication1\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication1\misApplication1)
+2022-05-05 12:11:29,494 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-05-05 12:11:29,863 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-05-05 12:11:29,866 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-05-05 12:11:29,866 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-05-05 12:11:29,867 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 12:11:29,867 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 12:11:32,630 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 12:11:32,631 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 12:11:32,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 90 ms. Found 3 JPA repository interfaces.
+2022-05-05 12:11:32,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 12:11:32,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 12:11:32,765 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2022-05-05 12:11:32,767 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 12:11:32,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 12:11:32,821 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2022-05-05 12:11:32,823 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 12:11:32,824 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 12:11:32,854 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2022-05-05 12:11:32,855 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 12:11:32,855 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 12:11:32,893 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2022-05-05 12:11:37,851 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-05 12:11:37,984 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-05 12:11:37,986 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-05 12:11:37,991 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-05-05 12:11:38,856 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-05 12:11:38,859 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8989 ms
+2022-05-05 12:11:41,350 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-05-05 12:11:41,795 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-05 12:11:42,355 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 12:11:42,839 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-05-05 12:11:49,726 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-05-05 12:11:50,269 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 12:11:55,728 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 12:11:59,828 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 12:11:59,853 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 12:11:59,895 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-05-05 12:12:00,169 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-05-05 12:12:04,593 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-05-05 12:12:04,595 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 12:12:10,444 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 12:12:11,934 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 12:12:11,937 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 12:12:12,077 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db3]
+2022-05-05 12:12:12,724 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-05-05 12:12:15,757 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-05-05 12:12:15,775 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-05 12:12:18,393 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 12:12:18,795 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 12:12:18,796 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 12:12:18,910 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-05-05 12:12:19,373 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-05-05 12:12:22,470 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-05-05 12:12:22,471 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 12:12:25,627 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 12:12:25,771 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 12:12:25,772 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 12:12:25,813 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db5]
+2022-05-05 12:12:26,381 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2022-05-05 12:12:29,143 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2022-05-05 12:12:29,145 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 12:12:31,851 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 12:12:31,930 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 12:12:31,931 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 12:12:34,183 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a124ee2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e7b8a88, org.springframework.security.web.header.HeaderWriterFilter@3ccc64df, org.springframework.web.filter.CorsFilter@6cb5826e, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@42c18955, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@6f7f742, org.springframework.security.web.authentication.logout.LogoutFilter@3195e7e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@339623ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@684b1116, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@4226bed7, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@ce31ce7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1698cfa0, org.springframework.security.web.session.SessionManagementFilter@72e26f24, org.springframework.security.web.access.ExceptionTranslationFilter@25234303, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@307512b1]
+2022-05-05 12:12:34,474 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-05 12:12:34,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-05 12:12:34,542 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misApplication1'
+2022-05-05 12:12:34,574 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisApplication1 in 66.629 seconds (JVM running for 70.295)
+2022-05-05 12:13:06,170 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 12:13:06,171 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-05 12:13:06,175 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-05-05 12:13:06,716 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Entered Command 7WG
+2022-05-05 12:13:08,214 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table Start.
+2022-05-05 12:13:08,215 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039801fca9d, depFullName=ACO, depBranch=7WG.ACO, depNameSmall=7WG.METO)
+2022-05-05 12:13:08,217 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039800f9a33, depFullName=7WG.ADM, depBranch=7WG.ADM, depNameSmall=7WG.METO)
+2022-05-05 12:13:08,218 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039800f9a34, depFullName=7WG.OPS, depBranch=7WG.OPS, depNameSmall=7WG.HRC)
+2022-05-05 12:13:08,219 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039800f9a35, depFullName=7WG.IAFAC, depBranch=7WG.IAFAC, depNameSmall=7WG.HRC)
+2022-05-05 12:13:08,220 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039800f9a36, depFullName=7WG.MAIN, depBranch=7WG.MAIN, depNameSmall=7WG.METO)
+2022-05-05 12:13:08,221 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039800f9a3a, depFullName=7WG.DAC, depBranch=7WG.DAC, depNameSmall=7WG.METO)
+2022-05-05 12:13:08,222 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039801e2f37, depFullName=CAD, depBranch=7WG.CAD, depNameSmall=7WG.METO)
+2022-05-05 12:13:08,223 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039801e2f39, depFullName=METO, depBranch=7WG.METO, depNameSmall=7WG.HRC)
+2022-05-05 12:13:08,224 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=AFRO COORD, depBranch=AFRO.COORD, depNameSmall=7WG.METO)
+2022-05-05 12:13:08,224 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] data in list DepartmentConfigInventory(rObjectId=08003039801e80c2, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.METO)
+2022-05-05 12:13:08,817 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039801fca9d
+2022-05-05 12:13:08,818 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.METO
+2022-05-05 12:13:09,013 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  sauName is not present in hierarchy 7WG.METO
+2022-05-05 12:13:09,014 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau inside hierarchy
+2022-05-05 12:13:09,568 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.METO sau branch is present in iaf department config 
+2022-05-05 12:13:10,477 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:10,478 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:10,586 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.ACO
+2022-05-05 12:13:10,586 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:10,753 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:10,754 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:11,164 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:12,142 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039800f9a33
+2022-05-05 12:13:12,143 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.METO
+2022-05-05 12:13:12,393 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:12,394 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:12,505 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.ADM
+2022-05-05 12:13:12,505 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:12,612 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:12,613 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:12,937 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:13,514 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039800f9a34
+2022-05-05 12:13:13,515 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.HRC
+2022-05-05 12:13:13,718 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  sauName is not present in hierarchy 7WG.HRC
+2022-05-05 12:13:13,719 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau inside hierarchy
+2022-05-05 12:13:13,970 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.HRC sau branch is present in iaf department config 
+2022-05-05 12:13:14,748 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:14,749 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:14,857 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.OPS
+2022-05-05 12:13:14,858 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:14,961 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:14,962 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:15,352 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:15,958 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039800f9a35
+2022-05-05 12:13:15,958 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.HRC
+2022-05-05 12:13:16,387 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:16,388 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:16,602 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.IAFAC
+2022-05-05 12:13:16,603 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:16,793 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:16,795 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:17,123 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:18,378 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039800f9a36
+2022-05-05 12:13:18,405 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.METO
+2022-05-05 12:13:18,651 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:18,651 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:18,761 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.MAIN
+2022-05-05 12:13:18,762 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:18,868 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:18,869 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:19,189 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:20,125 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039800f9a3a
+2022-05-05 12:13:20,126 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.METO
+2022-05-05 12:13:20,356 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:20,357 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:20,597 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.DAC
+2022-05-05 12:13:20,598 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:20,790 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:20,791 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:21,412 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:23,149 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039801e2f37
+2022-05-05 12:13:23,150 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.METO
+2022-05-05 12:13:23,559 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:23,560 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:23,754 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.CAD
+2022-05-05 12:13:23,755 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:23,973 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:23,974 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:24,477 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:25,429 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039801e2f39
+2022-05-05 12:13:25,430 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.HRC
+2022-05-05 12:13:25,799 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:25,799 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:26,006 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.METO
+2022-05-05 12:13:26,007 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Child is present.
+2022-05-05 12:13:30,443 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 080030398000a2f9
+2022-05-05 12:13:30,444 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.METO
+2022-05-05 12:13:30,710 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:30,711 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:30,817 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] AFRO.COORD
+2022-05-05 12:13:30,818 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:30,928 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:30,929 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:31,248 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:32,197 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] ObjectId 08003039801e80c2
+2022-05-05 12:13:32,214 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] DepName 7WG.METO
+2022-05-05 12:13:32,674 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1]  If parent is present then checking its Child 
+2022-05-05 12:13:32,675 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau.
+2022-05-05 12:13:32,784 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] 7WG.ACT
+2022-05-05 12:13:32,784 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-05-05 12:13:32,961 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-05-05 12:13:32,962 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-05-05 12:13:33,500 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-05-05 12:13:34,018 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-05-05 12:13:34,750 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-05-05 12:13:34,755 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table Error.
+2022-05-05 12:13:34,756 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] **********Hierarchy Data Pushed**********
+2022-05-05 14:09:31,498 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m10s530ms811µs700ns).
+2022-05-05 14:09:34,754 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h6m10s717ms825µs100ns).
+2022-05-05 14:09:40,946 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-5 housekeeper] HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h6m10s523ms335µs100ns).
+2022-05-05 14:09:49,795 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-2 housekeeper] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h6m10s523ms86µs100ns).
+2022-05-05 14:09:57,967 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h6m10s519ms95µs900ns).
+2022-05-05 14:10:58,402 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2022-05-05 14:10:58,791 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:10:58,792 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-5 - Shutdown initiated...

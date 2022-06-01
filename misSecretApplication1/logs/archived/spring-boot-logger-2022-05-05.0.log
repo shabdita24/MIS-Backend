@@ -1,0 +1,593 @@
+2022-05-05 17:27:31,671 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication1 using Java 1.8.0_301 on shabdita-cc with PID 11788 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misSecretApplication1\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misSecretApplication1)
+2022-05-05 17:27:31,677 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-05-05 17:27:31,751 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-05-05 17:27:31,763 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-05-05 17:27:31,764 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-05-05 17:27:31,764 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 17:27:31,765 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 17:27:32,977 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 17:27:32,978 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 17:27:33,079 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2022-05-05 17:27:33,080 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 17:27:33,082 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 17:27:33,116 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2022-05-05 17:27:33,117 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 17:27:33,118 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 17:27:33,163 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 6 JPA repository interfaces.
+2022-05-05 17:27:33,166 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 17:27:33,167 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 17:27:33,198 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+2022-05-05 17:27:34,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-05 17:27:34,765 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-05 17:27:34,767 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-05 17:27:34,767 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-05-05 17:27:34,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-05 17:27:34,985 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3218 ms
+2022-05-05 17:27:35,397 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-05-05 17:27:35,611 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-05 17:27:35,765 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 17:27:36,012 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-05-05 17:27:38,356 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-05-05 17:27:38,385 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 17:27:40,908 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 17:27:41,698 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 17:27:41,715 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 17:27:41,738 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-05-05 17:27:41,835 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-05-05 17:27:44,149 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-05-05 17:27:44,151 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 17:27:46,915 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 17:27:47,031 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 17:27:47,032 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 17:27:47,048 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db3]
+2022-05-05 17:27:47,124 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-05-05 17:27:49,323 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-05-05 17:27:49,333 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-05 17:27:51,490 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 17:27:51,579 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 17:27:51,580 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 17:27:51,593 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-05-05 17:27:51,667 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-05-05 17:27:54,206 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-05-05 17:27:54,209 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 17:27:56,992 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 17:27:57,078 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 17:27:57,079 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 17:27:58,524 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48acb8ca, org.springframework.security.web.context.SecurityContextPersistenceFilter@39d34f76, org.springframework.security.web.header.HeaderWriterFilter@7e734d6f, org.springframework.web.filter.CorsFilter@7613db34, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@76be858f, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@43f59c78, org.springframework.security.web.authentication.logout.LogoutFilter@1c29fb03, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eef34d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cdd12f5, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@1368e37b, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@11788e64, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aec74f2, org.springframework.security.web.session.SessionManagementFilter@12378893, org.springframework.security.web.access.ExceptionTranslationFilter@7919f59c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ae084b0]
+2022-05-05 17:27:58,735 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-05 17:27:58,765 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-05 17:27:58,782 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication1'
+2022-05-05 17:27:58,800 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication1 in 27.938 seconds (JVM running for 32.357)
+2022-05-05 17:29:32,367 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 17:29:32,367 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2022-05-05 17:29:32,369 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2022-05-05 17:29:32,415 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Entered Command 7WG
+2022-05-05 17:29:33,563 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table Start.
+2022-05-05 17:29:33,564 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.ACO)
+2022-05-05 17:29:33,564 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000a2fb, depFullName=CAD, depBranch=7WG.CAD, depNameSmall=7WG.HRC)
+2022-05-05 17:29:33,565 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000a2fc, depFullName=METO, depBranch=7WG.METO, depNameSmall=7WG.CAD)
+2022-05-05 17:29:33,565 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000a2fd, depFullName=ACO, depBranch=7WG.ACO, depNameSmall=7WG.METO)
+2022-05-05 17:29:33,565 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000a2h3, depFullName=CAD1, depBranch=7WG.CAD1, depNameSmall=7WG.HRC)
+2022-05-05 17:29:33,565 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000a29j, depFullName=CAD1, depBranch=7WG.CAD2, depNameSmall=7WG.HRC)
+2022-05-05 17:29:33,566 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000a89j, depFullName=CAD1, depBranch=7WG.CAD3, depNameSmall=7WG.HRC)
+2022-05-05 17:29:33,566 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l29j, depFullName=CAD4, depBranch=7WG.CAD4, depNameSmall=7WG.HRC)
+2022-05-05 17:29:33,567 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l2po, depFullName=CAD5, depBranch=7WG.CAD5, depNameSmall=7WG.HRC)
+2022-05-05 17:29:33,567 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l2i8, depFullName=CAD6, depBranch=7WG.CAD6, depNameSmall=7WG.HRC)
+2022-05-05 17:29:33,567 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l94h, depFullName=CAD7, depBranch=7WG.CAD7, depNameSmall=7WG.CAD1)
+2022-05-05 17:29:33,568 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9le, depFullName=CAD8, depBranch=7WG.CAD8, depNameSmall=7WG.CAD1)
+2022-05-05 17:29:33,568 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l90c, depFullName=CAD9, depBranch=7WG.CAD9, depNameSmall=7WG.CAD1)
+2022-05-05 17:29:33,568 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9b9, depFullName=CAD10, depBranch=7WG.CAD10, depNameSmall=7WG.CAD2)
+2022-05-05 17:29:33,569 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9mq, depFullName=CAD11, depBranch=7WG.CAD11, depNameSmall=7WG.CAD2)
+2022-05-05 17:29:33,569 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9aw, depFullName=CAD12, depBranch=7WG.CAD12, depNameSmall=7WG.CAD2)
+2022-05-05 17:29:33,569 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9d8, depFullName=CAD13, depBranch=7WG.CAD13, depNameSmall=7WG.CAD11)
+2022-05-05 17:29:33,570 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9la, depFullName=CAD14, depBranch=7WG.CAD14, depNameSmall=7WG.CAD11)
+2022-05-05 17:29:33,570 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9pe, depFullName=CAD15, depBranch=7WG.CAD15, depNameSmall=7WG.CAD11)
+2022-05-05 17:29:33,570 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9z4, depFullName=CAD16, depBranch=7WG.CAD16, depNameSmall=7WG.CAD11)
+2022-05-05 17:29:33,570 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9c8, depFullName=CAD17, depBranch=7WG.CAD17, depNameSmall=7WG.CAD16)
+2022-05-05 17:29:33,571 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9ms, depFullName=CAD18, depBranch=7WG.CAD18, depNameSmall=7WG.CAD16)
+2022-05-05 17:29:33,571 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9o3, depFullName=CAD19, depBranch=7WG.CAD19, depNameSmall=7WG.CAD16)
+2022-05-05 17:29:33,572 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] data in list DepartmentConfigInventory(rObjectId=080030398000l9v6, depFullName=CAD20, depBranch=7WG.CAD20, depNameSmall=7WG.CAD16)
+2022-05-05 17:29:33,572 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.ACO), DepartmentConfigInventory(rObjectId=080030398000a2fb, depFullName=CAD, depBranch=7WG.CAD, depNameSmall=7WG.HRC), DepartmentConfigInventory(rObjectId=080030398000a2fc, depFullName=METO, depBranch=7WG.METO, depNameSmall=7WG.CAD), DepartmentConfigInventory(rObjectId=080030398000a2fd, depFullName=ACO, depBranch=7WG.ACO, depNameSmall=7WG.METO), DepartmentConfigInventory(rObjectId=080030398000a2h3, depFullName=CAD1, depBranch=7WG.CAD1, depNameSmall=7WG.HRC), DepartmentConfigInventory(rObjectId=080030398000a29j, depFullName=CAD1, depBranch=7WG.CAD2, depNameSmall=7WG.HRC), DepartmentConfigInventory(rObjectId=080030398000a89j, depFullName=CAD1, depBranch=7WG.CAD3, depNameSmall=7WG.HRC), DepartmentConfigInventory(rObjectId=080030398000l29j, depFullName=CAD4, depBranch=7WG.CAD4, depNameSmall=7WG.HRC), DepartmentConfigInventory(rObjectId=080030398000l2po, depFullName=CAD5, depBranch=7WG.CAD5, depNameSmall=7WG.HRC), DepartmentConfigInventory(rObjectId=080030398000l2i8, depFullName=CAD6, depBranch=7WG.CAD6, depNameSmall=7WG.HRC), DepartmentConfigInventory(rObjectId=080030398000l94h, depFullName=CAD7, depBranch=7WG.CAD7, depNameSmall=7WG.CAD1), DepartmentConfigInventory(rObjectId=080030398000l9le, depFullName=CAD8, depBranch=7WG.CAD8, depNameSmall=7WG.CAD1), DepartmentConfigInventory(rObjectId=080030398000l90c, depFullName=CAD9, depBranch=7WG.CAD9, depNameSmall=7WG.CAD1), DepartmentConfigInventory(rObjectId=080030398000l9b9, depFullName=CAD10, depBranch=7WG.CAD10, depNameSmall=7WG.CAD2), DepartmentConfigInventory(rObjectId=080030398000l9mq, depFullName=CAD11, depBranch=7WG.CAD11, depNameSmall=7WG.CAD2), DepartmentConfigInventory(rObjectId=080030398000l9aw, depFullName=CAD12, depBranch=7WG.CAD12, depNameSmall=7WG.CAD2), DepartmentConfigInventory(rObjectId=080030398000l9d8, depFullName=CAD13, depBranch=7WG.CAD13, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9la, depFullName=CAD14, depBranch=7WG.CAD14, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9pe, depFullName=CAD15, depBranch=7WG.CAD15, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9z4, depFullName=CAD16, depBranch=7WG.CAD16, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9c8, depFullName=CAD17, depBranch=7WG.CAD17, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9ms, depFullName=CAD18, depBranch=7WG.CAD18, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9o3, depFullName=CAD19, depBranch=7WG.CAD19, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9v6, depFullName=CAD20, depBranch=7WG.CAD20, depNameSmall=7WG.CAD16)]
+2022-05-05 17:29:33,573 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:33,574 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:33,931 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:33,931 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:33,932 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a2f9
+2022-05-05 17:29:33,933 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.ACO
+2022-05-05 17:29:34,044 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional.empty
+2022-05-05 17:29:34,045 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] parent is not present
+2022-05-05 17:29:34,045 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking depNameSmall 7WG.ACO
+2022-05-05 17:29:34,045 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:34,398 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking depnameSmall in departmentConfigRepository Optional[DepartmentConfigInventory(rObjectId=080030398000a2fd, depFullName=ACO, depBranch=7WG.ACO, depNameSmall=7WG.METO)]
+2022-05-05 17:29:34,399 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depName is present in departmentConfigRepository 
+2022-05-05 17:29:35,020 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5554, command=7WG, rObjectId=null, depFullName=ACO, parentNodeId=0, sequence=0, sauName=7WG.ACO)]
+2022-05-05 17:29:35,022 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:35,126 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.ACT
+2022-05-05 17:29:35,127 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:35,127 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:35,236 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:35,237 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:35,547 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:35,903 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:35,905 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:35,908 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:36,021 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:36,021 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:36,022 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a2fb
+2022-05-05 17:29:36,022 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.HRC
+2022-05-05 17:29:36,267 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional.empty
+2022-05-05 17:29:36,269 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] parent is not present
+2022-05-05 17:29:36,271 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking depNameSmall 7WG.HRC
+2022-05-05 17:29:36,272 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:36,632 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking depnameSmall in departmentConfigRepository Optional[DepartmentConfigInventory(rObjectId=080030398000a2fa, depFullName=HRC, depBranch=7WG.HRC, depNameSmall=null)]
+2022-05-05 17:29:36,633 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depName is present in departmentConfigRepository 
+2022-05-05 17:29:37,291 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:29:37,292 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:37,396 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD
+2022-05-05 17:29:37,396 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:37,397 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:37,500 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:37,501 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:37,814 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:38,163 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000a2fc, depFullName=METO, depBranch=7WG.METO, depNameSmall=7WG.CAD)]
+2022-05-05 17:29:38,163 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000a2fc, depFullName=METO, depBranch=7WG.METO, depNameSmall=7WG.CAD)]
+2022-05-05 17:29:38,164 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:38,165 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:38,268 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:38,269 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:38,270 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a2fc
+2022-05-05 17:29:38,270 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD
+2022-05-05 17:29:38,512 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5557, command=7WG, rObjectId=080030398000a2fb, depFullName=CAD, parentNodeId=5556, sequence=1, sauName=7WG.CAD)]
+2022-05-05 17:29:38,618 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5557, command=7WG, rObjectId=080030398000a2fb, depFullName=CAD, parentNodeId=5556, sequence=1, sauName=7WG.CAD)]
+2022-05-05 17:29:38,619 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:38,722 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.METO
+2022-05-05 17:29:38,722 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:38,723 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:38,827 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:38,828 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:39,138 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:39,481 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000a2fd, depFullName=ACO, depBranch=7WG.ACO, depNameSmall=7WG.METO)]
+2022-05-05 17:29:39,482 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000a2fd, depFullName=ACO, depBranch=7WG.ACO, depNameSmall=7WG.METO)]
+2022-05-05 17:29:39,483 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:39,483 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:39,586 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:39,587 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:39,587 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a2fd
+2022-05-05 17:29:39,587 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.METO
+2022-05-05 17:29:39,828 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5558, command=7WG, rObjectId=080030398000a2fc, depFullName=METO, parentNodeId=5557, sequence=1, sauName=7WG.METO)]
+2022-05-05 17:29:39,935 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5558, command=7WG, rObjectId=080030398000a2fc, depFullName=METO, parentNodeId=5557, sequence=1, sauName=7WG.METO)]
+2022-05-05 17:29:39,935 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:40,039 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.ACO
+2022-05-05 17:29:40,040 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional[HierarchyDataInventory(sauId=5554, command=7WG, rObjectId=null, depFullName=ACO, parentNodeId=0, sequence=0, sauName=7WG.ACO)]
+2022-05-05 17:29:40,040 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] chkChild1 is present Optional[HierarchyDataInventory(sauId=5554, command=7WG, rObjectId=null, depFullName=ACO, parentNodeId=0, sequence=0, sauName=7WG.ACO)]
+2022-05-05 17:29:40,041 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] chkChild1 parentNodeId is 0 
+2022-05-05 17:29:40,144 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Checking if already parent of some child []
+2022-05-05 17:29:40,834 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.ACO)]
+2022-05-05 17:29:40,835 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.ACO)]
+2022-05-05 17:29:40,836 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:40,836 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:40,942 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5555, command=7WG, rObjectId=080030398000a2f9, depFullName=ACT, parentNodeId=5554, sequence=1, sauName=7WG.ACT)]
+2022-05-05 17:29:40,943 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:29:40,943 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:29:40,943 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:29:40,943 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:41,189 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5558, command=7WG, rObjectId=080030398000a2fc, depFullName=METO, parentNodeId=5557, sequence=1, sauName=7WG.METO)]
+2022-05-05 17:29:41,190 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:41,295 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:41,295 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:41,296 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a2fd
+2022-05-05 17:29:41,296 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.METO
+2022-05-05 17:29:41,398 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5558, command=7WG, rObjectId=080030398000a2fc, depFullName=METO, parentNodeId=5557, sequence=1, sauName=7WG.METO)]
+2022-05-05 17:29:41,501 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5558, command=7WG, rObjectId=080030398000a2fc, depFullName=METO, parentNodeId=5557, sequence=1, sauName=7WG.METO)]
+2022-05-05 17:29:41,502 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:41,605 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.ACO
+2022-05-05 17:29:41,606 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional[HierarchyDataInventory(sauId=5554, command=7WG, rObjectId=null, depFullName=ACO, parentNodeId=5558, sequence=1, sauName=7WG.ACO)]
+2022-05-05 17:29:41,606 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] chkChild1 is present Optional[HierarchyDataInventory(sauId=5554, command=7WG, rObjectId=null, depFullName=ACO, parentNodeId=5558, sequence=1, sauName=7WG.ACO)]
+2022-05-05 17:29:41,961 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.ACO)]
+2022-05-05 17:29:41,964 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.ACO)]
+2022-05-05 17:29:41,966 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:41,967 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:42,072 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5555, command=7WG, rObjectId=080030398000a2f9, depFullName=ACT, parentNodeId=5554, sequence=1, sauName=7WG.ACT)]
+2022-05-05 17:29:42,073 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:29:42,073 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:42,317 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:42,318 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:42,318 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a2h3
+2022-05-05 17:29:42,318 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.HRC
+2022-05-05 17:29:42,421 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:29:42,524 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:29:42,525 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:42,627 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD1
+2022-05-05 17:29:42,628 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:42,628 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:42,739 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:42,740 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:43,055 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:43,413 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000l94h, depFullName=CAD7, depBranch=7WG.CAD7, depNameSmall=7WG.CAD1), DepartmentConfigInventory(rObjectId=080030398000l9le, depFullName=CAD8, depBranch=7WG.CAD8, depNameSmall=7WG.CAD1), DepartmentConfigInventory(rObjectId=080030398000l90c, depFullName=CAD9, depBranch=7WG.CAD9, depNameSmall=7WG.CAD1)]
+2022-05-05 17:29:43,415 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000l94h, depFullName=CAD7, depBranch=7WG.CAD7, depNameSmall=7WG.CAD1), DepartmentConfigInventory(rObjectId=080030398000l9le, depFullName=CAD8, depBranch=7WG.CAD8, depNameSmall=7WG.CAD1), DepartmentConfigInventory(rObjectId=080030398000l90c, depFullName=CAD9, depBranch=7WG.CAD9, depNameSmall=7WG.CAD1)]
+2022-05-05 17:29:43,417 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:43,419 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:43,526 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:43,527 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:43,527 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l94h
+2022-05-05 17:29:43,528 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD1
+2022-05-05 17:29:43,770 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5559, command=7WG, rObjectId=080030398000a2h3, depFullName=CAD1, parentNodeId=5556, sequence=2, sauName=7WG.CAD1)]
+2022-05-05 17:29:43,872 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5559, command=7WG, rObjectId=080030398000a2h3, depFullName=CAD1, parentNodeId=5556, sequence=2, sauName=7WG.CAD1)]
+2022-05-05 17:29:43,872 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:43,976 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD7
+2022-05-05 17:29:43,977 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:43,977 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:44,081 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:44,083 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:44,398 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:44,749 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:44,750 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:44,751 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:44,857 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:44,858 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:44,859 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9le
+2022-05-05 17:29:44,859 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD1
+2022-05-05 17:29:45,106 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5559, command=7WG, rObjectId=080030398000a2h3, depFullName=CAD1, parentNodeId=5556, sequence=2, sauName=7WG.CAD1)]
+2022-05-05 17:29:45,208 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5559, command=7WG, rObjectId=080030398000a2h3, depFullName=CAD1, parentNodeId=5556, sequence=2, sauName=7WG.CAD1)]
+2022-05-05 17:29:45,209 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:45,311 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD8
+2022-05-05 17:29:45,312 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:45,312 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:45,416 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:45,416 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:45,729 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:46,082 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:46,083 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:46,084 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:46,190 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:46,190 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:46,191 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l90c
+2022-05-05 17:29:46,192 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD1
+2022-05-05 17:29:46,434 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5559, command=7WG, rObjectId=080030398000a2h3, depFullName=CAD1, parentNodeId=5556, sequence=2, sauName=7WG.CAD1)]
+2022-05-05 17:29:46,539 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5559, command=7WG, rObjectId=080030398000a2h3, depFullName=CAD1, parentNodeId=5556, sequence=2, sauName=7WG.CAD1)]
+2022-05-05 17:29:46,539 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:46,640 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD9
+2022-05-05 17:29:46,641 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:46,642 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:46,746 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:46,747 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:47,056 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:47,406 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:47,408 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:47,410 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:29:47,412 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:47,513 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:47,514 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:47,514 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a29j
+2022-05-05 17:29:47,514 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.HRC
+2022-05-05 17:29:47,753 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:29:47,858 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:29:47,859 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:47,964 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD2
+2022-05-05 17:29:47,965 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:47,965 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:48,069 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:48,069 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:48,380 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:48,734 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000l9b9, depFullName=CAD10, depBranch=7WG.CAD10, depNameSmall=7WG.CAD2), DepartmentConfigInventory(rObjectId=080030398000l9mq, depFullName=CAD11, depBranch=7WG.CAD11, depNameSmall=7WG.CAD2), DepartmentConfigInventory(rObjectId=080030398000l9aw, depFullName=CAD12, depBranch=7WG.CAD12, depNameSmall=7WG.CAD2)]
+2022-05-05 17:29:48,736 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000l9b9, depFullName=CAD10, depBranch=7WG.CAD10, depNameSmall=7WG.CAD2), DepartmentConfigInventory(rObjectId=080030398000l9mq, depFullName=CAD11, depBranch=7WG.CAD11, depNameSmall=7WG.CAD2), DepartmentConfigInventory(rObjectId=080030398000l9aw, depFullName=CAD12, depBranch=7WG.CAD12, depNameSmall=7WG.CAD2)]
+2022-05-05 17:29:48,737 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:48,738 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:48,843 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:48,843 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:48,844 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9b9
+2022-05-05 17:29:48,844 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD2
+2022-05-05 17:29:49,086 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5563, command=7WG, rObjectId=080030398000a29j, depFullName=CAD1, parentNodeId=5556, sequence=3, sauName=7WG.CAD2)]
+2022-05-05 17:29:49,190 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5563, command=7WG, rObjectId=080030398000a29j, depFullName=CAD1, parentNodeId=5556, sequence=3, sauName=7WG.CAD2)]
+2022-05-05 17:29:49,191 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:49,299 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD10
+2022-05-05 17:29:49,301 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:49,302 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:49,412 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:49,412 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:49,727 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:50,083 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:50,084 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:50,085 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:50,191 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:50,192 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:50,193 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9mq
+2022-05-05 17:29:50,193 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD2
+2022-05-05 17:29:50,438 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5563, command=7WG, rObjectId=080030398000a29j, depFullName=CAD1, parentNodeId=5556, sequence=3, sauName=7WG.CAD2)]
+2022-05-05 17:29:50,542 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5563, command=7WG, rObjectId=080030398000a29j, depFullName=CAD1, parentNodeId=5556, sequence=3, sauName=7WG.CAD2)]
+2022-05-05 17:29:50,543 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:50,647 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD11
+2022-05-05 17:29:50,647 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:50,648 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:50,751 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:50,751 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:51,063 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:51,414 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000l9d8, depFullName=CAD13, depBranch=7WG.CAD13, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9la, depFullName=CAD14, depBranch=7WG.CAD14, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9pe, depFullName=CAD15, depBranch=7WG.CAD15, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9z4, depFullName=CAD16, depBranch=7WG.CAD16, depNameSmall=7WG.CAD11)]
+2022-05-05 17:29:51,418 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000l9d8, depFullName=CAD13, depBranch=7WG.CAD13, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9la, depFullName=CAD14, depBranch=7WG.CAD14, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9pe, depFullName=CAD15, depBranch=7WG.CAD15, depNameSmall=7WG.CAD11), DepartmentConfigInventory(rObjectId=080030398000l9z4, depFullName=CAD16, depBranch=7WG.CAD16, depNameSmall=7WG.CAD11)]
+2022-05-05 17:29:51,420 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:51,422 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:51,531 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:51,532 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:51,532 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9d8
+2022-05-05 17:29:51,532 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD11
+2022-05-05 17:29:51,776 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:51,880 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:51,881 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:51,983 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD13
+2022-05-05 17:29:51,984 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:51,985 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:52,100 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:52,100 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:52,407 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:52,759 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:52,760 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:52,761 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:52,866 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:52,867 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:52,867 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9la
+2022-05-05 17:29:52,867 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD11
+2022-05-05 17:29:53,110 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:53,212 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:53,213 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:53,315 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD14
+2022-05-05 17:29:53,316 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:53,317 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:53,419 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:53,420 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:53,731 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:54,082 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:54,083 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:54,083 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:54,188 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:54,191 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:54,192 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9pe
+2022-05-05 17:29:54,192 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD11
+2022-05-05 17:29:54,430 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:54,533 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:54,534 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:54,636 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD15
+2022-05-05 17:29:54,637 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:54,637 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:54,739 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:54,740 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:55,052 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:55,399 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:55,401 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:55,401 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:55,506 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:55,507 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:55,507 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9z4
+2022-05-05 17:29:55,508 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD11
+2022-05-05 17:29:55,753 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:55,856 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:29:55,857 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:55,960 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD16
+2022-05-05 17:29:55,961 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:55,962 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:56,064 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:56,065 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:56,376 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:56,738 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion [DepartmentConfigInventory(rObjectId=080030398000l9c8, depFullName=CAD17, depBranch=7WG.CAD17, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9ms, depFullName=CAD18, depBranch=7WG.CAD18, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9o3, depFullName=CAD19, depBranch=7WG.CAD19, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9v6, depFullName=CAD20, depBranch=7WG.CAD20, depNameSmall=7WG.CAD16)]
+2022-05-05 17:29:56,739 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew [DepartmentConfigInventory(rObjectId=080030398000l9c8, depFullName=CAD17, depBranch=7WG.CAD17, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9ms, depFullName=CAD18, depBranch=7WG.CAD18, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9o3, depFullName=CAD19, depBranch=7WG.CAD19, depNameSmall=7WG.CAD16), DepartmentConfigInventory(rObjectId=080030398000l9v6, depFullName=CAD20, depBranch=7WG.CAD20, depNameSmall=7WG.CAD16)]
+2022-05-05 17:29:56,741 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew iterator() has next
+2022-05-05 17:29:56,741 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:56,846 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:56,846 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:56,847 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9c8
+2022-05-05 17:29:56,847 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD16
+2022-05-05 17:29:57,090 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:29:57,193 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:29:57,193 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:57,296 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD17
+2022-05-05 17:29:57,297 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:57,297 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:57,399 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:57,400 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:57,711 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:58,065 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:58,066 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:58,067 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:58,171 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:58,171 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:58,171 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9ms
+2022-05-05 17:29:58,172 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD16
+2022-05-05 17:29:58,412 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:29:58,516 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:29:58,517 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:58,618 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD18
+2022-05-05 17:29:58,619 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:58,620 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:29:58,723 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:29:58,723 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:29:59,035 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:29:59,386 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:29:59,388 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:29:59,391 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:29:59,500 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:29:59,501 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:29:59,501 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9o3
+2022-05-05 17:29:59,502 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD16
+2022-05-05 17:29:59,744 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:29:59,847 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:29:59,847 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:29:59,948 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD19
+2022-05-05 17:29:59,949 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:29:59,949 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:30:00,051 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:30:00,052 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:30:00,363 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:30:00,716 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:30:00,718 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:30:00,719 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:00,827 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:30:00,827 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:30:00,828 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9v6
+2022-05-05 17:30:00,828 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD16
+2022-05-05 17:30:01,069 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:30:01,173 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:30:01,173 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:30:01,276 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD20
+2022-05-05 17:30:01,276 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:30:01,276 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:30:01,380 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:30:01,380 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:30:01,689 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:30:02,034 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:30:02,036 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:30:02,037 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:30:02,038 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:30:02,039 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:02,143 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:30:02,144 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:30:02,145 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l9aw
+2022-05-05 17:30:02,145 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.CAD2
+2022-05-05 17:30:02,391 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5563, command=7WG, rObjectId=080030398000a29j, depFullName=CAD1, parentNodeId=5556, sequence=3, sauName=7WG.CAD2)]
+2022-05-05 17:30:02,495 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5563, command=7WG, rObjectId=080030398000a29j, depFullName=CAD1, parentNodeId=5556, sequence=3, sauName=7WG.CAD2)]
+2022-05-05 17:30:02,496 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:30:02,599 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD12
+2022-05-05 17:30:02,600 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:30:02,600 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:30:02,703 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:30:02,703 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:30:03,015 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:30:03,360 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:30:03,361 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:30:03,361 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:30:03,362 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:03,464 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:30:03,465 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:30:03,465 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000a89j
+2022-05-05 17:30:03,465 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.HRC
+2022-05-05 17:30:03,709 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:03,814 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:03,814 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:30:03,917 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD3
+2022-05-05 17:30:03,918 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:30:03,918 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:30:04,026 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:30:04,028 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:30:04,339 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:30:04,690 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:30:04,692 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:30:04,694 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:04,800 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:30:04,801 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:30:04,802 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l29j
+2022-05-05 17:30:04,802 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.HRC
+2022-05-05 17:30:05,049 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:05,151 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:05,152 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:30:05,255 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD4
+2022-05-05 17:30:05,256 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:30:05,257 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:30:05,361 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:30:05,361 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:30:05,676 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:30:06,025 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:30:06,026 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:30:06,026 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:06,130 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:30:06,130 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:30:06,131 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l2po
+2022-05-05 17:30:06,131 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.HRC
+2022-05-05 17:30:06,378 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:06,481 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:06,481 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:30:06,585 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD5
+2022-05-05 17:30:06,586 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:30:06,589 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:30:06,693 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:30:06,694 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:30:07,010 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:30:07,357 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:30:07,357 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:30:07,357 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:07,460 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional.empty
+2022-05-05 17:30:07,461 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] inside hierarchy
+2022-05-05 17:30:07,461 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 080030398000l2i8
+2022-05-05 17:30:07,461 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] 7WG.HRC
+2022-05-05 17:30:07,704 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by sauName in HierarchyDataInventory  for parentOptional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:07,808 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkParent1 Optional[HierarchyDataInventory(sauId=5556, command=7WG, rObjectId=null, depFullName=HRC, parentNodeId=0, sequence=0, sauName=7WG.HRC)]
+2022-05-05 17:30:07,808 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau.
+2022-05-05 17:30:07,914 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] depBranch 7WG.CAD6
+2022-05-05 17:30:07,916 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] checking for chkChild1 Optional.empty
+2022-05-05 17:30:07,918 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Sau Branch.
+2022-05-05 17:30:08,025 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 1.
+2022-05-05 17:30:08,026 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 2.
+2022-05-05 17:30:08,335 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Check 3.
+2022-05-05 17:30:08,686 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Generating new List for recursion []
+2022-05-05 17:30:08,689 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew []
+2022-05-05 17:30:08,692 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:08,800 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5560, command=7WG, rObjectId=080030398000l94h, depFullName=CAD7, parentNodeId=5559, sequence=1, sauName=7WG.CAD7)]
+2022-05-05 17:30:08,801 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,042 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5561, command=7WG, rObjectId=080030398000l9le, depFullName=CAD8, parentNodeId=5559, sequence=2, sauName=7WG.CAD8)]
+2022-05-05 17:30:09,043 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,145 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5562, command=7WG, rObjectId=080030398000l90c, depFullName=CAD9, parentNodeId=5559, sequence=3, sauName=7WG.CAD9)]
+2022-05-05 17:30:09,146 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,251 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5564, command=7WG, rObjectId=080030398000l9b9, depFullName=CAD10, parentNodeId=5563, sequence=1, sauName=7WG.CAD10)]
+2022-05-05 17:30:09,252 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,355 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5565, command=7WG, rObjectId=080030398000l9mq, depFullName=CAD11, parentNodeId=5563, sequence=2, sauName=7WG.CAD11)]
+2022-05-05 17:30:09,356 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,457 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5574, command=7WG, rObjectId=080030398000l9aw, depFullName=CAD12, parentNodeId=5563, sequence=3, sauName=7WG.CAD12)]
+2022-05-05 17:30:09,458 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,562 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5566, command=7WG, rObjectId=080030398000l9d8, depFullName=CAD13, parentNodeId=5565, sequence=1, sauName=7WG.CAD13)]
+2022-05-05 17:30:09,562 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,664 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5567, command=7WG, rObjectId=080030398000l9la, depFullName=CAD14, parentNodeId=5565, sequence=2, sauName=7WG.CAD14)]
+2022-05-05 17:30:09,665 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,767 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5568, command=7WG, rObjectId=080030398000l9pe, depFullName=CAD15, parentNodeId=5565, sequence=3, sauName=7WG.CAD15)]
+2022-05-05 17:30:09,768 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,872 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5569, command=7WG, rObjectId=080030398000l9z4, depFullName=CAD16, parentNodeId=5565, sequence=4, sauName=7WG.CAD16)]
+2022-05-05 17:30:09,872 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:09,974 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5570, command=7WG, rObjectId=080030398000l9c8, depFullName=CAD17, parentNodeId=5569, sequence=1, sauName=7WG.CAD17)]
+2022-05-05 17:30:09,975 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:10,078 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5571, command=7WG, rObjectId=080030398000l9ms, depFullName=CAD18, parentNodeId=5569, sequence=2, sauName=7WG.CAD18)]
+2022-05-05 17:30:10,079 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:10,182 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5572, command=7WG, rObjectId=080030398000l9o3, depFullName=CAD19, parentNodeId=5569, sequence=3, sauName=7WG.CAD19)]
+2022-05-05 17:30:10,182 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] dataNew for each result 
+2022-05-05 17:30:10,285 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] find by rObjectId in HierarchyDataInventory Optional[HierarchyDataInventory(sauId=5573, command=7WG, rObjectId=080030398000l9v6, depFullName=CAD20, parentNodeId=5569, sequence=4, sauName=7WG.CAD20)]
+2022-05-05 17:30:10,286 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table End.
+2022-05-05 17:30:10,286 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-3] Parsing Data for Hierachical Table Error.
+2022-05-05 17:30:10,287 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] **********Hierarchy Data Pushed**********
+2022-05-05 17:33:35,991 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-6] command 7WG
+2022-05-05 17:33:35,992 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-6] Parsing Start for Department :7WG.METO
+2022-05-05 17:33:51,496 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] command 7WG
+2022-05-05 17:33:51,499 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] ********Detailed Table********
+2022-05-05 17:33:51,501 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] command 7WG
+2022-05-05 17:33:52,314 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-16-HRC BM-I
+2022-05-05 17:33:53,665 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-29-HRC BM-I
+2022-05-05 17:33:54,952 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-100-8-HRC BM-I
+2022-05-05 17:33:56,253 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-22-HRC BM-I
+2022-05-05 17:33:57,555 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-15-HRC BM-I
+2022-05-05 17:33:58,865 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-30-HRC BM-I
+2022-05-05 17:34:00,160 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-31-HRC BM-I
+2022-05-05 17:34:01,454 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-1-HRC BM-I
+2022-05-05 17:34:02,760 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-3-HRC BM-I
+2022-05-05 17:34:04,064 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-8-HRC BM-I
+2022-05-05 17:34:05,373 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-9-HRC BM-I
+2022-05-05 17:34:06,675 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-20-HRC BM-I
+2022-05-05 17:34:07,978 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-21-HRC BM-I
+2022-05-05 17:34:09,285 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-24-HRC BM-I
+2022-05-05 17:34:10,590 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-28-HRC BM-I
+2022-05-05 17:34:11,907 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-100-4-HRC BM-I
+2022-05-05 17:34:13,234 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-100-5-HRC BM-I
+2022-05-05 17:34:14,537 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-2-HRC BM-I
+2022-05-05 17:34:15,858 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-4-HRC BM-I
+2022-05-05 17:34:17,168 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-5-HRC BM-I
+2022-05-05 17:34:18,480 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-12-HRC BM-I (PC1)
+2022-05-05 17:34:19,779 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-11-HRC BM-I
+2022-05-05 17:34:21,073 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-13-HRC BM-I
+2022-05-05 17:34:22,365 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-17-HRC BM-I
+2022-05-05 17:34:23,653 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-18-HRC BM-I
+2022-05-05 17:34:24,948 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-19-HRC BM-I
+2022-05-05 17:34:26,272 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-26-HRC BM-I BM-II (PC2)
+2022-05-05 17:34:27,569 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-27-HRC BM-I
+2022-05-05 17:34:28,858 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] ********Detailed Table Processed********
+2022-05-05 17:36:28,260 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2022-05-05 17:36:28,585 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 17:36:28,587 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-4 - Shutdown initiated...
+2022-05-05 17:36:31,186 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-4 - Shutdown completed.
+2022-05-05 17:36:31,191 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 17:36:31,197 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2022-05-05 17:36:31,214 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-3 - Shutdown completed.
+2022-05-05 17:36:31,215 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 17:36:31,217 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-2 - Shutdown initiated...

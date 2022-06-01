@@ -1,0 +1,964 @@
+2022-05-05 14:50:25,755 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisApplication2 using Java 1.8.0_301 on shabdita-cc with PID 14876 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2)
+2022-05-05 14:50:25,762 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-05-05 14:50:25,839 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-05-05 14:50:25,851 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-05-05 14:50:25,852 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-05-05 14:50:25,853 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-05 14:50:25,854 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-05 14:50:27,119 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:50:27,120 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:50:27,212 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2022-05-05 14:50:27,213 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:50:27,214 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:50:27,248 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:50:27,249 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:50:27,250 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:50:27,306 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 6 JPA repository interfaces.
+2022-05-05 14:50:27,307 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:50:27,308 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:50:27,332 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:50:27,333 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:50:27,334 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:50:27,356 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:50:28,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-05 14:50:28,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:50:28,756 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-05 14:50:28,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-05-05 14:50:28,935 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-05 14:50:28,935 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3079 ms
+2022-05-05 14:50:29,367 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-05-05 14:50:29,576 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-05-05 14:50:29,736 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-05 14:50:29,989 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-05-05 14:50:29,991 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:50:32,504 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-05-05 14:50:32,547 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:50:35,246 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:50:35,888 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:50:35,900 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 14:50:35,919 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-05-05 14:50:36,010 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-05-05 14:50:36,010 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:50:38,703 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-05-05 14:50:38,706 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:50:41,451 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:50:41,561 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:50:41,562 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 14:50:41,576 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db3]
+2022-05-05 14:50:41,662 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-05-05 14:50:43,674 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-05-05 14:50:43,687 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-05 14:50:45,331 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:50:45,424 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:50:45,425 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 14:50:45,440 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-05-05 14:50:45,519 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-05-05 14:50:47,776 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-05-05 14:50:47,779 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:50:50,296 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:50:50,425 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:50:50,426 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 14:50:50,438 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db5]
+2022-05-05 14:50:50,517 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2022-05-05 14:50:52,473 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2022-05-05 14:50:52,476 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:50:54,913 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:50:55,003 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:50:55,004 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:50:56,599 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ae8ab5, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f74fe72, org.springframework.security.web.header.HeaderWriterFilter@10809066, org.springframework.web.filter.CorsFilter@5a4c06c4, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@50f981e1, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@58a01c74, org.springframework.security.web.authentication.logout.LogoutFilter@6a716f9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64d171dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@122cda3, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@52e8793, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@19c4e85e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e952eb8, org.springframework.security.web.session.SessionManagementFilter@2a7ef706, org.springframework.security.web.access.ExceptionTranslationFilter@35c4877d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a6f9a5a]
+2022-05-05 14:50:56,827 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-05 14:50:56,860 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:50:56,880 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misApplication2'
+2022-05-05 14:50:56,904 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisApplication2 in 31.72 seconds (JVM running for 33.261)
+2022-05-05 14:53:45,541 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:53:45,543 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-5 - Shutdown initiated...
+2022-05-05 14:53:48,002 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-5 - Shutdown completed.
+2022-05-05 14:53:48,003 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 14:53:48,004 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-4 - Shutdown initiated...
+2022-05-05 14:53:50,662 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-4 - Shutdown completed.
+2022-05-05 14:53:50,664 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 14:53:50,666 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-3 - Shutdown initiated...
+2022-05-05 14:53:50,679 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-3 - Shutdown completed.
+2022-05-05 14:53:50,680 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 14:53:50,682 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-2 - Shutdown initiated...
+2022-05-05 14:53:54,103 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-2 - Shutdown completed.
+2022-05-05 14:53:54,105 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 14:53:54,109 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2022-05-05 14:53:57,678 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2022-05-05 14:53:58,084 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisApplication2 using Java 1.8.0_301 on shabdita-cc with PID 14876 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2)
+2022-05-05 14:53:58,085 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-05-05 14:53:58,515 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:53:58,516 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:53:58,535 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+2022-05-05 14:53:58,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:53:58,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:53:58,554 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:53:58,555 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:53:58,555 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:53:58,580 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 24 ms. Found 6 JPA repository interfaces.
+2022-05-05 14:53:58,581 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:53:58,582 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:53:58,605 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:53:58,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:53:58,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:53:58,630 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:53:59,036 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-05 14:53:59,038 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:53:59,038 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-05 14:53:59,038 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-05-05 14:53:59,072 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-05 14:53:59,072 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 981 ms
+2022-05-05 14:53:59,238 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-05-05 14:53:59,336 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2022-05-05 14:53:59,337 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:54:01,291 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2022-05-05 14:54:01,293 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:03,700 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:03,799 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:03,800 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 14:54:03,823 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-05-05 14:54:03,909 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2022-05-05 14:54:03,910 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:54:06,159 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2022-05-05 14:54:06,159 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:08,607 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:08,687 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:08,688 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 14:54:08,704 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db3]
+2022-05-05 14:54:08,787 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2022-05-05 14:54:10,822 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2022-05-05 14:54:10,823 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-05 14:54:12,703 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:12,784 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:12,784 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 14:54:12,796 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-05-05 14:54:12,873 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2022-05-05 14:54:14,987 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2022-05-05 14:54:14,991 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:17,309 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:17,373 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:17,374 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 14:54:17,389 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db5]
+2022-05-05 14:54:17,465 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2022-05-05 14:54:19,582 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2022-05-05 14:54:19,583 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:22,310 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:22,382 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:22,383 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:54:23,011 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19441698, org.springframework.security.web.context.SecurityContextPersistenceFilter@27338ff9, org.springframework.security.web.header.HeaderWriterFilter@5c12bd09, org.springframework.web.filter.CorsFilter@44be3be2, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@717c051b, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@93b9d5a, org.springframework.security.web.authentication.logout.LogoutFilter@6c4e5ad5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fb0e9c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5683e5c8, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@3bacd944, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@6ea85226, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f7f8930, org.springframework.security.web.session.SessionManagementFilter@1f83d70b, org.springframework.security.web.access.ExceptionTranslationFilter@2773f904, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26912fc8]
+2022-05-05 14:54:23,074 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-05 14:54:23,091 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:54:23,096 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misApplication2'
+2022-05-05 14:54:23,104 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisApplication2 in 25.107 seconds (JVM running for 239.461)
+2022-05-05 14:54:23,108 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-05 14:54:24,989 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:54:24,993 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-10 - Shutdown initiated...
+2022-05-05 14:54:26,308 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-10 - Shutdown completed.
+2022-05-05 14:54:26,311 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 14:54:26,315 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-9 - Shutdown initiated...
+2022-05-05 14:54:28,403 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-9 - Shutdown completed.
+2022-05-05 14:54:28,406 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 14:54:28,409 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-8 - Shutdown initiated...
+2022-05-05 14:54:28,435 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-8 - Shutdown completed.
+2022-05-05 14:54:28,437 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 14:54:28,442 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-7 - Shutdown initiated...
+2022-05-05 14:54:31,677 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-7 - Shutdown completed.
+2022-05-05 14:54:31,679 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 14:54:31,683 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-6 - Shutdown initiated...
+2022-05-05 14:54:35,212 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-6 - Shutdown completed.
+2022-05-05 14:54:35,551 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisApplication2 using Java 1.8.0_301 on shabdita-cc with PID 14876 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2)
+2022-05-05 14:54:35,551 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-05-05 14:54:35,886 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:54:35,887 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:54:35,906 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2022-05-05 14:54:35,907 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:54:35,907 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:54:35,924 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:54:35,924 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:54:35,924 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:54:35,956 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 6 JPA repository interfaces.
+2022-05-05 14:54:35,957 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:54:35,957 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:54:35,981 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:54:35,982 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:54:35,982 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:54:36,006 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:54:36,368 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-05 14:54:36,370 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:54:36,370 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-05 14:54:36,370 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-05-05 14:54:36,396 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-05 14:54:36,397 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 841 ms
+2022-05-05 14:54:36,547 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-05-05 14:54:36,636 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2022-05-05 14:54:36,637 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:54:38,534 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2022-05-05 14:54:38,536 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:40,949 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:41,020 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:41,022 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 14:54:41,038 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-05-05 14:54:41,101 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2022-05-05 14:54:41,101 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:54:43,131 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2022-05-05 14:54:43,133 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:45,733 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:45,825 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:45,826 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 14:54:45,841 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db3]
+2022-05-05 14:54:45,903 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2022-05-05 14:54:47,760 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2022-05-05 14:54:47,763 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-05 14:54:49,726 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:49,797 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:49,798 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 14:54:49,811 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-05-05 14:54:49,878 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2022-05-05 14:54:52,186 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2022-05-05 14:54:52,189 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:54,675 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:54,748 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:54,748 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 14:54:54,761 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db5]
+2022-05-05 14:54:54,824 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Starting...
+2022-05-05 14:54:56,730 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Start completed.
+2022-05-05 14:54:56,733 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:54:59,166 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:54:59,240 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:54:59,241 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:54:59,764 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fa98359, org.springframework.security.web.context.SecurityContextPersistenceFilter@14632834, org.springframework.security.web.header.HeaderWriterFilter@7f97e5e, org.springframework.web.filter.CorsFilter@1e707e3d, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@1a28a7e3, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@77d2d461, org.springframework.security.web.authentication.logout.LogoutFilter@ded10de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b7e7387, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37b9e938, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@500b1f14, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@311bb8a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7001060e, org.springframework.security.web.session.SessionManagementFilter@1c05793c, org.springframework.security.web.access.ExceptionTranslationFilter@3faa1b04, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bdea943]
+2022-05-05 14:54:59,831 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-05 14:54:59,846 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:54:59,879 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misApplication2'
+2022-05-05 14:54:59,892 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisApplication2 in 24.399 seconds (JVM running for 276.249)
+2022-05-05 14:54:59,895 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-05 14:56:25,729 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:56:25,731 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-15 - Shutdown initiated...
+2022-05-05 14:56:28,259 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-15 - Shutdown completed.
+2022-05-05 14:56:28,259 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 14:56:28,261 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-14 - Shutdown initiated...
+2022-05-05 14:56:30,727 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-14 - Shutdown completed.
+2022-05-05 14:56:30,728 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 14:56:30,729 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-13 - Shutdown initiated...
+2022-05-05 14:56:30,738 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-13 - Shutdown completed.
+2022-05-05 14:56:30,739 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 14:56:30,740 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-12 - Shutdown initiated...
+2022-05-05 14:56:33,475 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-12 - Shutdown completed.
+2022-05-05 14:56:33,476 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 14:56:33,477 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-11 - Shutdown initiated...
+2022-05-05 14:56:37,070 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-11 - Shutdown completed.
+2022-05-05 14:56:37,520 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisApplication2 using Java 1.8.0_301 on shabdita-cc with PID 14876 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\misApplication2)
+2022-05-05 14:56:37,521 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-05-05 14:56:37,960 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:56:37,961 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:56:38,029 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2022-05-05 14:56:38,031 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:56:38,033 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:56:38,094 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:56:38,095 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:56:38,095 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:56:38,129 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 6 JPA repository interfaces.
+2022-05-05 14:56:38,130 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:56:38,131 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:56:38,166 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:56:38,167 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-05 14:56:38,168 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-05 14:56:38,202 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2022-05-05 14:56:38,889 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-05-05 14:56:38,890 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:56:38,891 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-05 14:56:38,891 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-05-05 14:56:38,911 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-05 14:56:38,911 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1386 ms
+2022-05-05 14:56:39,066 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-05-05 14:56:39,163 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Starting...
+2022-05-05 14:56:39,163 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:56:41,315 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Start completed.
+2022-05-05 14:56:41,316 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:56:43,686 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:56:43,748 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:56:43,749 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-05-05 14:56:43,767 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-05-05 14:56:43,839 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Starting...
+2022-05-05 14:56:43,840 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-05-05 14:56:46,037 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Start completed.
+2022-05-05 14:56:46,038 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:56:48,516 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:56:48,584 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:56:48,585 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-05-05 14:56:48,598 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db3]
+2022-05-05 14:56:48,665 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Starting...
+2022-05-05 14:56:50,506 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Start completed.
+2022-05-05 14:56:50,510 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-05 14:56:52,398 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:56:52,478 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:56:52,479 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db3'
+2022-05-05 14:56:52,491 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-05-05 14:56:52,554 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-19 - Starting...
+2022-05-05 14:56:54,826 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-19 - Start completed.
+2022-05-05 14:56:54,826 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:56:57,074 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:56:57,175 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:56:57,176 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 14:56:57,186 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db5]
+2022-05-05 14:56:57,264 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Starting...
+2022-05-05 14:56:59,496 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Start completed.
+2022-05-05 14:56:59,499 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-05-05 14:57:01,688 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-05-05 14:57:01,776 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-05 14:57:01,777 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 14:57:02,321 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bde41c3, org.springframework.security.web.context.SecurityContextPersistenceFilter@580db3a5, org.springframework.security.web.header.HeaderWriterFilter@493bd475, org.springframework.web.filter.CorsFilter@4ac971d3, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@23de472f, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@4a14e9ba, org.springframework.security.web.authentication.logout.LogoutFilter@f37cb38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b02a95e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c0d4c37, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@270944b, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@6fc4e486, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f7a7b3, org.springframework.security.web.session.SessionManagementFilter@3bf3b943, org.springframework.security.web.access.ExceptionTranslationFilter@5cf1f5b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b0f4734]
+2022-05-05 14:57:02,388 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-05 14:57:02,401 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-05 14:57:02,406 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misApplication2'
+2022-05-05 14:57:02,412 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisApplication2 in 24.952 seconds (JVM running for 398.769)
+2022-05-05 14:57:02,415 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-05 15:13:24,049 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-05 15:13:24,051 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-05 15:13:24,054 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-05-05 15:13:24,779 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] command 7WG
+2022-05-05 15:13:24,780 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-05-05 15:13:26,332 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-20-HRC BM-I
+2022-05-05 15:13:27,881 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == METO-C 305-1-METO BM-I
+2022-05-05 15:13:29,268 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-23-HRC BM-I
+2022-05-05 15:13:30,606 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-22-HRC BM-I
+2022-05-05 15:13:32,134 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-C 100-3-HRC BM-I
+2022-05-05 15:13:33,670 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-C 101-2-HRC(HRC1) BM-I
+2022-05-05 15:13:35,212 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-501-7-CAD BM-I
+2022-05-05 15:13:36,638 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-90-HRC BM-I
+2022-05-05 15:13:38,365 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-70-HRC BM-I
+2022-05-05 15:13:39,992 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-307-14-METO BM-I
+2022-05-05 15:13:41,753 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-9-CAD BM-I
+2022-05-05 15:13:43,679 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-37-HRC BM-I
+2022-05-05 15:13:44,723 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-38-HRC BM-I
+2022-05-05 15:13:45,539 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-39-HRC BM-I
+2022-05-05 15:13:46,263 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-3-HRC BM-I (PC1)
+2022-05-05 15:13:46,883 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-40-HRC BM-I
+2022-05-05 15:13:47,592 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-367-1-METO(METO1) BM-I
+2022-05-05 15:13:48,306 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-301-6-METO BM-I
+2022-05-05 15:13:49,123 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-502-1-CAD BM-I
+2022-05-05 15:13:49,943 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-76-HRC(case 11132213289823) BM-I
+2022-05-05 15:13:50,763 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-201-10-HRC BM-I
+2022-05-05 15:13:51,589 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-26-HRC BM-I
+2022-05-05 15:13:52,401 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-65-HRC BM-I
+2022-05-05 15:13:53,018 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-191-2-HRC BM-I
+2022-05-05 15:13:53,733 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-61-HRC BM-I (PC2)
+2022-05-05 15:13:54,446 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-20-HRC BM-I
+2022-05-05 15:13:55,165 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-77-HRC BM-I
+2022-05-05 15:13:55,985 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-67-HRC BM-I
+2022-05-05 15:13:56,805 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-41-HRC BM-I
+2022-05-05 15:13:57,529 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-7-HRC BM-I
+2022-05-05 15:13:58,340 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-61-HRC BM-I (PC1)
+2022-05-05 15:13:59,161 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-80-HRC BM-I
+2022-05-05 15:13:59,983 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-24-HRC BM-I
+2022-05-05 15:14:00,795 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-290-1-METO BM-I
+2022-05-05 15:14:01,622 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-11-HRC BM-I
+2022-05-05 15:14:02,435 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-29-HRC BM-I
+2022-05-05 15:14:03,256 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-30-HRC BM-I
+2022-05-05 15:14:04,074 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-193-2-HRC BM-I
+2022-05-05 15:14:04,799 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-201-12-HRC BM-I
+2022-05-05 15:14:05,610 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-31-HRC BM-I
+2022-05-05 15:14:06,324 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-17-HRC BM-I
+2022-05-05 15:14:07,149 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-201-6-HRC BM-I
+2022-05-05 15:14:07,967 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-201-5-HRC BM-I
+2022-05-05 15:14:08,784 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-10-HRC BM-I
+2022-05-05 15:14:09,603 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-8-HRC BM-I
+2022-05-05 15:14:10,422 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-32-HRC BM-I
+2022-05-05 15:14:11,242 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-9-HRC BM-I
+2022-05-05 15:14:11,997 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-19-HRC BM-I
+2022-05-05 15:14:12,676 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-190-3-HRC BM-I
+2022-05-05 15:14:13,499 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-60-HRC BM-I
+2022-05-05 15:14:14,218 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-22-HRC BM-I
+2022-05-05 15:14:15,030 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-190-5-HRC(21) BM-I
+2022-05-05 15:14:15,849 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-38-HRC BM-I (PC1)
+2022-05-05 15:14:16,667 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-62-HRC BM-I (PC1)
+2022-05-05 15:14:17,493 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-C 200-3-METO BM-I
+2022-05-05 15:14:18,207 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-40-HRC BM-I (PC3)
+2022-05-05 15:14:19,018 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-40-HRC BM-I (PC5)
+2022-05-05 15:14:19,838 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-191-3-HRC BM-I
+2022-05-05 15:14:20,679 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-190-4-HRC(errtgh) BM-I
+2022-05-05 15:14:21,383 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-100-62-HRC BM-I
+2022-05-05 15:14:22,198 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-195-2-HRC BM-I
+2022-05-05 15:14:23,015 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-35-HRC BM-I
+2022-05-05 15:14:23,741 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-40-HRC BM-I
+2022-05-05 15:14:24,452 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-40-HRC BM-I (PC4)
+2022-05-05 15:14:25,270 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-39-HRC BM-I (PC1)
+2022-05-05 15:14:26,091 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-45-HRC BM-I
+2022-05-05 15:14:26,909 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-37-HRC BM-I
+2022-05-05 15:14:27,725 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-190-6-HRC BM-I
+2022-05-05 15:14:28,544 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-40-HRC BM-I (PC6)
+2022-05-05 15:14:29,364 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-40-HRC BM-I (PC8)
+2022-05-05 15:14:30,089 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-201-11-HRC(HRC1) BM-I
+2022-05-05 15:14:30,900 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-44-HRC BM-I
+2022-05-05 15:14:31,687 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-34-HRC BM-I
+2022-05-05 15:14:32,439 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-36-HRC BM-I
+2022-05-05 15:14:33,157 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-40-HRC BM-I (PC7)
+2022-05-05 15:14:33,973 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-300-2-METO BM-I
+2022-05-05 15:14:34,727 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-53-HRC BM-I
+2022-05-05 15:14:35,407 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-55-HRC BM-I
+2022-05-05 15:14:36,030 INFO com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH [http-nio-8080-exec-1] filename == 7WG-200-54-HRC BM-I
+2022-05-05 15:14:36,840 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-05-05 15:25:34,757 INFO com.mis.eoffice.serviceImpls.DashboardDataServiceImpl [http-nio-8080-exec-5] command 7WG
+2022-05-05 15:25:34,762 INFO com.mis.eoffice.serviceImpls.DashboardDataServiceImpl [http-nio-8080-exec-5] Parsing Start for Department (Dashboard):7WG.METO
+2022-05-05 15:25:34,877 INFO com.mis.eoffice.serviceImpls.DashboardDataServiceImpl [http-nio-8080-exec-5] Parsing End for Department (Dashboard):7WG.METO
+2022-05-05 15:25:48,822 INFO com.mis.eoffice.serviceImpls.DashboardDataServiceImpl [http-nio-8080-exec-6] command 7WG
+2022-05-05 15:25:48,825 INFO com.mis.eoffice.serviceImpls.DashboardDataServiceImpl [http-nio-8080-exec-6] Parsing Start for Department (Dashboard):7WG.METO
+2022-05-05 15:25:56,690 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] command 7WG
+2022-05-05 15:25:56,692 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-7] Parsing Start for Department :7WG.METO
+2022-05-05 15:26:35,185 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Entered Command 7WG
+2022-05-05 15:26:36,683 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Hierachical Table Start.
+2022-05-05 15:26:36,688 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039801fca9d, depFullName=ACO, depBranch=7WG.ACO, depNameSmall=7WG.METO)
+2022-05-05 15:26:36,693 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039800f9a33, depFullName=7WG.ADM, depBranch=7WG.ADM, depNameSmall=7WG.METO)
+2022-05-05 15:26:36,699 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039800f9a34, depFullName=7WG.OPS, depBranch=7WG.OPS, depNameSmall=7WG.HRC)
+2022-05-05 15:26:36,703 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039800f9a35, depFullName=7WG.IAFAC, depBranch=7WG.IAFAC, depNameSmall=7WG.HRC)
+2022-05-05 15:26:36,713 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039800f9a36, depFullName=7WG.MAIN, depBranch=7WG.MAIN, depNameSmall=7WG.METO)
+2022-05-05 15:26:36,717 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039800f9a3a, depFullName=7WG.DAC, depBranch=7WG.DAC, depNameSmall=7WG.METO)
+2022-05-05 15:26:36,720 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039801e2f37, depFullName=CAD, depBranch=7WG.CAD, depNameSmall=7WG.METO)
+2022-05-05 15:26:36,723 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039801e2f39, depFullName=METO, depBranch=7WG.METO, depNameSmall=7WG.HRC)
+2022-05-05 15:26:36,724 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=080030398000a2f9, depFullName=AFRO COORD, depBranch=AFRO.COORD, depNameSmall=7WG.METO)
+2022-05-05 15:26:36,727 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] data in list DepartmentConfigInventory(rObjectId=08003039801e80c2, depFullName=ACT, depBranch=7WG.ACT, depNameSmall=7WG.METO)
+2022-05-05 15:26:37,030 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039801fca9d
+2022-05-05 15:26:37,031 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:26:37,303 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:38,863 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:39,180 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.ACO
+2022-05-05 15:26:39,182 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:26:39,444 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:26:39,446 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:26:40,221 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:26:40,831 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039800f9a33
+2022-05-05 15:26:40,833 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:26:41,223 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:41,398 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.ADM
+2022-05-05 15:26:41,399 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:26:41,802 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:26:41,804 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:26:42,425 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:26:43,133 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039800f9a34
+2022-05-05 15:26:43,136 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.HRC
+2022-05-05 15:26:43,389 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:44,976 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:45,237 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.OPS
+2022-05-05 15:26:45,238 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:26:45,412 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:26:45,413 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:26:45,964 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:26:46,572 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039800f9a35
+2022-05-05 15:26:46,574 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.HRC
+2022-05-05 15:26:47,005 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:47,181 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.IAFAC
+2022-05-05 15:26:47,182 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:26:47,481 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:26:47,482 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:26:48,066 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:26:48,813 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039800f9a36
+2022-05-05 15:26:48,815 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:26:49,343 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:49,601 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.MAIN
+2022-05-05 15:26:49,602 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:26:49,859 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:26:49,860 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:26:50,597 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:26:51,340 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039800f9a3a
+2022-05-05 15:26:51,343 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:26:51,820 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:52,053 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.DAC
+2022-05-05 15:26:52,055 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:26:52,148 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:26:52,150 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:26:52,809 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:26:53,772 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039801e2f37
+2022-05-05 15:26:53,777 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:26:54,304 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:54,494 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.CAD
+2022-05-05 15:26:54,498 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:26:54,740 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:26:54,742 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:26:55,483 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:26:56,444 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039801e2f39
+2022-05-05 15:26:56,444 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.HRC
+2022-05-05 15:26:56,901 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:26:57,074 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:26:59,508 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 080030398000a2f9
+2022-05-05 15:26:59,513 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:26:59,855 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:27:00,030 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] AFRO.COORD
+2022-05-05 15:27:00,031 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:27:00,206 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:27:00,207 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:27:00,597 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:27:01,052 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 08003039801e80c2
+2022-05-05 15:27:01,055 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.METO
+2022-05-05 15:27:01,463 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau.
+2022-05-05 15:27:01,554 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] 7WG.ACT
+2022-05-05 15:27:01,556 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Sau Branch.
+2022-05-05 15:27:01,648 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 1.
+2022-05-05 15:27:01,650 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 2.
+2022-05-05 15:27:01,916 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Check 3.
+2022-05-05 15:27:02,292 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Hierachical Table End.
+2022-05-05 15:27:02,700 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Hierachical Table End.
+2022-05-05 15:27:02,701 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-8] Parsing Data for Hierachical Table Error.
+2022-05-05 15:27:02,704 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-8] **********Hierarchy Data Pushed**********
+2022-05-05 15:29:52,028 INFO com.mis.eoffice.serviceImpls.SauDataServiceImpl [http-nio-8080-exec-2] Entered Command 7WG
+2022-05-05 15:29:52,358 INFO com.mis.eoffice.serviceImpls.SauDataServiceImpl [http-nio-8080-exec-2] Parsing End for Hierarchical Data Operations.
+2022-05-05 15:29:52,651 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD
+2022-05-05 15:29:53,587 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.CAD) = 56
+2022-05-05 15:29:53,590 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 101-1-HRC(HRC1) BM-I
+2022-05-05 15:29:53,594 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-25-HRC BM-I
+2022-05-05 15:29:53,596 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-29-HRC BM-I
+2022-05-05 15:29:53,598 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-47-HRC BM-I
+2022-05-05 15:29:53,604 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == METO-369-1-METO BM-I
+2022-05-05 15:29:53,606 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-354-1-METO BM-I
+2022-05-05 15:29:53,609 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-30-HRC BM-I
+2022-05-05 15:29:53,610 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-31-HRC BM-I
+2022-05-05 15:29:53,615 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-34-HRC BM-I
+2022-05-05 15:29:53,618 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-309-4-METO(METO1) BM-I
+2022-05-05 15:29:53,620 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-358-1-METO BM-I
+2022-05-05 15:29:53,622 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-307-13-METO BM-I
+2022-05-05 15:29:53,625 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-207-1-HRC BM-I
+2022-05-05 15:29:53,628 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-304-2-METO(METO1) BM-I
+2022-05-05 15:29:53,630 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-28-HRC BM-I
+2022-05-05 15:29:53,635 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-35-HRC BM-I
+2022-05-05 15:29:53,644 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-349-1-METO(METO1) BM-I
+2022-05-05 15:29:53,647 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-381-1-METO BM-I
+2022-05-05 15:29:53,653 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-217-7-HRC BM-I
+2022-05-05 15:29:53,656 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-301-23-METO BM-I
+2022-05-05 15:29:53,657 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-353-1-METO(METO1) BM-I
+2022-05-05 15:29:53,658 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-210-115-HRC BM-I
+2022-05-05 15:29:53,660 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-2-HRC BM-I
+2022-05-05 15:29:53,662 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-5-CAD BM-I
+2022-05-05 15:29:53,664 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-4-HRC BM-I
+2022-05-05 15:29:53,665 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-54-HRC BM-I
+2022-05-05 15:29:53,666 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-266-1-HRC(HRC1) BM-I
+2022-05-05 15:29:53,667 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-4-HRC BM-I
+2022-05-05 15:29:53,668 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-1-HRC BM-I
+2022-05-05 15:29:53,669 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-18-HRC BM-I
+2022-05-05 15:29:53,670 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-28-METO BM-I
+2022-05-05 15:29:53,671 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-6-HRC BM-I
+2022-05-05 15:29:53,672 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-194-1-HRC BM-I
+2022-05-05 15:29:53,673 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-24-HRC BM-I
+2022-05-05 15:29:53,673 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-14-HRC BM-I
+2022-05-05 15:29:53,674 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-28-HRC BM-I
+2022-05-05 15:29:53,674 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-16-HRC BM-I
+2022-05-05 15:29:53,675 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-195-1-HRC BM-I
+2022-05-05 15:29:53,676 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-25-HRC BM-I
+2022-05-05 15:29:53,676 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-1-HRC BM-I (PC1)
+2022-05-05 15:29:53,677 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-13-HRC BM-I
+2022-05-05 15:29:53,678 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-7-CAD BM-I
+2022-05-05 15:29:53,678 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-5-HRC BM-I
+2022-05-05 15:29:53,679 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-15-HRC BM-I
+2022-05-05 15:29:53,679 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-12-HRC BM-I
+2022-05-05 15:29:53,680 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-23-HRC BM-I
+2022-05-05 15:29:53,681 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-193-1-HRC BM-I
+2022-05-05 15:29:53,681 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-194-2-HRC BM-I
+2022-05-05 15:29:53,683 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-501-2-CAD BM-I
+2022-05-05 15:29:53,684 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-43-HRC BM-I
+2022-05-05 15:29:53,685 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-43-HRC BM-I
+2022-05-05 15:29:53,686 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:29:53,687 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-44-HRC BM-I
+2022-05-05 15:29:53,687 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-501-1-CAD BM-I
+2022-05-05 15:29:53,688 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-42-HRC BM-I
+2022-05-05 15:29:53,689 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:29:53,691 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD
+2022-05-05 15:29:54,096 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.CAD)= 1
+2022-05-05 15:29:54,097 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-50-HRC BM-I
+2022-05-05 15:29:54,098 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.CAD
+2022-05-05 15:29:54,196 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.CAD) = 0
+2022-05-05 15:29:54,197 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD
+2022-05-05 15:29:54,877 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.CAD) = 57
+2022-05-05 15:29:54,878 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 101-1-HRC(HRC1) BM-I
+2022-05-05 15:29:54,879 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-25-HRC BM-I
+2022-05-05 15:29:54,879 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-29-HRC BM-I
+2022-05-05 15:29:54,880 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-47-HRC BM-I
+2022-05-05 15:29:54,880 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == METO-369-1-METO BM-I
+2022-05-05 15:29:54,881 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-354-1-METO BM-I
+2022-05-05 15:29:54,883 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-30-HRC BM-I
+2022-05-05 15:29:54,884 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-31-HRC BM-I
+2022-05-05 15:29:54,885 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-34-HRC BM-I
+2022-05-05 15:29:54,885 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-309-4-METO(METO1) BM-I
+2022-05-05 15:29:54,885 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-358-1-METO BM-I
+2022-05-05 15:29:54,886 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-307-13-METO BM-I
+2022-05-05 15:29:54,886 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-207-1-HRC BM-I
+2022-05-05 15:29:54,886 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-304-2-METO(METO1) BM-I
+2022-05-05 15:29:54,887 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-28-HRC BM-I
+2022-05-05 15:29:54,888 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-35-HRC BM-I
+2022-05-05 15:29:54,888 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-349-1-METO(METO1) BM-I
+2022-05-05 15:29:54,889 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-381-1-METO BM-I
+2022-05-05 15:29:54,890 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-217-7-HRC BM-I
+2022-05-05 15:29:54,890 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-301-23-METO BM-I
+2022-05-05 15:29:54,890 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-353-1-METO(METO1) BM-I
+2022-05-05 15:29:54,890 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-210-115-HRC BM-I
+2022-05-05 15:29:54,891 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-2-HRC BM-I
+2022-05-05 15:29:54,891 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-5-CAD BM-I
+2022-05-05 15:29:54,891 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-4-HRC BM-I
+2022-05-05 15:29:54,892 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-54-HRC BM-I
+2022-05-05 15:29:54,892 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-266-1-HRC(HRC1) BM-I
+2022-05-05 15:29:54,893 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-4-HRC BM-I
+2022-05-05 15:29:54,893 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-1-HRC BM-I
+2022-05-05 15:29:54,894 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-18-HRC BM-I
+2022-05-05 15:29:54,894 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-28-METO BM-I
+2022-05-05 15:29:54,895 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-6-HRC BM-I
+2022-05-05 15:29:54,895 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-194-1-HRC BM-I
+2022-05-05 15:29:54,896 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-24-HRC BM-I
+2022-05-05 15:29:54,897 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-14-HRC BM-I
+2022-05-05 15:29:54,897 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-28-HRC BM-I
+2022-05-05 15:29:54,898 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-16-HRC BM-I
+2022-05-05 15:29:54,898 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-195-1-HRC BM-I
+2022-05-05 15:29:54,898 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-25-HRC BM-I
+2022-05-05 15:29:54,898 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-1-HRC BM-I (PC1)
+2022-05-05 15:29:54,900 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-13-HRC BM-I
+2022-05-05 15:29:54,901 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-7-CAD BM-I
+2022-05-05 15:29:54,901 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-5-HRC BM-I
+2022-05-05 15:29:54,902 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-15-HRC BM-I
+2022-05-05 15:29:54,902 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-12-HRC BM-I
+2022-05-05 15:29:54,903 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-23-HRC BM-I
+2022-05-05 15:29:54,904 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-193-1-HRC BM-I
+2022-05-05 15:29:54,905 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-194-2-HRC BM-I
+2022-05-05 15:29:54,905 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-501-2-CAD BM-I
+2022-05-05 15:29:54,906 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-43-HRC BM-I
+2022-05-05 15:29:54,907 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-43-HRC BM-I
+2022-05-05 15:29:54,908 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:29:54,908 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-44-HRC BM-I
+2022-05-05 15:29:54,909 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-501-1-CAD BM-I
+2022-05-05 15:29:54,909 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-42-HRC BM-I
+2022-05-05 15:29:54,910 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:29:54,910 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-50-HRC BM-I
+2022-05-05 15:29:55,667 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:AFRO.COORD
+2022-05-05 15:29:56,056 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(AFRO.COORD) = 0
+2022-05-05 15:29:56,058 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:AFRO.COORD
+2022-05-05 15:29:56,163 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (AFRO.COORD)= 0
+2022-05-05 15:29:56,167 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:AFRO.COORD
+2022-05-05 15:29:56,263 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(AFRO.COORD) = 0
+2022-05-05 15:29:56,264 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:AFRO.COORD
+2022-05-05 15:29:56,353 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (AFRO.COORD) = 0
+2022-05-05 15:29:57,253 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.ACT
+2022-05-05 15:29:57,563 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.ACT) = 0
+2022-05-05 15:29:57,564 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACT
+2022-05-05 15:29:57,655 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.ACT)= 0
+2022-05-05 15:29:57,657 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.ACT
+2022-05-05 15:29:57,749 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.ACT) = 0
+2022-05-05 15:29:57,751 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.ACT
+2022-05-05 15:29:57,841 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.ACT) = 0
+2022-05-05 15:29:58,556 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.ADM
+2022-05-05 15:29:58,926 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.ADM) = 2
+2022-05-05 15:29:58,927 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-1-HRC BM-I
+2022-05-05 15:29:58,928 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-2-ACO BM-I
+2022-05-05 15:29:58,928 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ADM
+2022-05-05 15:29:59,019 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.ADM)= 0
+2022-05-05 15:29:59,019 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.ADM
+2022-05-05 15:29:59,110 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.ADM) = 0
+2022-05-05 15:29:59,111 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.ADM
+2022-05-05 15:29:59,201 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.ADM) = 2
+2022-05-05 15:29:59,201 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-1-HRC BM-I
+2022-05-05 15:29:59,202 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-2-ACO BM-I
+2022-05-05 15:29:59,944 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.HRC
+2022-05-05 15:30:01,035 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.HRC) = 76
+2022-05-05 15:30:01,038 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-20-HRC BM-I
+2022-05-05 15:30:01,040 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == METO-C 305-1-METO BM-I
+2022-05-05 15:30:01,043 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-23-HRC BM-I
+2022-05-05 15:30:01,045 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-22-HRC BM-I
+2022-05-05 15:30:01,047 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 100-3-HRC BM-I
+2022-05-05 15:30:01,050 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 101-2-HRC(HRC1) BM-I
+2022-05-05 15:30:01,053 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-501-7-CAD BM-I
+2022-05-05 15:30:01,055 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-90-HRC BM-I
+2022-05-05 15:30:01,057 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-70-HRC BM-I
+2022-05-05 15:30:01,058 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-307-14-METO BM-I
+2022-05-05 15:30:01,060 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-9-CAD BM-I
+2022-05-05 15:30:01,062 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-37-HRC BM-I
+2022-05-05 15:30:01,063 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-38-HRC BM-I
+2022-05-05 15:30:01,064 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-39-HRC BM-I
+2022-05-05 15:30:01,066 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-3-HRC BM-I (PC1)
+2022-05-05 15:30:01,068 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-40-HRC BM-I
+2022-05-05 15:30:01,070 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-367-1-METO(METO1) BM-I
+2022-05-05 15:30:01,071 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-301-6-METO BM-I
+2022-05-05 15:30:01,072 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-502-1-CAD BM-I
+2022-05-05 15:30:01,072 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-76-HRC(case 11132213289823) BM-I
+2022-05-05 15:30:01,073 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-10-HRC BM-I
+2022-05-05 15:30:01,074 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-26-HRC BM-I
+2022-05-05 15:30:01,074 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-65-HRC BM-I
+2022-05-05 15:30:01,075 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-191-2-HRC BM-I
+2022-05-05 15:30:01,076 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-61-HRC BM-I (PC2)
+2022-05-05 15:30:01,076 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-20-HRC BM-I
+2022-05-05 15:30:01,077 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-77-HRC BM-I
+2022-05-05 15:30:01,078 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-67-HRC BM-I
+2022-05-05 15:30:01,079 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-41-HRC BM-I
+2022-05-05 15:30:01,080 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-7-HRC BM-I
+2022-05-05 15:30:01,080 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-61-HRC BM-I (PC1)
+2022-05-05 15:30:01,081 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-80-HRC BM-I
+2022-05-05 15:30:01,085 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-24-HRC BM-I
+2022-05-05 15:30:01,086 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-290-1-METO BM-I
+2022-05-05 15:30:01,087 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-11-HRC BM-I
+2022-05-05 15:30:01,088 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-29-HRC BM-I
+2022-05-05 15:30:01,089 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-30-HRC BM-I
+2022-05-05 15:30:01,090 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-193-2-HRC BM-I
+2022-05-05 15:30:01,090 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-12-HRC BM-I
+2022-05-05 15:30:01,091 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-31-HRC BM-I
+2022-05-05 15:30:01,091 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-17-HRC BM-I
+2022-05-05 15:30:01,092 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-6-HRC BM-I
+2022-05-05 15:30:01,093 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-5-HRC BM-I
+2022-05-05 15:30:01,094 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-10-HRC BM-I
+2022-05-05 15:30:01,095 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-8-HRC BM-I
+2022-05-05 15:30:01,095 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-32-HRC BM-I
+2022-05-05 15:30:01,096 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-9-HRC BM-I
+2022-05-05 15:30:01,097 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-19-HRC BM-I
+2022-05-05 15:30:01,097 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-3-HRC BM-I
+2022-05-05 15:30:01,099 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-60-HRC BM-I
+2022-05-05 15:30:01,100 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-22-HRC BM-I
+2022-05-05 15:30:01,101 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-5-HRC(21) BM-I
+2022-05-05 15:30:01,101 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-38-HRC BM-I (PC1)
+2022-05-05 15:30:01,102 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-62-HRC BM-I (PC1)
+2022-05-05 15:30:01,102 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 200-3-METO BM-I
+2022-05-05 15:30:01,104 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC3)
+2022-05-05 15:30:01,105 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC5)
+2022-05-05 15:30:01,106 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-191-3-HRC BM-I
+2022-05-05 15:30:01,107 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-4-HRC(errtgh) BM-I
+2022-05-05 15:30:01,108 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-62-HRC BM-I
+2022-05-05 15:30:01,110 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-195-2-HRC BM-I
+2022-05-05 15:30:01,110 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-35-HRC BM-I
+2022-05-05 15:30:01,112 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I
+2022-05-05 15:30:01,113 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC4)
+2022-05-05 15:30:01,113 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-39-HRC BM-I (PC1)
+2022-05-05 15:30:01,115 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:30:01,116 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-37-HRC BM-I
+2022-05-05 15:30:01,117 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-6-HRC BM-I
+2022-05-05 15:30:01,118 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC6)
+2022-05-05 15:30:01,119 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC8)
+2022-05-05 15:30:01,120 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-11-HRC(HRC1) BM-I
+2022-05-05 15:30:01,121 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-44-HRC BM-I
+2022-05-05 15:30:01,122 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-34-HRC BM-I
+2022-05-05 15:30:01,123 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-36-HRC BM-I
+2022-05-05 15:30:01,124 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC7)
+2022-05-05 15:30:01,125 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-300-2-METO BM-I
+2022-05-05 15:30:01,125 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.HRC
+2022-05-05 15:30:01,471 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.HRC)= 3
+2022-05-05 15:30:01,471 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-53-HRC BM-I
+2022-05-05 15:30:01,472 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-55-HRC BM-I
+2022-05-05 15:30:01,472 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-54-HRC BM-I
+2022-05-05 15:30:01,472 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.HRC
+2022-05-05 15:30:01,562 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.HRC) = 0
+2022-05-05 15:30:01,562 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.HRC
+2022-05-05 15:30:02,396 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.HRC) = 79
+2022-05-05 15:30:02,399 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-20-HRC BM-I
+2022-05-05 15:30:02,401 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == METO-C 305-1-METO BM-I
+2022-05-05 15:30:02,403 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-23-HRC BM-I
+2022-05-05 15:30:02,406 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-22-HRC BM-I
+2022-05-05 15:30:02,408 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 100-3-HRC BM-I
+2022-05-05 15:30:02,410 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 101-2-HRC(HRC1) BM-I
+2022-05-05 15:30:02,412 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-501-7-CAD BM-I
+2022-05-05 15:30:02,413 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-90-HRC BM-I
+2022-05-05 15:30:02,415 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-70-HRC BM-I
+2022-05-05 15:30:02,417 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-307-14-METO BM-I
+2022-05-05 15:30:02,419 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-9-CAD BM-I
+2022-05-05 15:30:02,422 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-37-HRC BM-I
+2022-05-05 15:30:02,423 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-38-HRC BM-I
+2022-05-05 15:30:02,424 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-39-HRC BM-I
+2022-05-05 15:30:02,426 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-3-HRC BM-I (PC1)
+2022-05-05 15:30:02,427 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-40-HRC BM-I
+2022-05-05 15:30:02,428 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-367-1-METO(METO1) BM-I
+2022-05-05 15:30:02,429 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-301-6-METO BM-I
+2022-05-05 15:30:02,430 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-502-1-CAD BM-I
+2022-05-05 15:30:02,431 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-76-HRC(case 11132213289823) BM-I
+2022-05-05 15:30:02,432 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-10-HRC BM-I
+2022-05-05 15:30:02,433 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-26-HRC BM-I
+2022-05-05 15:30:02,434 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-65-HRC BM-I
+2022-05-05 15:30:02,435 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-191-2-HRC BM-I
+2022-05-05 15:30:02,435 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-61-HRC BM-I (PC2)
+2022-05-05 15:30:02,435 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-20-HRC BM-I
+2022-05-05 15:30:02,436 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-77-HRC BM-I
+2022-05-05 15:30:02,437 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-67-HRC BM-I
+2022-05-05 15:30:02,437 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-41-HRC BM-I
+2022-05-05 15:30:02,438 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-7-HRC BM-I
+2022-05-05 15:30:02,438 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-61-HRC BM-I (PC1)
+2022-05-05 15:30:02,438 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-80-HRC BM-I
+2022-05-05 15:30:02,438 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-24-HRC BM-I
+2022-05-05 15:30:02,438 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-290-1-METO BM-I
+2022-05-05 15:30:02,439 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-11-HRC BM-I
+2022-05-05 15:30:02,440 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-29-HRC BM-I
+2022-05-05 15:30:02,440 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-30-HRC BM-I
+2022-05-05 15:30:02,440 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-193-2-HRC BM-I
+2022-05-05 15:30:02,440 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-12-HRC BM-I
+2022-05-05 15:30:02,441 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-31-HRC BM-I
+2022-05-05 15:30:02,441 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-17-HRC BM-I
+2022-05-05 15:30:02,441 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-6-HRC BM-I
+2022-05-05 15:30:02,442 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-5-HRC BM-I
+2022-05-05 15:30:02,443 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-10-HRC BM-I
+2022-05-05 15:30:02,443 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-8-HRC BM-I
+2022-05-05 15:30:02,443 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-32-HRC BM-I
+2022-05-05 15:30:02,443 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-9-HRC BM-I
+2022-05-05 15:30:02,444 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-19-HRC BM-I
+2022-05-05 15:30:02,444 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-3-HRC BM-I
+2022-05-05 15:30:02,444 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-60-HRC BM-I
+2022-05-05 15:30:02,444 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-22-HRC BM-I
+2022-05-05 15:30:02,444 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-5-HRC(21) BM-I
+2022-05-05 15:30:02,445 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-38-HRC BM-I (PC1)
+2022-05-05 15:30:02,445 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-62-HRC BM-I (PC1)
+2022-05-05 15:30:02,445 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 200-3-METO BM-I
+2022-05-05 15:30:02,445 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC3)
+2022-05-05 15:30:02,446 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC5)
+2022-05-05 15:30:02,447 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-191-3-HRC BM-I
+2022-05-05 15:30:02,447 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-4-HRC(errtgh) BM-I
+2022-05-05 15:30:02,447 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-62-HRC BM-I
+2022-05-05 15:30:02,447 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-195-2-HRC BM-I
+2022-05-05 15:30:02,447 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-35-HRC BM-I
+2022-05-05 15:30:02,448 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I
+2022-05-05 15:30:02,448 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC4)
+2022-05-05 15:30:02,448 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-39-HRC BM-I (PC1)
+2022-05-05 15:30:02,448 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:30:02,449 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-37-HRC BM-I
+2022-05-05 15:30:02,449 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-190-6-HRC BM-I
+2022-05-05 15:30:02,449 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC6)
+2022-05-05 15:30:02,449 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC8)
+2022-05-05 15:30:02,449 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-11-HRC(HRC1) BM-I
+2022-05-05 15:30:02,450 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-44-HRC BM-I
+2022-05-05 15:30:02,451 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-34-HRC BM-I
+2022-05-05 15:30:02,451 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-36-HRC BM-I
+2022-05-05 15:30:02,451 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-40-HRC BM-I (PC7)
+2022-05-05 15:30:02,451 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-300-2-METO BM-I
+2022-05-05 15:30:02,451 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-53-HRC BM-I
+2022-05-05 15:30:02,451 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-55-HRC BM-I
+2022-05-05 15:30:02,452 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-54-HRC BM-I
+2022-05-05 15:30:03,207 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.OPS
+2022-05-05 15:30:03,717 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.OPS) = 0
+2022-05-05 15:30:03,720 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.OPS
+2022-05-05 15:30:03,949 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.OPS)= 0
+2022-05-05 15:30:03,950 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.OPS
+2022-05-05 15:30:04,040 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.OPS) = 0
+2022-05-05 15:30:04,041 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.OPS
+2022-05-05 15:30:04,132 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.OPS) = 0
+2022-05-05 15:30:05,126 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.IAFAC
+2022-05-05 15:30:05,622 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.IAFAC) = 5
+2022-05-05 15:30:05,625 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 190-1-HRC(HRC1) BM-I
+2022-05-05 15:30:05,626 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-4-CAD BM-I
+2022-05-05 15:30:05,627 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-31-METO BM-I
+2022-05-05 15:30:05,629 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-6-CAD BM-I
+2022-05-05 15:30:05,633 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-191-1-HRC BM-I
+2022-05-05 15:30:05,636 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.IAFAC
+2022-05-05 15:30:05,729 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.IAFAC)= 0
+2022-05-05 15:30:05,732 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.IAFAC
+2022-05-05 15:30:05,830 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.IAFAC) = 0
+2022-05-05 15:30:05,832 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.IAFAC
+2022-05-05 15:30:06,057 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.IAFAC) = 5
+2022-05-05 15:30:06,058 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 190-1-HRC(HRC1) BM-I
+2022-05-05 15:30:06,059 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-4-CAD BM-I
+2022-05-05 15:30:06,059 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-31-METO BM-I
+2022-05-05 15:30:06,059 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-6-CAD BM-I
+2022-05-05 15:30:06,060 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-191-1-HRC BM-I
+2022-05-05 15:30:06,806 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.MAIN
+2022-05-05 15:30:07,220 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.MAIN) = 0
+2022-05-05 15:30:07,224 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.MAIN
+2022-05-05 15:30:07,473 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.MAIN)= 0
+2022-05-05 15:30:07,474 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.MAIN
+2022-05-05 15:30:07,566 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.MAIN) = 0
+2022-05-05 15:30:07,568 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.MAIN
+2022-05-05 15:30:07,659 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.MAIN) = 0
+2022-05-05 15:30:08,445 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.DAC
+2022-05-05 15:30:08,857 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.DAC) = 1
+2022-05-05 15:30:08,859 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 200-3-METO BM-I
+2022-05-05 15:30:08,861 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.DAC
+2022-05-05 15:30:09,036 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.DAC)= 0
+2022-05-05 15:30:09,037 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.DAC
+2022-05-05 15:30:09,129 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.DAC) = 0
+2022-05-05 15:30:09,131 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.DAC
+2022-05-05 15:30:09,227 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.DAC) = 1
+2022-05-05 15:30:09,227 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 200-3-METO BM-I
+2022-05-05 15:30:10,034 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.METO
+2022-05-05 15:30:10,853 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.METO) = 28
+2022-05-05 15:30:10,856 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 200-3-METO BM-I
+2022-05-05 15:30:10,858 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-8-HRC BM-I
+2022-05-05 15:30:10,860 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-3-HRC BM-I
+2022-05-05 15:30:10,861 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-5-HRC BM-I
+2022-05-05 15:30:10,864 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-7-HRC BM-I
+2022-05-05 15:30:10,865 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-301-4-METO BM-I
+2022-05-05 15:30:10,867 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-2-HRC BM-I
+2022-05-05 15:30:10,870 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-8-HRC BM-I
+2022-05-05 15:30:10,872 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-9-HRC BM-I
+2022-05-05 15:30:10,874 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-7-HRC BM-I
+2022-05-05 15:30:10,876 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-34-METO BM-I
+2022-05-05 15:30:10,877 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-92-HRC BM-I
+2022-05-05 15:30:10,879 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-6-HRC BM-I
+2022-05-05 15:30:10,881 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-17-HRC BM-I
+2022-05-05 15:30:10,883 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-4-HRC BM-I
+2022-05-05 15:30:10,886 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-2-HRC BM-I
+2022-05-05 15:30:10,888 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-5-HRC BM-I
+2022-05-05 15:30:10,889 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-2-HRC BM-I
+2022-05-05 15:30:10,890 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-83-HRC BM-I
+2022-05-05 15:30:10,892 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-27-HRC BM-I
+2022-05-05 15:30:10,893 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-3-HRC BM-I
+2022-05-05 15:30:10,894 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-30-HRC BM-I
+2022-05-05 15:30:10,895 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-89-HRC BM-I
+2022-05-05 15:30:10,896 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-6-HRC BM-I
+2022-05-05 15:30:10,900 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-193-3-HRC BM-I
+2022-05-05 15:30:10,901 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-49-HRC BM-I
+2022-05-05 15:30:10,903 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-294-1-METO BM-I
+2022-05-05 15:30:10,904 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:30:10,906 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.METO
+2022-05-05 15:30:11,302 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.METO)= 2
+2022-05-05 15:30:11,303 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-52-HRC BM-I
+2022-05-05 15:30:11,303 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-51-HRC BM-I
+2022-05-05 15:30:11,303 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.METO
+2022-05-05 15:30:11,396 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.METO) = 0
+2022-05-05 15:30:11,398 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.METO
+2022-05-05 15:30:11,912 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.METO) = 30
+2022-05-05 15:30:11,915 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-C 200-3-METO BM-I
+2022-05-05 15:30:11,918 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-8-HRC BM-I
+2022-05-05 15:30:11,921 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-3-HRC BM-I
+2022-05-05 15:30:11,922 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-5-HRC BM-I
+2022-05-05 15:30:11,924 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-7-HRC BM-I
+2022-05-05 15:30:11,925 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-301-4-METO BM-I
+2022-05-05 15:30:11,926 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-2-HRC BM-I
+2022-05-05 15:30:11,927 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-8-HRC BM-I
+2022-05-05 15:30:11,929 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-9-HRC BM-I
+2022-05-05 15:30:11,931 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-7-HRC BM-I
+2022-05-05 15:30:11,934 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-34-METO BM-I
+2022-05-05 15:30:11,935 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-92-HRC BM-I
+2022-05-05 15:30:11,936 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-6-HRC BM-I
+2022-05-05 15:30:11,937 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-17-HRC BM-I
+2022-05-05 15:30:11,939 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-4-HRC BM-I
+2022-05-05 15:30:11,939 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-2-HRC BM-I
+2022-05-05 15:30:11,941 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-5-HRC BM-I
+2022-05-05 15:30:11,942 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-2-HRC BM-I
+2022-05-05 15:30:11,943 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-83-HRC BM-I
+2022-05-05 15:30:11,944 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-27-HRC BM-I
+2022-05-05 15:30:11,947 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-201-3-HRC BM-I
+2022-05-05 15:30:11,948 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-30-HRC BM-I
+2022-05-05 15:30:11,950 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-89-HRC BM-I
+2022-05-05 15:30:11,952 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-6-HRC BM-I
+2022-05-05 15:30:11,952 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-193-3-HRC BM-I
+2022-05-05 15:30:11,953 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-49-HRC BM-I
+2022-05-05 15:30:11,954 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-294-1-METO BM-I
+2022-05-05 15:30:11,954 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-45-HRC BM-I
+2022-05-05 15:30:11,954 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-52-HRC BM-I
+2022-05-05 15:30:11,954 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-200-51-HRC BM-I
+2022-05-05 15:30:12,729 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.ACO
+2022-05-05 15:30:13,254 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files >10(7WG.ACO) = 9
+2022-05-05 15:30:13,257 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-8-CAD BM-I
+2022-05-05 15:30:13,258 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-30-METO BM-I
+2022-05-05 15:30:13,260 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-15-HRC BM-I
+2022-05-05 15:30:13,261 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-14-HRC BM-I
+2022-05-05 15:30:13,265 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-1-HRC BM-I
+2022-05-05 15:30:13,267 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-33-METO BM-I
+2022-05-05 15:30:13,267 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-7-HRC BM-I
+2022-05-05 15:30:13,268 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-27-METO BM-I
+2022-05-05 15:30:13,269 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-88-HRC BM-I
+2022-05-05 15:30:13,270 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACO
+2022-05-05 15:30:13,484 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 5-10 (7WG.ACO)= 0
+2022-05-05 15:30:13,485 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing 0-5 Count for Department:7WG.ACO
+2022-05-05 15:30:13,581 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of files 0-5(7WG.ACO) = 0
+2022-05-05 15:30:13,581 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.ACO
+2022-05-05 15:30:13,817 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] number Of total files  (7WG.ACO) = 9
+2022-05-05 15:30:13,817 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-8-CAD BM-I
+2022-05-05 15:30:13,818 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-30-METO BM-I
+2022-05-05 15:30:13,818 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-15-HRC BM-I
+2022-05-05 15:30:13,819 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-14-HRC BM-I
+2022-05-05 15:30:13,819 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-1-HRC BM-I
+2022-05-05 15:30:13,820 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-33-METO BM-I
+2022-05-05 15:30:13,821 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-101-7-HRC BM-I
+2022-05-05 15:30:13,821 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-27-METO BM-I
+2022-05-05 15:30:13,821 INFO com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH [http-nio-8080-exec-2] File == 7WG-100-88-HRC BM-I
+2022-05-05 15:30:14,598 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] **********Data Pushed**********
+2022-05-05 15:34:17,728 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2022-05-05 15:34:18,095 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db5'
+2022-05-05 15:34:18,096 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-20 - Shutdown initiated...
+2022-05-05 15:34:20,633 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-20 - Shutdown completed.
+2022-05-05 15:34:20,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db4'
+2022-05-05 15:34:20,643 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-19 - Shutdown initiated...

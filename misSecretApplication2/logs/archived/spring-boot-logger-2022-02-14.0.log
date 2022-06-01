@@ -1,0 +1,553 @@
+2022-02-14 08:03:41,878 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on WIN-USPHV0MJQMB with PID 6884 (C:\Users\Administrator\Desktop\mis updated\misSecretApplication2\target\classes started by Administrator in C:\Users\Administrator\Desktop\mis updated\misSecretApplication2)
+2022-02-14 08:03:41,889 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-02-14 08:03:41,989 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-02-14 08:03:41,992 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/Administrator/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/Administrator/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/Administrator/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-02-14 08:03:41,993 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-02-14 08:03:41,993 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-14 08:03:41,994 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-14 08:03:43,260 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-14 08:03:43,262 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-14 08:03:43,384 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 104 ms. Found 3 JPA repository interfaces.
+2022-02-14 08:03:43,386 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-14 08:03:43,386 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-14 08:03:43,419 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+2022-02-14 08:03:43,420 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-14 08:03:43,421 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-14 08:03:43,469 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 6 JPA repository interfaces.
+2022-02-14 08:03:45,420 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-02-14 08:03:45,435 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-14 08:03:45,437 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-02-14 08:03:45,438 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-02-14 08:03:45,557 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-02-14 08:03:45,557 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3561 ms
+2022-02-14 08:03:46,088 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-02-14 08:03:46,300 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-02-14 08:03:46,521 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-14 08:03:46,835 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-02-14 08:03:46,838 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-02-14 08:03:47,590 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-02-14 08:03:47,617 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-02-14 08:03:48,018 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-02-14 08:03:49,056 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-14 08:03:49,073 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-02-14 08:03:49,094 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-02-14 08:03:49,133 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-02-14 08:03:49,133 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-02-14 08:03:49,251 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-02-14 08:03:49,252 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-02-14 08:03:49,367 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-02-14 08:03:49,494 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-14 08:03:49,495 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-02-14 08:03:49,520 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db3]
+2022-02-14 08:03:49,581 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-02-14 08:03:49,762 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-02-14 08:03:49,776 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-02-14 08:03:50,145 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-02-14 08:03:50,276 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-14 08:03:50,277 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db3'
+2022-02-14 08:03:52,118 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49f9a56f, org.springframework.security.web.context.SecurityContextPersistenceFilter@98703f8, org.springframework.security.web.header.HeaderWriterFilter@2b7f5769, org.springframework.web.filter.CorsFilter@4f3baea0, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@5c0c9841, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@6f8781fc, org.springframework.security.web.authentication.logout.LogoutFilter@287380ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7de56cbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64142322, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@4165dc21, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@79938adc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bb54dcc, org.springframework.security.web.session.SessionManagementFilter@4f0324f9, org.springframework.security.web.access.ExceptionTranslationFilter@5b9d7a7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@188e349c]
+2022-02-14 08:03:52,386 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-02-14 08:03:52,437 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-02-14 08:03:52,458 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-02-14 08:03:52,478 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 11.6 seconds (JVM running for 12.92)
+2022-02-14 08:04:26,667 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-14 08:04:26,668 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-02-14 08:04:26,671 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-02-14 08:04:27,082 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table Start.
+2022-02-14 08:04:27,146 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,152 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,153 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,160 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,183 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,186 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,187 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,193 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,206 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,209 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,210 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,217 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,261 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,262 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,262 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,280 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,289 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,292 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,293 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,299 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,312 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,315 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,315 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,321 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,332 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,336 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,336 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,359 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,370 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,373 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,374 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,381 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,384 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,393 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,396 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,397 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,402 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,414 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,417 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,417 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,425 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,437 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,440 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,441 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,447 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,459 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,461 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,462 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,468 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,478 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,481 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,482 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,494 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,505 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,508 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,508 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,521 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,532 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,535 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,535 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,542 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,553 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,556 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,557 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,563 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,573 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,576 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,577 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,583 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,593 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,596 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,597 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,603 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,613 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,617 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,618 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,623 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,626 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,627 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,636 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,639 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,639 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,645 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,647 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,657 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,660 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,661 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,666 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,676 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,679 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,679 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,685 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,695 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,698 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,699 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,704 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,714 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Sau Branch.
+2022-02-14 08:04:27,717 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 1.
+2022-02-14 08:04:27,718 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 2.
+2022-02-14 08:04:27,723 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Check 3.
+2022-02-14 08:04:27,748 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table End.
+2022-02-14 08:04:27,749 INFO com.mis.eoffice.serviceImpls.HierarchyDataServiceImpl [http-nio-8080-exec-1] Parsing Data for Hierachical Table Completed.
+2022-02-14 08:04:27,750 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] **********Hierarchy Data Pushed**********
+2022-02-14 08:04:34,775 INFO com.mis.eoffice.serviceImpls.SauDataServiceImpl [http-nio-8080-exec-2] Parsing End for Hierarchical Data Operations.
+2022-02-14 08:04:34,785 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.HRC
+2022-02-14 08:04:34,813 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.HRC
+2022-02-14 08:04:34,825 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.HRC
+2022-02-14 08:04:34,873 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD
+2022-02-14 08:04:34,878 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD
+2022-02-14 08:04:34,881 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD
+2022-02-14 08:04:34,891 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.METO
+2022-02-14 08:04:34,896 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.METO
+2022-02-14 08:04:34,898 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.METO
+2022-02-14 08:04:34,908 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD1
+2022-02-14 08:04:34,910 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD1
+2022-02-14 08:04:34,913 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD1
+2022-02-14 08:04:34,921 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD7
+2022-02-14 08:04:34,923 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD7
+2022-02-14 08:04:34,926 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD7
+2022-02-14 08:04:34,934 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD8
+2022-02-14 08:04:34,937 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD8
+2022-02-14 08:04:34,940 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD8
+2022-02-14 08:04:34,948 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD9
+2022-02-14 08:04:34,951 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD9
+2022-02-14 08:04:34,954 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD9
+2022-02-14 08:04:34,961 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD2
+2022-02-14 08:04:34,964 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD2
+2022-02-14 08:04:34,967 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD2
+2022-02-14 08:04:34,974 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD10
+2022-02-14 08:04:34,980 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD10
+2022-02-14 08:04:34,989 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD10
+2022-02-14 08:04:35,001 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD11
+2022-02-14 08:04:35,004 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD11
+2022-02-14 08:04:35,007 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD11
+2022-02-14 08:04:35,014 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD13
+2022-02-14 08:04:35,017 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD13
+2022-02-14 08:04:35,020 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD13
+2022-02-14 08:04:35,028 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD14
+2022-02-14 08:04:35,031 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD14
+2022-02-14 08:04:35,033 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD14
+2022-02-14 08:04:35,041 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD15
+2022-02-14 08:04:35,043 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD15
+2022-02-14 08:04:35,046 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD15
+2022-02-14 08:04:35,054 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD16
+2022-02-14 08:04:35,056 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD16
+2022-02-14 08:04:35,059 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD16
+2022-02-14 08:04:35,082 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD17
+2022-02-14 08:04:35,084 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD17
+2022-02-14 08:04:35,087 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD17
+2022-02-14 08:04:35,106 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD18
+2022-02-14 08:04:35,109 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD18
+2022-02-14 08:04:35,112 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD18
+2022-02-14 08:04:35,119 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:35,121 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:35,124 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD19
+2022-02-14 08:04:35,134 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:35,137 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:35,140 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD20
+2022-02-14 08:04:35,153 INFO com.mis.eoffice.serviceImpls.SauDataServiceImpl [http-nio-8080-exec-3] Parsing End for Hierarchical Data Operations.
+2022-02-14 08:04:35,155 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:35,158 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:35,158 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.HRC
+2022-02-14 08:04:35,161 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD12
+2022-02-14 08:04:35,166 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.HRC
+2022-02-14 08:04:35,169 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:35,170 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.HRC
+2022-02-14 08:04:35,172 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:35,174 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD3
+2022-02-14 08:04:35,180 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD
+2022-02-14 08:04:35,185 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:35,185 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD
+2022-02-14 08:04:35,187 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:35,188 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD
+2022-02-14 08:04:35,190 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD4
+2022-02-14 08:04:35,197 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:35,199 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.METO
+2022-02-14 08:04:35,199 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:35,202 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD5
+2022-02-14 08:04:35,203 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.METO
+2022-02-14 08:04:35,205 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.METO
+2022-02-14 08:04:35,209 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:35,212 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:35,214 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.CAD6
+2022-02-14 08:04:35,215 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD1
+2022-02-14 08:04:35,217 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD1
+2022-02-14 08:04:35,220 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD1
+2022-02-14 08:04:35,228 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:35,230 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:35,232 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.ACO
+2022-02-14 08:04:35,235 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD7
+2022-02-14 08:04:35,238 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD7
+2022-02-14 08:04:35,239 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:35,241 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD7
+2022-02-14 08:04:35,242 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:35,245 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-2] Computing Inbox Files Count for Department:7WG.ACT
+2022-02-14 08:04:35,248 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD8
+2022-02-14 08:04:35,251 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD8
+2022-02-14 08:04:35,252 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] **********Data Pushed**********
+2022-02-14 08:04:35,254 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD8
+2022-02-14 08:04:35,263 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD9
+2022-02-14 08:04:35,265 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD9
+2022-02-14 08:04:35,269 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD9
+2022-02-14 08:04:35,276 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD2
+2022-02-14 08:04:35,279 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD2
+2022-02-14 08:04:35,282 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD2
+2022-02-14 08:04:35,289 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD10
+2022-02-14 08:04:35,292 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD10
+2022-02-14 08:04:35,294 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD10
+2022-02-14 08:04:35,301 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD11
+2022-02-14 08:04:35,304 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD11
+2022-02-14 08:04:35,307 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD11
+2022-02-14 08:04:35,314 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD13
+2022-02-14 08:04:35,316 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD13
+2022-02-14 08:04:35,319 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD13
+2022-02-14 08:04:35,326 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD14
+2022-02-14 08:04:35,329 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD14
+2022-02-14 08:04:35,331 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD14
+2022-02-14 08:04:35,338 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD15
+2022-02-14 08:04:35,340 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD15
+2022-02-14 08:04:35,343 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD15
+2022-02-14 08:04:35,350 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD16
+2022-02-14 08:04:35,352 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD16
+2022-02-14 08:04:35,355 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD16
+2022-02-14 08:04:35,362 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD17
+2022-02-14 08:04:35,364 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD17
+2022-02-14 08:04:35,367 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD17
+2022-02-14 08:04:35,374 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD18
+2022-02-14 08:04:35,376 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD18
+2022-02-14 08:04:35,379 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD18
+2022-02-14 08:04:35,394 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:35,397 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:35,399 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD19
+2022-02-14 08:04:35,407 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:35,413 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:35,416 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD20
+2022-02-14 08:04:35,423 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:35,425 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:35,428 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD12
+2022-02-14 08:04:35,435 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:35,438 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:35,441 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD3
+2022-02-14 08:04:35,448 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:35,450 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:35,453 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD4
+2022-02-14 08:04:35,460 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:35,463 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:35,465 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD5
+2022-02-14 08:04:35,478 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:35,480 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:35,483 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.CAD6
+2022-02-14 08:04:35,496 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:35,498 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:35,501 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.ACO
+2022-02-14 08:04:35,507 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:35,510 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:35,512 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-3] Computing Inbox Files Count for Department:7WG.ACT
+2022-02-14 08:04:35,519 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] **********Data Pushed**********
+2022-02-14 08:04:39,918 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3327
+2022-02-14 08:04:39,919 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:39,919 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:39,920 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD17
+2022-02-14 08:04:39,924 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD17
+2022-02-14 08:04:39,927 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD17
+2022-02-14 08:04:39,951 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3328
+2022-02-14 08:04:39,952 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:39,953 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:39,953 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD18
+2022-02-14 08:04:39,956 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD18
+2022-02-14 08:04:39,958 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD18
+2022-02-14 08:04:39,970 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3329
+2022-02-14 08:04:39,970 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:39,971 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:39,971 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:39,974 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:39,976 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD19
+2022-02-14 08:04:39,987 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3330
+2022-02-14 08:04:39,988 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:39,989 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:39,989 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:39,992 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:39,994 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD20
+2022-02-14 08:04:40,005 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3329
+2022-02-14 08:04:40,005 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,006 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,006 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:40,009 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD19
+2022-02-14 08:04:40,011 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD19
+2022-02-14 08:04:40,039 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3330
+2022-02-14 08:04:40,039 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,040 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,041 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:40,043 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD20
+2022-02-14 08:04:40,045 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD20
+2022-02-14 08:04:40,055 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3323
+2022-02-14 08:04:40,055 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,056 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,056 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD13
+2022-02-14 08:04:40,060 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD13
+2022-02-14 08:04:40,063 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD13
+2022-02-14 08:04:40,073 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3324
+2022-02-14 08:04:40,074 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,074 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,075 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD14
+2022-02-14 08:04:40,077 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD14
+2022-02-14 08:04:40,079 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD14
+2022-02-14 08:04:40,091 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3325
+2022-02-14 08:04:40,092 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,092 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,093 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD15
+2022-02-14 08:04:40,095 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD15
+2022-02-14 08:04:40,097 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD15
+2022-02-14 08:04:40,107 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3326
+2022-02-14 08:04:40,107 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,108 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,108 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD16
+2022-02-14 08:04:40,111 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD16
+2022-02-14 08:04:40,113 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD16
+2022-02-14 08:04:40,138 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3321
+2022-02-14 08:04:40,139 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,140 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,140 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD10
+2022-02-14 08:04:40,143 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD10
+2022-02-14 08:04:40,145 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD10
+2022-02-14 08:04:40,155 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3322
+2022-02-14 08:04:40,156 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,156 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,157 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD11
+2022-02-14 08:04:40,159 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD11
+2022-02-14 08:04:40,162 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD11
+2022-02-14 08:04:40,183 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3331
+2022-02-14 08:04:40,184 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,184 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,185 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:40,188 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:40,190 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD12
+2022-02-14 08:04:40,200 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3331
+2022-02-14 08:04:40,200 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,201 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,201 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:40,204 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD12
+2022-02-14 08:04:40,206 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD12
+2022-02-14 08:04:40,215 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3317
+2022-02-14 08:04:40,216 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,216 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,217 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD7
+2022-02-14 08:04:40,219 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD7
+2022-02-14 08:04:40,222 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD7
+2022-02-14 08:04:40,232 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3318
+2022-02-14 08:04:40,232 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,233 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,233 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD8
+2022-02-14 08:04:40,236 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD8
+2022-02-14 08:04:40,238 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD8
+2022-02-14 08:04:40,249 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3319
+2022-02-14 08:04:40,250 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,251 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,251 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD9
+2022-02-14 08:04:40,253 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD9
+2022-02-14 08:04:40,256 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD9
+2022-02-14 08:04:40,266 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3311
+2022-02-14 08:04:40,267 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,267 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,268 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:40,270 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:40,273 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.ACO
+2022-02-14 08:04:40,295 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3311
+2022-02-14 08:04:40,295 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,296 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,296 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:40,299 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACO
+2022-02-14 08:04:40,301 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.ACO
+2022-02-14 08:04:40,318 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3315
+2022-02-14 08:04:40,318 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,319 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,319 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.METO
+2022-02-14 08:04:40,323 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.METO
+2022-02-14 08:04:40,325 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.METO
+2022-02-14 08:04:40,344 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3316
+2022-02-14 08:04:40,344 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,345 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,345 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD1
+2022-02-14 08:04:40,347 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD1
+2022-02-14 08:04:40,350 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD1
+2022-02-14 08:04:40,376 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3320
+2022-02-14 08:04:40,376 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,377 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,377 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD2
+2022-02-14 08:04:40,380 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD2
+2022-02-14 08:04:40,382 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD2
+2022-02-14 08:04:40,403 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3314
+2022-02-14 08:04:40,403 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,404 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,404 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD
+2022-02-14 08:04:40,408 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD
+2022-02-14 08:04:40,410 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD
+2022-02-14 08:04:40,428 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3332
+2022-02-14 08:04:40,429 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,429 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,430 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:40,432 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:40,434 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD3
+2022-02-14 08:04:40,443 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3333
+2022-02-14 08:04:40,444 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,444 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,445 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:40,447 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:40,449 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD4
+2022-02-14 08:04:40,458 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3334
+2022-02-14 08:04:40,458 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,459 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,459 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:40,461 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:40,464 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD5
+2022-02-14 08:04:40,473 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3335
+2022-02-14 08:04:40,473 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,474 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,474 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:40,476 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:40,478 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD6
+2022-02-14 08:04:40,487 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3332
+2022-02-14 08:04:40,488 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,488 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,489 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:40,491 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD3
+2022-02-14 08:04:40,493 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD3
+2022-02-14 08:04:40,503 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3333
+2022-02-14 08:04:40,503 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,504 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,504 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:40,507 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD4
+2022-02-14 08:04:40,509 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD4
+2022-02-14 08:04:40,517 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3334
+2022-02-14 08:04:40,518 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,519 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,519 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:40,521 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD5
+2022-02-14 08:04:40,524 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD5
+2022-02-14 08:04:40,533 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3335
+2022-02-14 08:04:40,533 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,534 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,534 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:40,536 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.CAD6
+2022-02-14 08:04:40,538 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.CAD6
+2022-02-14 08:04:40,550 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3312
+2022-02-14 08:04:40,551 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,551 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,552 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:40,554 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:40,556 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.ACT
+2022-02-14 08:04:40,564 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3312
+2022-02-14 08:04:40,565 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,565 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,566 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:40,568 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.ACT
+2022-02-14 08:04:40,570 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.ACT
+2022-02-14 08:04:40,579 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Data:3313
+2022-02-14 08:04:40,580 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing Start for Hierarchical Data Operations.
+2022-02-14 08:04:40,581 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Computing Analysis for Sau Branch.
+2022-02-14 08:04:40,582 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 10 Count for Department:7WG.HRC
+2022-02-14 08:04:40,585 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Greater Than 5 OR Less Than 10 Count for Department:7WG.HRC
+2022-02-14 08:04:40,587 INFO com.mis.eoffice.serviceImpls.OperationsDataServiceImpl [http-nio-8080-exec-4] Computing Inbox Files Count for Department:7WG.HRC
+2022-02-14 08:04:40,617 INFO com.mis.eoffice.serviceImpls.CauDataServiceImpl [http-nio-8080-exec-4] Parsing End for Hierarchical Data Operations.
+2022-02-14 08:04:40,617 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-4] **********Data Pushed**********
+2022-02-14 08:04:51,863 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-5] Parsing Start for Department :7WG.HRC
+2022-02-14 08:05:37,433 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-7] Parsing Start for Department :7WG.HRC
+2022-02-14 08:05:37,469 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-7] Parsing End for Department :7WG.HRC
+2022-02-14 08:06:19,342 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-8] Parsing Start for Department :7WG.CAD
+2022-02-14 08:06:39,362 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-9] Parsing Start for Department :7WG.CAD
+2022-02-14 08:06:39,373 INFO com.mis.eoffice.serviceImpls.MainTableDataServiceImpl [http-nio-8080-exec-9] Parsing End for Department :7WG.CAD
+2022-02-14 08:07:12,520 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-10] ********Detailed Table********
+2022-02-14 08:07:12,521 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-10] ********Detailed Table Processed********
+2022-02-14 08:07:17,764 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-02-14 08:07:17,765 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-02-14 08:07:17,788 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table********
+2022-02-14 08:07:17,788 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table Processed********
+2022-02-14 08:07:25,964 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table********
+2022-02-14 08:07:25,965 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table Processed********
+2022-02-14 08:07:46,875 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-4] ********Detailed Table********
+2022-02-14 08:07:47,082 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-4] ********Detailed Table Processed********
+2022-02-14 08:08:05,782 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table********
+2022-02-14 08:08:05,841 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table Processed********
+2022-02-14 08:08:13,254 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-6] ********Detailed Table********
+2022-02-14 08:08:13,295 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-6] ********Detailed Table Processed********
+2022-02-14 08:08:32,863 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-8] ********Detailed Table********
+2022-02-14 08:08:32,945 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-8] ********Detailed Table Processed********
+2022-02-14 08:08:47,482 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-9] ********Detailed Table********
+2022-02-14 08:08:47,529 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-9] ********Detailed Table Processed********
+2022-02-14 08:08:59,077 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2022-02-14 08:08:59,228 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db3'
+2022-02-14 08:08:59,230 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2022-02-14 08:08:59,239 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-3 - Shutdown completed.
+2022-02-14 08:08:59,240 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-02-14 08:08:59,241 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2022-02-14 08:08:59,260 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2022-02-14 08:08:59,261 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-02-14 08:08:59,262 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-02-14 08:08:59,279 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
