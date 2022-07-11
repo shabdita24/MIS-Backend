@@ -1,37 +1,19 @@
 package com.mis.eoffice.controller;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Map.Entry;
 
 import javax.servlet.http.HttpServletRequest;
+
 import org.json.simple.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
-import org.springframework.web.util.UriComponentsBuilder;
-
-import com.mis.eoffice.keycloakRepo.KeycloakClientRepository;
-import com.mis.eoffice.keycloakRepo.KeycloakGroupRepository;
-import com.mis.eoffice.keycloakRepo.KeycloakGroupRoleMappingRepository;
-import com.mis.eoffice.keycloakRepo.KeycloakRolsRepository;
-import com.mis.eoffice.modelKeycloak.KeycloakGroupRoleMapping;
-import com.mis.eoffice.modelKeycloak.KeycloakGroups;
-import com.mis.eoffice.modelKeycloak.KeycloakRoles;
 
 
 
@@ -42,17 +24,17 @@ public class MasterDataController {
 	private static final Logger logger = LoggerFactory.getLogger(MasterDataController.class);
 
 	
-	@Autowired
-	private KeycloakRolsRepository keycloakRolsRepository;
-
-	@Autowired
-	private KeycloakClientRepository keycloakClientRepository;
-
-	@Autowired
-	private KeycloakGroupRepository keycloakGroupRepository;
-
-	@Autowired
-	private KeycloakGroupRoleMappingRepository keycloakGroupRoleMappingRepository;
+//	@Autowired
+//	private KeycloakRolsRepository keycloakRolsRepository;
+//
+//	@Autowired
+//	private KeycloakClientRepository keycloakClientRepository;
+//
+//	@Autowired
+//	private KeycloakGroupRepository keycloakGroupRepository;
+//
+//	@Autowired
+//	private KeycloakGroupRoleMappingRepository keycloakGroupRoleMappingRepository;
 
 	@GetMapping("/getUserRoles")
 	public ResponseEntity<JSONObject> getUserRoles(HttpServletRequest request) {

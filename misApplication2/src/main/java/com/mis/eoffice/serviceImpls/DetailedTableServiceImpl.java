@@ -13,6 +13,8 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.mis.eoffice.db1Models.FileSauBranchInventory;
@@ -25,7 +27,9 @@ import com.mis.eoffice.db2Models.FileInventory;
 import com.mis.eoffice.db2Repo.AppointmentDisplayNameRepository;
 import com.mis.eoffice.db2Repo.FileFolderNameRepository;
 import com.mis.eoffice.db2Repo.FileInventoryRepository;
+import com.mis.eoffice.db4Models.FileInventoryBMRL;
 import com.mis.eoffice.dto.DetailedTable;
+import com.mis.eoffice.dto.ResponseDetailTable;
 import com.mis.eoffice.service.DetailedTableService;
 
 @Service
@@ -50,12 +54,16 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 	String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
 
 	@Override
-	public List<DetailedTable> getdetailedtableInboxFile(String sauName, Integer num,String command) {
-
+	public ResponseDetailTable getdetailedtableInboxFile(String sauName, Integer num,String command,Integer pageNo, Integer rows) {
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
 		Optional<HierarchyDataInventory> sauDat = htrepo.findBySauNameAndCommand(sauName,command);
 		if (sauDat.isPresent()) {
-			List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskState(sauName, "FILE", status);
+			Pageable page = PageRequest.of(pageNo, rows);
+			List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskState(sauName, "FILE", status,page);
+			List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskState(sauName, "FILE", status);
+			size=hd2.size();
 			if (hd1.size() > 0) {
 				for (int i = 0; i < hd1.size(); i++) {
 					logger.info("filename == " + hd1.get(i).getFileNumber());
@@ -109,8 +117,9 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 				}
 			}
 	}
-		return dt;
-	}
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;	}
 
 	// typeOfFunction-> 0 for all files , 1 for 5-10 days files, 2 for >10 days and
 	// 3 for 0-5 days
@@ -227,17 +236,23 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 	}
 
 	@Override
-	public List<DetailedTable> getdetailedtablepend37(String sau, Integer num,String command) {
+	public ResponseDetailTable getdetailedtablepend37(String sau, Integer num,String command, Integer pageNo, Integer rows) {
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
-
+	
 		String status = "In Progress";
 		LocalDate currentDate = LocalDate.now();
 		LocalDate threeDays = currentDate.plusDays(-10);
 		LocalDate sevenDays = currentDate.plusDays(-20);
 		Date threedaysbefore = Date.from(threeDays.atStartOfDay(ZoneId.systemDefault()).toInstant());
 		Date sevendaysbefore = Date.from(sevenDays.atStartOfDay(ZoneId.systemDefault()).toInstant());
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
+		Pageable page = PageRequest.of(pageNo, rows);
 		List<FileInventory> sauData = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBetween(sau,
-				"FILE", status, sevendaysbefore, threedaysbefore);
+				"FILE", status, sevendaysbefore, threedaysbefore,page);		
+		List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBetween(sau,
+				"FILE", status, sevendaysbefore, threedaysbefore);		
+		size=hd2.size();
 		List<FileInventory> sauDataFilter = new ArrayList<FileInventory>();
 		sauDataFilter = sauData.stream().map(data -> {
 			return data;
@@ -306,7 +321,9 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 				dt = filesOfBranches(sauSubBranches, dt, 1,command);
 			}
 		}
-		return dt;
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;	
 	}
 
 //	@Override
@@ -436,15 +453,22 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 //	}
 
 	@Override
-	public List<DetailedTable> getdetailedtablepro30days(String sau, Integer num,String command) {
+	public ResponseDetailTable getdetailedtablepro30days(String sau, Integer num,String command, Integer pageNo, Integer rows) {
 
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
 		String taskstate = "In Progress";
 		LocalDate currentDate1 = LocalDate.now();
 		LocalDate lastDate1 = currentDate1.plusDays(-20);
 		Date lastDate = Date.from(lastDate1.atStartOfDay(ZoneId.systemDefault()).toInstant());
+
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
+		Pageable page = PageRequest.of(pageNo, rows);
 		List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBefore(sau,
-				"FILE", taskstate, lastDate);
+				"FILE", taskstate, lastDate,page);
+		List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBefore(sau,
+				"FILE", taskstate, lastDate);	
+		size=hd2.size();
 		Optional<HierarchyDataInventory> sauDat = htrepo.findBySauNameAndCommand(sau,command);
 		if (sauDat.isPresent()) {
 			if (hd1.size() > 0) {
@@ -504,22 +528,29 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 			dt = filesOfBranches(sauSubBranches, dt, 2,command);
 		}
 		}
-		return dt;
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;	
 
 	}
 
 	@Override
-	public List<DetailedTable> getdetailedtablependingatfiveten(String sauName, Integer num,String command) {
-
+	public ResponseDetailTable getdetailedtablependingatfiveten(String sauName, Integer num,String command,Integer pageNo, Integer rows) {
+	
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
 		LocalDate currentDate = LocalDate.now();
 		LocalDate threeDays = currentDate.plusDays(-10);
 		LocalDate sevenDays = currentDate.plusDays(-20);
 		Date threedaysbefore = Date.from(threeDays.atStartOfDay(ZoneId.systemDefault()).toInstant());
 		Date sevendaysbefore = Date.from(sevenDays.atStartOfDay(ZoneId.systemDefault()).toInstant());
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
+		Pageable page = PageRequest.of(pageNo, rows);
 		List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBetween(sauName,
-				"FILE", status, sevendaysbefore, threedaysbefore);
-
+				"FILE", status, sevendaysbefore, threedaysbefore,page);	
+		List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBetween(sauName,
+				"FILE", status, sevendaysbefore, threedaysbefore);	
+		size=hd2.size();
 		Optional<HierarchyDataInventory> sauDat = htrepo.findBySauNameAndCommand(sauName,command);
 		if (sauDat.isPresent()) {
 			if (hd1.size() > 0) {
@@ -571,11 +602,13 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 				}
 			}
 		}
-		return dt;
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;	
 	}
 
 	@Override
-	public List<DetailedTable> getdetailedtablependingatten(String sau, Integer num,String command) {
+	public ResponseDetailTable getdetailedtablependingatten(String sau, Integer num,String command, Integer pageNo, Integer rows) {
 
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
 		String taskstate = "In Progress";
@@ -583,8 +616,15 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 		LocalDate lastDate1 = currentDate1.plusDays(-20);
 		Date lastDate = Date.from(lastDate1.atStartOfDay(ZoneId.systemDefault()).toInstant());
 		Date currentDate = Date.from(currentDate1.atStartOfDay(ZoneId.systemDefault()).toInstant());
+		
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
+		Pageable page = PageRequest.of(pageNo, rows);
 		List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBefore(sau,
+				"FILE", taskstate, lastDate,page);
+		List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBefore(sau,
 				"FILE", taskstate, lastDate);
+		size=hd2.size();
 		Optional<HierarchyDataInventory> sauDat = htrepo.findBySauNameAndCommand(sau,command);
 		if (sauDat.isPresent()) {
 			if (hd1.size() > 0) {
@@ -640,19 +680,27 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 				}
 			}
 		}
-		return dt;
-	}
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;		}
 
 	@Override
-	public List<DetailedTable> getdetailedtablependingatfive(String sau, Integer num,String command) {
+	public ResponseDetailTable getdetailedtablependingatfive(String sau, Integer num,String command, Integer pageNo, Integer rows) {
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
 		String taskstate = "In Progress";
 		LocalDate currentDate1 = LocalDate.now();
 		LocalDate lastDate1 = currentDate1.plusDays(-10);
 		Date lastDate = Date.from(lastDate1.atStartOfDay(ZoneId.systemDefault()).toInstant());
 //		Date currentDate = Date.from(currentDate1.atStartOfDay(ZoneId.systemDefault()).toInstant());
+	
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
+		Pageable page = PageRequest.of(pageNo, rows);
 		List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedAfter(sau,
+				"FILE", taskstate, lastDate,page);
+		List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedAfter(sau,
 				"FILE", taskstate, lastDate);
+		size=hd2.size();
 		Optional<HierarchyDataInventory> sauDat = htrepo.findBySauNameAndCommand(sau,command);
 		if (sauDat.isPresent()) {
 //			List<FileInventory> hd1=filerepo.findByCurrDepAndMisTypeAndTaskState(sauName,"FILE",status);??
@@ -708,15 +756,23 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 				}
 			}
 		}
-		return dt;
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;	
 	}
 
 	@Override
-	public List<DetailedTable> getdetailedtableInboxFileCau(String sauName, Integer num,String command) {
+	public ResponseDetailTable getdetailedtableInboxFileCau(String sauName, Integer num,String command, Integer pageNo, Integer rows) {
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
+		
 		Optional<HierarchyDataInventory> sauDat = htrepo.findBySauNameAndCommand(sauName,command);
 		if (sauDat.isPresent()) {
-			List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskState(sauName, "FILE", status);
+			Pageable page = PageRequest.of(pageNo, rows);
+			List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskState(sauName, "FILE", status,page);
+			List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskState(sauName, "FILE", status);
+			size=hd2.size();
 			if (hd1.size() > 0) {
 				for (int i = 0; i < hd1.size(); i++) {
 					logger.info("filename == " + hd1.get(i).getFileNumber());
@@ -777,11 +833,13 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 			}
 		}
 
-		return dt;
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;	
 	}
 
 	@Override
-	public List<DetailedTable> getdetailedtablependingatzerofive(String sau, Integer num,String command) {
+	public ResponseDetailTable getdetailedtablependingatzerofive(String sau, Integer num,String command,Integer pageNo, Integer rows) {
 		
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
 		String taskstate = "In Progress";
@@ -789,8 +847,15 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 		LocalDate lastDate1 = currentDate1.plusDays(-10);
 		Date lastDate = Date.from(lastDate1.atStartOfDay(ZoneId.systemDefault()).toInstant());
 //		Date currentDate = Date.from(currentDate1.atStartOfDay(ZoneId.systemDefault()).toInstant());
+	
+		ResponseDetailTable rdt=new ResponseDetailTable();
+		int size=0;
+		Pageable page = PageRequest.of(pageNo, rows);
 		List<FileInventory> hd1 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedAfter(sau,
+				"FILE", taskstate, lastDate,page);
+		List<FileInventory> hd2 = filerepo.findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedAfter(sau,
 				"FILE", taskstate, lastDate);
+		size=hd2.size();
 		Optional<HierarchyDataInventory> sauDat = htrepo.findBySauNameAndCommand(sau,command);
 		if (sauDat.isPresent()) {
 //			List<FileInventory> hd1=filerepo.findByCurrDepAndMisTypeAndTaskState(sauName,"FILE",status);??
@@ -850,6 +915,8 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 		if (num > dt.size() && !sauSubBranches.isEmpty()) {
 			dt = filesOfBranches(sauSubBranches, dt, 3,command);
 		}}
-		return dt;
+		rdt.setDt(dt);
+		rdt.setSizeDt(size);
+		return rdt;	
 	}
 }

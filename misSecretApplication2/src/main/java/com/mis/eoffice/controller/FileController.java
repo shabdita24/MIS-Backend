@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mis.eoffice.dto.DetailedTable;
+import com.mis.eoffice.dto.ResponseDetailTable;
 import com.mis.eoffice.dto.SauBranchFiltDto;
 import com.mis.eoffice.service.CauDataService;
 import com.mis.eoffice.service.DashboardDataService;
@@ -137,40 +138,43 @@ public class FileController {
 	
 //  Shabdita
 	@PostMapping("/gettotalfiles")
-	private ResponseEntity<JSONObject> gettotalfiles(@PathParam("sau") String sau, @PathParam("column") String column,@PathParam("num") Integer num){
+	private ResponseEntity<JSONObject> gettotalfiles(@PathParam("sau") String sau, @PathParam("column") String column,@PathParam("num") Integer num,
+			@PathParam("currentPage") Integer currentPage,@PathParam("pageSize") Integer pageSize){
 		List<DetailedTable> dt=new ArrayList<DetailedTable>();
 		logger.info("********Detailed Table********");
+		ResponseDetailTable rdt=new ResponseDetailTable();
+
 		if(column.equals("totalSau") && num>0) 
 		{
-			dt=ds.getdetailedtableInboxFile(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtableInboxFile(sau.toUpperCase(),num,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveTenSau") && num>0)
 		{
-			dt=ds.getdetailedtablependingatfiveten(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtablependingatfiveten(sau.toUpperCase(),num,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilePendingTenDaysSau") && num>0)
 		{
-			dt=ds.getdetailedtablependingatten(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtablependingatten(sau.toUpperCase(),num,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveSau") && num>0)
 		{
-			dt=ds.getdetailedtablependingatfive(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtablependingatfive(sau.toUpperCase(),num,currentPage,pageSize);
 		}
 		else if(column.equals("totalCau") && num>0) 
 		{
-			dt=ds.getdetailedtableInboxFileCau(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtableInboxFileCau(sau.toUpperCase(),num,currentPage,pageSize);
 		}
-		else if(column.equalsIgnoreCase("totalFilesPendingFiveTenCau") && num>0)
+		else if(column.equalsIgnoreCase("totalFilesPendingFiveTenCau") && num>0)//check
 		{	
-			dt=ds.getdetailedtablepend37(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtablepend37(sau.toUpperCase(),num,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilePendingTenDaysCau") && num>0)
 		{
-			dt=ds.getdetailedtablepro30days(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtablepro30days(sau.toUpperCase(),num,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveCau") && num>0)
 		{
-			dt=ds.getdetailedtablependingatzerofive(sau.toUpperCase(),num);
+			rdt=ds.getdetailedtablependingatzerofive(sau.toUpperCase(),num,currentPage,pageSize);
 		}
 		else
 		{
@@ -180,8 +184,8 @@ public class FileController {
 		logger.info("********Detailed Table Processed********");
 		JSONObject json = new JSONObject();
 		json.put("status", HttpStatus.OK);
-		json.put("Data",dt );
-		json.put("size", dt.size());
+		json.put("Data",rdt.getDt() );
+		json.put("size", rdt.getSizeDt());
 		return ResponseEntity.ok(json);
 
 	}

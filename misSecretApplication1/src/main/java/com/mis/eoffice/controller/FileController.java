@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mis.eoffice.db1Repo.DataSauInventoryRepository;
 import com.mis.eoffice.dto.DetailedTable;
+import com.mis.eoffice.dto.ResponseDetailTable;
 import com.mis.eoffice.dto.SauBranchFiltDto;
 import com.mis.eoffice.service.CauDataService;
 import com.mis.eoffice.service.DashboardDataService;
@@ -146,74 +147,77 @@ public class FileController {
 
 	//  Shabdita
 	@PostMapping("/gettotalfiles")
-	private ResponseEntity<JSONObject> gettotalfiles(@PathParam("sau") String sau, @PathParam("column") String column,@PathParam("num") Integer num){
+	private ResponseEntity<JSONObject> gettotalfiles(@PathParam("sau") String sau, @PathParam("column") String column,@PathParam("num") Integer num,
+			@PathParam("currentPage") Integer currentPage,@PathParam("pageSize") Integer pageSize){
 		List<DetailedTable> dt=new ArrayList<DetailedTable>();
 		String command=dataSauInventoryRepository.findCommandbySauName(sau.toUpperCase());
 		logger.info("command "+command);
+		ResponseDetailTable rdt=new ResponseDetailTable();
+
 		logger.info("********Detailed Table********");
 
 		if(column.equals("totalSau") && num>0) 
 		{		
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtableInboxFile(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtableInboxFile(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtableInboxFile(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtableInboxFile(sau.toUpperCase(),num,command,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveTenSau") && num>0)
 		{
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtablependingatfiveten(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtablependingatfiveten(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtablependingatfiveten(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtablependingatfiveten(sau.toUpperCase(),num,command,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilePendingTenDaysSau") && num>0)
 		{
 
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtablependingatten(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtablependingatten(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtablependingatten(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtablependingatten(sau.toUpperCase(),num,command,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveSau") && num>0)
 		{
 
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtablependingatfive(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtablependingatfive(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtablependingatfive(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtablependingatfive(sau.toUpperCase(),num,command,currentPage,pageSize);
 
 		}
 		else if(column.equals("totalCau") && num>0) 
 		{
 
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtableInboxFileCau(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtableInboxFileCau(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtableInboxFileCau(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtableInboxFileCau(sau.toUpperCase(),num,command,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveTenCau") && num>0)
 		{	
 
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtablepend37(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtablepend37(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtablepend37(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtablepend37(sau.toUpperCase(),num,command,currentPage,pageSize);
 		}
 		else if(column.equalsIgnoreCase("totalFilePendingTenDaysCau") && num>0)
 		{
 
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtablepro30days(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtablepro30days(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtablepro30days(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtablepro30days(sau.toUpperCase(),num,command,currentPage,pageSize);
 
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveCau") && num>0)
 		{	
 			if(command.equalsIgnoreCase("AIRHQ") || command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
-				dt=ds.getdetailedtablependingatzerofive(sau.toUpperCase(),num,command);
+				rdt=ds.getdetailedtablependingatzerofive(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else
-				dt=dsbmrl.getdetailedtablependingatzerofive(sau.toUpperCase(),num,command);
+				rdt=dsbmrl.getdetailedtablependingatzerofive(sau.toUpperCase(),num,command,currentPage,pageSize);
 		}
 		else
 		{
@@ -223,8 +227,8 @@ public class FileController {
 		logger.info("********Detailed Table Processed********");
 		JSONObject json = new JSONObject();
 		json.put("status", HttpStatus.OK);
-		json.put("Data",dt );
-		json.put("size", dt.size());
+		json.put("Data",rdt.getDt() );
+		json.put("size", rdt.getSizeDt());
 		return ResponseEntity.ok(json);
 
 	}

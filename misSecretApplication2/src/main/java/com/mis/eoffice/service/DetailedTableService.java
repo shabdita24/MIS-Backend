@@ -1,28 +1,26 @@
 package com.mis.eoffice.service;
 
-import java.util.List;
-
-import com.mis.eoffice.dto.DetailedTable;
+import com.mis.eoffice.dto.ResponseDetailTable;
 
 
 public interface DetailedTableService {
 
-	List<DetailedTable> getdetailedtableInboxFile(String sau, Integer num);
+	ResponseDetailTable getdetailedtableInboxFile(String sau, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablepend37(String sau, Integer num);
+	ResponseDetailTable getdetailedtablepend37(String sau, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablepend7(String sau, Integer num);
+	ResponseDetailTable getdetailedtablepend7(String sau, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablepro30days(String sau, Integer num);
+	ResponseDetailTable getdetailedtablepro30days(String sau, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatfiveten(String upperCase, Integer num);
+	ResponseDetailTable getdetailedtablependingatfiveten(String upperCase, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatten(String upperCase, Integer num);
+	ResponseDetailTable getdetailedtablependingatten(String upperCase, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatfive(String upperCase, Integer num);
+	ResponseDetailTable getdetailedtablependingatfive(String upperCase, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtableInboxFileCau(String upperCase, Integer num);
+	ResponseDetailTable getdetailedtableInboxFileCau(String upperCase, Integer num, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatzerofive(String upperCase, Integer num);
+	ResponseDetailTable getdetailedtablependingatzerofive(String upperCase, Integer num, Integer currentPage, Integer pageSize);
 
 }

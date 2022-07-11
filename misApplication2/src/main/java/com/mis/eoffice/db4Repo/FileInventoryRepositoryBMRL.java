@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -13,10 +14,17 @@ import com.mis.eoffice.db4Models.FileInventoryBMRL;
 @Repository
 public interface FileInventoryRepositoryBMRL extends JpaRepository<FileInventoryBMRL, String> {
 // File
-	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskState(String sauName,String mistype, String state);
-	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBetween(String sau,String mistype,String state,Date start,Date end);
-	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBefore(String sau,String mistype,String state,Date before);
+	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskState(String sauName,String mistype, String state, Pageable page);
+	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBetween(String sau,String mistype,String state,Date start,Date end, Pageable page);
+	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBefore(String sau,String mistype,String state,Date before, Pageable page);
 	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedAfter(String sau, String string,
-			String taskstate, Date lastDate);
+			String taskstate, Date lastDate, Pageable page);
+	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskState(String sauName, String string, String status);
+	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBetween(String sauName,
+			String string, String status, Date sevendaysbefore, Date threedaysbefore);
+	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedBefore(String sau,
+			String string, String taskstate, Date lastDate);
+	public List<FileInventoryBMRL> findByCurrDepAndMisTypeAndTaskStateAndDateTimeRecievedAfter(String sau,
+			String string, String taskstate, Date lastDate);
 	
 }

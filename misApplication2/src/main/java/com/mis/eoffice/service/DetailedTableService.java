@@ -3,26 +3,27 @@ package com.mis.eoffice.service;
 import java.util.List;
 
 import com.mis.eoffice.dto.DetailedTable;
+import com.mis.eoffice.dto.ResponseDetailTable;
 
 
 public interface DetailedTableService {
 
-	List<DetailedTable> getdetailedtableInboxFile(String sau, Integer num, String command);
+	ResponseDetailTable getdetailedtableInboxFile(String sau, Integer num, String command, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablepend37(String sau, Integer num, String command);
+	ResponseDetailTable getdetailedtablepend37(String sau, Integer num, String command, Integer currentPage, Integer pageSize);
 
 	//List<DetailedTable> getdetailedtablepend7(String sau, Integer num);
 
-	List<DetailedTable> getdetailedtablepro30days(String sau, Integer num, String command);
+	ResponseDetailTable getdetailedtablepro30days(String sau, Integer num, String command, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatfiveten(String upperCase, Integer num, String command);
+	ResponseDetailTable getdetailedtablependingatfiveten(String upperCase, Integer num, String command, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatten(String upperCase, Integer num, String command);
+	ResponseDetailTable getdetailedtablependingatten(String upperCase, Integer num, String command, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatfive(String upperCase, Integer num, String command);
+	ResponseDetailTable getdetailedtablependingatfive(String upperCase, Integer num, String command, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtableInboxFileCau(String upperCase, Integer num, String command);
+	ResponseDetailTable getdetailedtableInboxFileCau(String upperCase, Integer num, String command, Integer currentPage, Integer pageSize);
 
-	List<DetailedTable> getdetailedtablependingatzerofive(String upperCase, Integer num, String command);
+	ResponseDetailTable getdetailedtablependingatzerofive(String upperCase, Integer num, String command, Integer currentPage, Integer pageSize);
 
 }

@@ -1,0 +1,428 @@
+2022-07-06 15:07:20,537 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 12484 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:07:20,544 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:07:20,621 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-07-06 15:07:20,625 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-07-06 15:07:20,626 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-07-06 15:07:20,630 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-06 15:07:20,631 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-06 15:07:22,353 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:07:22,354 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:07:22,456 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 90 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:07:22,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:07:22,458 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:07:22,488 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:07:23,989 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:07:24,002 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:07:24,004 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:07:24,004 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:07:24,267 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:07:24,268 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3634 ms
+2022-07-06 15:07:24,660 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:07:24,825 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-06 15:07:24,973 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-06 15:07:25,217 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-06 15:07:25,220 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:07:27,220 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-06 15:07:27,251 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:07:29,321 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:07:30,000 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:07:30,013 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:07:30,031 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-06 15:07:30,084 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-07-06 15:07:30,085 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:07:31,717 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-07-06 15:07:31,718 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:07:33,952 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:07:34,034 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:07:34,035 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:07:35,424 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3206d933, org.springframework.security.web.context.SecurityContextPersistenceFilter@15a128e0, org.springframework.security.web.header.HeaderWriterFilter@5c5ddcbb, org.springframework.web.filter.CorsFilter@303e7ed1, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@58f3dc25, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@9972008, org.springframework.security.web.authentication.logout.LogoutFilter@688ebc44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b32dc62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72f42cb0, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@17571f90, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@5183fbab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c3741c5, org.springframework.security.web.session.SessionManagementFilter@3dee3df8, org.springframework.security.web.access.ExceptionTranslationFilter@4b568067, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cc7fdc8]
+2022-07-06 15:07:35,673 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-06 15:07:35,700 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:07:35,729 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-07-06 15:07:35,753 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 15.873 seconds (JVM running for 19.852)
+2022-07-06 15:10:27,548 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:10:27,549 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:10:27,551 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-07-06 15:10:27,663 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-07-06 15:10:29,096 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-100-20-HRC BM-I
+2022-07-06 15:10:29,877 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == METO-C 305-1-METO BM-I
+2022-07-06 15:10:30,396 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-100-23-HRC BM-I
+2022-07-06 15:10:30,915 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-100-22-HRC BM-I
+2022-07-06 15:10:31,544 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-C 100-3-HRC BM-I
+2022-07-06 15:10:32,145 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-07-06 15:13:17,917 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table********
+2022-07-06 15:13:19,147 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-100-20-HRC BM-I
+2022-07-06 15:13:19,941 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == METO-C 305-1-METO BM-I
+2022-07-06 15:13:20,477 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-100-23-HRC BM-I
+2022-07-06 15:13:20,994 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-100-22-HRC BM-I
+2022-07-06 15:13:21,515 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-C 100-3-HRC BM-I
+2022-07-06 15:13:22,037 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table Processed********
+2022-07-06 15:13:46,962 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-4] ********Detailed Table********
+2022-07-06 15:13:47,485 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-4] ********Detailed Table Processed********
+2022-07-06 15:14:15,637 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table********
+2022-07-06 15:14:16,857 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-5] filename == 7WG-100-20-HRC BM-I
+2022-07-06 15:14:17,451 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-5] filename == METO-C 305-1-METO BM-I
+2022-07-06 15:14:17,975 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-5] filename == 7WG-100-23-HRC BM-I
+2022-07-06 15:14:18,490 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-5] filename == 7WG-100-22-HRC BM-I
+2022-07-06 15:14:19,008 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-5] filename == 7WG-C 100-3-HRC BM-I
+2022-07-06 15:14:19,526 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table Processed********
+2022-07-06 15:14:38,392 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-6] ********Detailed Table********
+2022-07-06 15:14:38,899 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-6] filename == 7WG-191-4-HRC BM-I
+2022-07-06 15:14:39,301 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-6] filename == 7WG-201-5-HRC BM-I (PC1)
+2022-07-06 15:14:39,830 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-6] ********Detailed Table Processed********
+2022-07-06 15:14:59,718 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] ********Detailed Table********
+2022-07-06 15:15:03,291 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-7] filename == 7WG-205-3-HRC BM-I
+2022-07-06 15:15:03,858 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-7] filename == 7WG-201-15-HRC BM-I
+2022-07-06 15:15:04,381 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-7] filename == 7WG-296-1-METO BM-I
+2022-07-06 15:15:04,907 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-7] filename == 7WG-296-2-METO BM-I
+2022-07-06 15:15:05,428 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-7] filename == 7WG-200-59-HRC BM-I
+2022-07-06 15:15:05,948 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-7] filename == 7WG-205-2-HRC BM-I
+2022-07-06 15:15:06,464 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] ********Detailed Table Processed********
+2022-07-06 15:18:48,249 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-10] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:18:48,251 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown initiated...
+2022-07-06 15:18:50,268 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown completed.
+2022-07-06 15:18:50,269 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-10] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:18:50,271 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-1 - Shutdown initiated...
+2022-07-06 15:18:52,400 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-1 - Shutdown completed.
+2022-07-06 15:18:52,708 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 12484 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:18:52,708 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:18:53,035 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:18:53,036 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:18:53,052 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:18:53,053 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:18:53,053 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:18:53,070 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:18:53,392 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:18:53,393 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:18:53,394 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:18:53,394 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:18:53,414 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:18:53,414 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 703 ms
+2022-07-06 15:18:53,531 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:18:53,582 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-07-06 15:18:53,582 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:18:54,949 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-07-06 15:18:54,951 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:18:56,916 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:18:56,999 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:18:57,000 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:18:57,017 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-06 15:18:57,074 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-07-06 15:18:57,074 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:18:58,590 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-07-06 15:18:58,592 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:19:00,787 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:19:00,860 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:19:00,860 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:19:01,182 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29befc4f, org.springframework.security.web.context.SecurityContextPersistenceFilter@147f3c0d, org.springframework.security.web.header.HeaderWriterFilter@6a30c16e, org.springframework.web.filter.CorsFilter@7edf28cd, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@7abbe7bc, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@56b4b6a0, org.springframework.security.web.authentication.logout.LogoutFilter@6bf2ed3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@deefb4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61396029, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@47d18c39, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@342333d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64ce5b05, org.springframework.security.web.session.SessionManagementFilter@58ea4287, org.springframework.security.web.access.ExceptionTranslationFilter@1e60ed04, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d0a769e]
+2022-07-06 15:19:01,246 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-06 15:19:01,260 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:19:01,265 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-07-06 15:19:01,272 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 8.619 seconds (JVM running for 705.372)
+2022-07-06 15:19:01,275 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-07-06 15:19:30,492 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:19:30,493 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:19:30,496 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-07-06 15:19:30,507 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-07-06 15:19:33,794 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-205-3-HRC BM-I
+2022-07-06 15:19:34,330 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-201-15-HRC BM-I
+2022-07-06 15:19:34,846 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-296-1-METO BM-I
+2022-07-06 15:19:35,361 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-296-2-METO BM-I
+2022-07-06 15:19:35,870 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-200-59-HRC BM-I
+2022-07-06 15:19:36,392 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-205-2-HRC BM-I
+2022-07-06 15:19:36,914 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-07-06 15:21:00,870 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-32] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:21:00,871 INFO com.zaxxer.hikari.HikariDataSource [Thread-32] HikariPool-4 - Shutdown initiated...
+2022-07-06 15:21:02,866 INFO com.zaxxer.hikari.HikariDataSource [Thread-32] HikariPool-4 - Shutdown completed.
+2022-07-06 15:21:02,867 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-32] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:21:02,868 INFO com.zaxxer.hikari.HikariDataSource [Thread-32] HikariPool-3 - Shutdown initiated...
+2022-07-06 15:21:05,000 INFO com.zaxxer.hikari.HikariDataSource [Thread-32] HikariPool-3 - Shutdown completed.
+2022-07-06 15:21:05,278 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 12484 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:21:05,279 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:21:05,601 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:21:05,601 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:21:05,618 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:21:05,619 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:21:05,619 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:21:05,637 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:21:05,946 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:21:05,947 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:21:05,948 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:21:05,948 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:21:05,968 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:21:05,969 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 687 ms
+2022-07-06 15:21:06,089 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:21:06,142 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2022-07-06 15:21:06,142 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:21:07,482 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2022-07-06 15:21:07,483 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:21:09,395 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:21:09,469 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:21:09,469 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:21:09,484 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-06 15:21:09,527 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2022-07-06 15:21:09,528 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:21:11,256 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2022-07-06 15:21:11,257 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:21:13,294 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:21:13,359 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:21:13,359 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:21:13,701 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56c42c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1500350b, org.springframework.security.web.header.HeaderWriterFilter@7b38f6c6, org.springframework.web.filter.CorsFilter@1351730e, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@410cb850, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@19aa084a, org.springframework.security.web.authentication.logout.LogoutFilter@74de345f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@791f406c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45ad174f, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@112686b5, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@58872483, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69d90907, org.springframework.security.web.session.SessionManagementFilter@44ec20c7, org.springframework.security.web.access.ExceptionTranslationFilter@40158cd3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14f1b18d]
+2022-07-06 15:21:13,767 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-06 15:21:13,782 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:21:13,789 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-07-06 15:21:13,796 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 8.567 seconds (JVM running for 837.895)
+2022-07-06 15:21:13,799 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-07-06 15:21:30,960 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:21:30,962 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:21:30,964 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-07-06 15:21:30,974 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-07-06 15:21:34,537 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-205-3-HRC BM-I
+2022-07-06 15:21:35,093 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-201-15-HRC BM-I
+2022-07-06 15:21:35,610 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-296-1-METO BM-I
+2022-07-06 15:21:36,137 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-296-2-METO BM-I
+2022-07-06 15:21:36,652 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-200-59-HRC BM-I
+2022-07-06 15:21:37,174 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-205-2-HRC BM-I
+2022-07-06 15:21:37,690 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-07-06 15:24:50,522 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-42] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:24:50,523 INFO com.zaxxer.hikari.HikariDataSource [Thread-42] HikariPool-6 - Shutdown initiated...
+2022-07-06 15:24:52,533 INFO com.zaxxer.hikari.HikariDataSource [Thread-42] HikariPool-6 - Shutdown completed.
+2022-07-06 15:24:52,534 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-42] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:24:52,536 INFO com.zaxxer.hikari.HikariDataSource [Thread-42] HikariPool-5 - Shutdown initiated...
+2022-07-06 15:24:54,670 INFO com.zaxxer.hikari.HikariDataSource [Thread-42] HikariPool-5 - Shutdown completed.
+2022-07-06 15:24:54,967 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 12484 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:24:54,967 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:24:55,270 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:24:55,270 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:24:55,285 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:24:55,286 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:24:55,286 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:24:55,303 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:24:55,583 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:24:55,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:24:55,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:24:55,584 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:24:55,601 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:24:55,601 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 630 ms
+2022-07-06 15:24:55,704 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:24:55,750 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2022-07-06 15:24:55,750 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:24:57,054 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2022-07-06 15:24:57,056 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:24:58,970 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:24:59,445 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:24:59,446 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:24:59,478 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-06 15:24:59,584 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2022-07-06 15:24:59,585 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:25:01,023 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2022-07-06 15:25:01,024 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:25:03,193 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:25:03,280 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:25:03,281 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:25:03,621 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f7be276, org.springframework.security.web.context.SecurityContextPersistenceFilter@68aa78b6, org.springframework.security.web.header.HeaderWriterFilter@10a6adaf, org.springframework.web.filter.CorsFilter@1b22f7fd, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@2f5c0aa8, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@6d66d8be, org.springframework.security.web.authentication.logout.LogoutFilter@5eee2336, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d90ea32, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@87ee1fa, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@651470fd, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@3eecf7c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70d94230, org.springframework.security.web.session.SessionManagementFilter@7163895b, org.springframework.security.web.access.ExceptionTranslationFilter@2b8e8f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3cde00aa]
+2022-07-06 15:25:03,691 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-06 15:25:03,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:25:03,712 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-07-06 15:25:03,722 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 8.803 seconds (JVM running for 1067.82)
+2022-07-06 15:25:03,725 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-07-06 15:25:24,967 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:25:24,969 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:25:24,971 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-07-06 15:25:24,982 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-07-06 15:25:25,160 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] sauData []
+2022-07-06 15:25:25,161 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] sauData 0
+2022-07-06 15:25:25,238 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] hd2 []
+2022-07-06 15:25:25,239 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] hd2 0
+2022-07-06 15:25:29,094 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-205-3-HRC BM-I
+2022-07-06 15:25:29,751 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-201-15-HRC BM-I
+2022-07-06 15:25:30,363 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-296-1-METO BM-I
+2022-07-06 15:25:30,981 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-296-2-METO BM-I
+2022-07-06 15:25:31,586 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-200-59-HRC BM-I
+2022-07-06 15:25:32,201 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-205-2-HRC BM-I
+2022-07-06 15:25:32,814 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-07-06 15:26:34,161 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table********
+2022-07-06 15:26:35,435 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-100-20-HRC BM-I
+2022-07-06 15:26:36,196 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == METO-C 305-1-METO BM-I
+2022-07-06 15:26:36,813 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-100-23-HRC BM-I
+2022-07-06 15:26:37,430 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-100-22-HRC BM-I
+2022-07-06 15:26:38,042 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-3] filename == 7WG-C 100-3-HRC BM-I
+2022-07-06 15:26:38,735 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table Processed********
+2022-07-06 15:27:03,454 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-4] ********Detailed Table********
+2022-07-06 15:27:03,959 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-4] filename == 7WG-191-4-HRC BM-I
+2022-07-06 15:27:04,393 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-4] filename == 7WG-201-5-HRC BM-I (PC1)
+2022-07-06 15:27:05,286 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-4] ********Detailed Table Processed********
+2022-07-06 15:27:16,801 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-53] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:27:16,803 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-8 - Shutdown initiated...
+2022-07-06 15:27:18,929 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-8 - Shutdown completed.
+2022-07-06 15:27:18,933 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-53] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:27:18,938 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-7 - Shutdown initiated...
+2022-07-06 15:27:21,090 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-7 - Shutdown completed.
+2022-07-06 15:27:21,473 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 12484 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:27:21,474 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:27:22,456 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:27:22,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:27:22,481 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:27:22,481 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:27:22,482 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:27:22,508 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:27:23,161 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:27:23,162 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:27:23,163 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:27:23,163 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:27:23,191 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:27:23,192 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1714 ms
+2022-07-06 15:27:23,368 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:27:23,433 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2022-07-06 15:27:23,434 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:27:25,106 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2022-07-06 15:27:25,109 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:27:27,035 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:27:27,145 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:27:27,145 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:27:27,167 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-06 15:27:27,259 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2022-07-06 15:27:27,260 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:27:28,978 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2022-07-06 15:27:28,981 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:27:31,172 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:27:31,281 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:27:31,281 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:27:31,791 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7551cfd1, org.springframework.security.web.context.SecurityContextPersistenceFilter@c72e589, org.springframework.security.web.header.HeaderWriterFilter@465fb07d, org.springframework.web.filter.CorsFilter@250d9064, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@4fee2fad, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@5a26c450, org.springframework.security.web.authentication.logout.LogoutFilter@573da48d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17712532, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c96b3f9, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@4c56edc9, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@20beb457, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bb2bf34, org.springframework.security.web.session.SessionManagementFilter@197f3e2b, org.springframework.security.web.access.ExceptionTranslationFilter@225729fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17e05e7b]
+2022-07-06 15:27:31,894 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-06 15:27:31,923 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:27:31,931 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-07-06 15:27:31,943 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 10.535 seconds (JVM running for 1216.041)
+2022-07-06 15:27:31,945 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-07-06 15:31:47,345 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-69] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:31:47,347 INFO com.zaxxer.hikari.HikariDataSource [Thread-69] HikariPool-10 - Shutdown initiated...
+2022-07-06 15:31:49,349 INFO com.zaxxer.hikari.HikariDataSource [Thread-69] HikariPool-10 - Shutdown completed.
+2022-07-06 15:31:49,351 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-69] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:31:49,356 INFO com.zaxxer.hikari.HikariDataSource [Thread-69] HikariPool-9 - Shutdown initiated...
+2022-07-06 15:31:51,466 INFO com.zaxxer.hikari.HikariDataSource [Thread-69] HikariPool-9 - Shutdown completed.
+2022-07-06 15:31:51,792 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 12484 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:31:51,792 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:31:52,276 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:31:52,276 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:31:52,299 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:31:52,300 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:31:52,300 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:31:52,329 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:31:52,713 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:31:52,715 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:31:52,715 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:31:52,716 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:31:52,738 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:31:52,739 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 941 ms
+2022-07-06 15:31:52,864 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:31:52,921 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2022-07-06 15:31:52,922 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:31:54,368 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2022-07-06 15:31:54,376 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:31:56,481 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:31:56,578 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:31:56,578 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:31:56,593 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-06 15:31:56,642 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2022-07-06 15:31:56,642 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:31:58,206 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2022-07-06 15:31:58,208 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:32:00,161 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:32:00,238 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:32:00,239 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:32:00,542 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c962f4e, org.springframework.security.web.context.SecurityContextPersistenceFilter@31b71e94, org.springframework.security.web.header.HeaderWriterFilter@6fa16502, org.springframework.web.filter.CorsFilter@72ac60c3, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@22fa6476, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@69f0ab49, org.springframework.security.web.authentication.logout.LogoutFilter@104ebe77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25775fad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@411ab774, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@5db3028a, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@31f54096, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2527b7b4, org.springframework.security.web.session.SessionManagementFilter@94a2193, org.springframework.security.web.access.ExceptionTranslationFilter@53c8e38c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@11786797]
+2022-07-06 15:32:00,609 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-06 15:32:00,623 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:32:00,628 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-07-06 15:32:00,634 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 8.916 seconds (JVM running for 1484.733)
+2022-07-06 15:32:00,635 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-07-06 15:36:03,678 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-76] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:36:03,681 INFO com.zaxxer.hikari.HikariDataSource [Thread-76] HikariPool-12 - Shutdown initiated...
+2022-07-06 15:36:05,678 INFO com.zaxxer.hikari.HikariDataSource [Thread-76] HikariPool-12 - Shutdown completed.
+2022-07-06 15:36:05,679 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-76] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:36:05,680 INFO com.zaxxer.hikari.HikariDataSource [Thread-76] HikariPool-11 - Shutdown initiated...
+2022-07-06 15:36:07,830 INFO com.zaxxer.hikari.HikariDataSource [Thread-76] HikariPool-11 - Shutdown completed.
+2022-07-06 15:36:08,216 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 12484 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:36:08,216 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:36:08,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:36:08,537 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:36:08,558 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:36:08,558 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:36:08,559 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:36:08,578 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:36:08,877 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:36:08,878 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:36:08,878 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:36:08,878 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:36:08,895 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:36:08,896 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 677 ms
+2022-07-06 15:36:09,002 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:36:09,064 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2022-07-06 15:36:09,065 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:36:10,867 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2022-07-06 15:36:10,870 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:39:17,908 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication2 using Java 1.8.0_301 on shabdita-cc with PID 13940 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication2)
+2022-07-06 15:39:17,912 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-06 15:39:17,987 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-07-06 15:39:17,988 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-07-06 15:39:17,989 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-07-06 15:39:17,990 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-06 15:39:17,990 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-06 15:39:18,893 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:39:18,894 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:39:18,979 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2022-07-06 15:39:18,980 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:39:18,981 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 15:39:19,014 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2022-07-06 15:39:20,371 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-06 15:39:20,382 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:39:20,383 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-06 15:39:20,384 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-06 15:39:20,556 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-06 15:39:20,556 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2564 ms
+2022-07-06 15:39:20,949 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-06 15:39:21,140 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-06 15:39:21,294 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-06 15:39:21,529 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-06 15:39:21,531 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:39:23,833 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-06 15:39:23,865 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:39:25,966 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:39:26,660 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:39:26,674 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:39:26,700 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-06 15:39:26,773 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-07-06 15:39:26,774 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-07-06 15:39:28,548 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-07-06 15:39:28,550 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-06 15:39:30,638 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-06 15:39:30,800 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 15:39:30,801 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:39:32,222 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4872eb7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e0f4d52, org.springframework.security.web.header.HeaderWriterFilter@3d1dd1f6, org.springframework.web.filter.CorsFilter@17224a42, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@74c56551, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@3f083ef6, org.springframework.security.web.authentication.logout.LogoutFilter@59c0fa18, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31f69b2b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7140255d, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@2cf390a4, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@73438786, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b5089ed, org.springframework.security.web.session.SessionManagementFilter@730dcff8, org.springframework.security.web.access.ExceptionTranslationFilter@1557a822, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@11b3f45f]
+2022-07-06 15:39:32,471 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-06 15:39:32,501 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-06 15:39:32,525 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication2'
+2022-07-06 15:39:32,551 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication2 in 15.266 seconds (JVM running for 16.842)
+2022-07-06 15:39:41,779 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:39:41,780 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:39:41,784 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-07-06 15:39:41,940 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-07-06 15:39:42,919 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-191-4-HRC BM-I
+2022-07-06 15:39:43,622 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-1] filename == 7WG-201-5-HRC BM-I (PC1)
+2022-07-06 15:39:44,340 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-07-06 15:40:23,795 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table********
+2022-07-06 15:40:27,854 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-2] filename == 7WG-205-3-HRC BM-I
+2022-07-06 15:40:28,549 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-2] filename == 7WG-201-15-HRC BM-I
+2022-07-06 15:40:29,168 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-2] filename == 7WG-296-1-METO BM-I
+2022-07-06 15:40:29,732 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-2] filename == 7WG-296-2-METO BM-I
+2022-07-06 15:40:30,271 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-2] filename == 7WG-200-59-HRC BM-I
+2022-07-06 15:40:30,907 INFO com.mis.eoffice.serviceImpls.DetailedTableServiceImpl [http-nio-8080-exec-2] filename == 7WG-205-2-HRC BM-I
+2022-07-06 15:40:31,524 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table Processed********
+2022-07-06 15:43:18,935 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2022-07-06 15:43:20,131 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
+2022-07-06 15:43:20,247 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-06 15:43:20,252 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2022-07-06 15:43:22,285 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2022-07-06 15:43:22,286 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-06 15:43:22,287 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-07-06 15:43:24,432 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
