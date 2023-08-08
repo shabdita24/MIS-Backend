@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,6 @@ import com.mis.eoffice.db1Models.FileSauBranchInventory;
 import com.mis.eoffice.db1Models.HierarchyDataInventory;
 import com.mis.eoffice.db1Repo.DataSauInventoryRepository;
 import com.mis.eoffice.db1Repo.FileSauBranchInventoryRepository;
-import com.mis.eoffice.db2Models.FileInventory;
 import com.mis.eoffice.db4Models.AppointmentDisplayNameInventoryBMRL;
 import com.mis.eoffice.db4Models.FileFolderNameInventoryBMRL;
 import com.mis.eoffice.db4Models.FileInventoryBMRL;
@@ -30,13 +30,13 @@ import com.mis.eoffice.db4Repo.FileFolderNameRepositoryBMRL;
 import com.mis.eoffice.db4Repo.FileInventoryRepositoryBMRL;
 import com.mis.eoffice.dto.DetailedTable;
 import com.mis.eoffice.dto.ResponseDetailTable;
-import com.mis.eoffice.service.DetailedTableService;
-import com.mis.eoffice.serviceImpls.Messages;
 
 @Service
 public class DetailedTableServiceImplBMRL {
 	private static final Logger logger = LoggerFactory.getLogger(DetailedTableServiceImplBMRL.class);
-
+	
+	@Value("${filestatus}")
+	String status;
 	@Autowired
 	private FileInventoryRepositoryBMRL filerepo;
 
@@ -52,7 +52,7 @@ public class DetailedTableServiceImplBMRL {
 	@Autowired
 	private DataSauInventoryRepository htrepo;
 
-	String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
+	//String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
 
 
 	public ResponseDetailTable getdetailedtableInboxFile(String sauName, Integer num,String command,Integer pageNo, Integer rows) {

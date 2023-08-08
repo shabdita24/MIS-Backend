@@ -4,10 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.websocket.server.PathParam;
 
+import org.jasypt.encryption.StringEncryptor;
 import org.json.simple.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -18,11 +22,31 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @CrossOrigin("*")
-@RestController
+@RestController	
 @RequestMapping("/apis")
 public class MasterDataController {
 	private static final Logger logger = LoggerFactory.getLogger(MasterDataController.class);
 
+	 @Autowired
+	 @Qualifier("jasyptStringEncryptor")
+	 private StringEncryptor encryptor;
+	 
+	@GetMapping("/getEncryptedValue")
+	public String encryptString(@PathParam("value") String value) {
+		//logger.info("encryptor "+encryptor);
+		String result=encryptor.encrypt(value);
+		logger.info("received value "+value);
+		logger.info("encrypted value "+result);
+		return result;
+	}
+	@GetMapping("/getDecryptedValue")
+	public String decryptString(@PathParam("value") String value) {
+		//logger.info("encryptor "+encryptor);
+		String result=encryptor.decrypt(value);
+		logger.info("received value "+value);
+		logger.info("decrypted value "+result);
+		return result;
+	}
 	
 //	@Autowired
 //	private KeycloakRolsRepository keycloakRolsRepository;

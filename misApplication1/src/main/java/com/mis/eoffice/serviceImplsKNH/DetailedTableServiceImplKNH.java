@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -21,8 +22,6 @@ import com.mis.eoffice.db1Models.FileSauBranchInventory;
 import com.mis.eoffice.db1Models.HierarchyDataInventory;
 import com.mis.eoffice.db1Repo.DataSauInventoryRepository;
 import com.mis.eoffice.db1Repo.FileSauBranchInventoryRepository;
-import com.mis.eoffice.db2Models.FileInventory;
-import com.mis.eoffice.db4Models.FileInventoryBMRL;
 import com.mis.eoffice.db5Models.AppointmentDisplayNameInventoryKNH;
 import com.mis.eoffice.db5Models.FileFolderNameInventoryKNH;
 import com.mis.eoffice.db5Models.FileInventoryKNH;
@@ -31,12 +30,13 @@ import com.mis.eoffice.db5Repo.FileFolderNameRepositoryKNH;
 import com.mis.eoffice.db5Repo.FileInventoryRepositoryKNH;
 import com.mis.eoffice.dto.DetailedTable;
 import com.mis.eoffice.dto.ResponseDetailTable;
-import com.mis.eoffice.serviceImpls.Messages;
 
 @Service
 public class DetailedTableServiceImplKNH {
 	private static final Logger logger = LoggerFactory.getLogger(DetailedTableServiceImplKNH.class);
 
+	@Value("${filestatus}")
+	String status;
 	@Autowired
 	private FileInventoryRepositoryKNH filerepo;
 
@@ -52,10 +52,11 @@ public class DetailedTableServiceImplKNH {
 	@Autowired
 	private DataSauInventoryRepository htrepo;
 
-	String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
+//	String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
 
 	public ResponseDetailTable getdetailedtableInboxFile(String sauName, Integer num,String command,Integer pageNo, Integer rows) {
 		logger.info("command "+command);
+		logger.info("status "+status);
 		List<DetailedTable> dt = new ArrayList<DetailedTable>();
 		ResponseDetailTable rdt=new ResponseDetailTable();
 		int size=0;

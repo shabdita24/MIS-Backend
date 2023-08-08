@@ -66,6 +66,16 @@ public class FileController {
 	@Autowired
 	private DataSauInventoryRepository dataSauInventoryRepository;
 
+	@GetMapping("/hello")
+	private ResponseEntity<List<JSONObject>> greeting(@PathParam("ser_no") String ser_no,HttpServletRequest request){
+		logger.info("ser_no "+ser_no);
+		JSONObject json = new JSONObject();
+		List<JSONObject> list=new ArrayList<JSONObject>();
+		json.put("sectionId",ser_no);
+		list.add(json);
+		return ResponseEntity.ok(list);
+	}
+	
 	// Already Pushed
 	
 	// First Order
@@ -156,7 +166,6 @@ public class FileController {
 			@PathParam("currentPage") Integer currentPage,@PathParam("pageSize") Integer pageSize){
 		List<DetailedTable> dt=new ArrayList<DetailedTable>();
 		ResponseDetailTable rdt=new ResponseDetailTable();
-
 		String command=dataSauInventoryRepository.findCommandbySauName(sau.toUpperCase());
 		logger.info("command "+command);
 		logger.info("********Detailed Table********");
@@ -166,8 +175,9 @@ public class FileController {
 				rdt=ds.getdetailedtableInboxFile(sau.toUpperCase(),num,command,currentPage,pageSize);
 			else if(command.equalsIgnoreCase("WAC") || command.equalsIgnoreCase("EAC") || command.equalsIgnoreCase("CAC") ) 
 				rdt=dsbmrl.getdetailedtableInboxFile(sau.toUpperCase(),num,command,currentPage,pageSize);
-			else
+			else 
 				rdt=dsknh.getdetailedtableInboxFile(sau.toUpperCase(),num,command,currentPage,pageSize);
+			
 		}
 		else if(column.equalsIgnoreCase("totalFilesPendingFiveTenSau") && num>0)
 		{

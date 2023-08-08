@@ -1,19 +1,32 @@
 package com.mis.eoffice.controller;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.websocket.server.PathParam;
 
+import org.jasypt.encryption.StringEncryptor;
 import org.json.simple.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponentsBuilder;
 
 
 
@@ -23,6 +36,25 @@ import org.springframework.web.bind.annotation.RestController;
 public class MasterDataController {
 	private static final Logger logger = LoggerFactory.getLogger(MasterDataController.class);
 
+	 @Autowired
+	 @Qualifier("jasyptStringEncryptor")
+	 private StringEncryptor encryptor;
+	 
+	@GetMapping("/getEncryptedValue")
+	public String encryptString(@PathParam("value") String value) {
+		String result=encryptor.encrypt(value);
+		logger.info("received value "+value);
+		logger.info("encrypted value "+result);
+		return result;
+	}
+	@GetMapping("/getDecryptedValue")
+	public String decryptString(@PathParam("value") String value) {
+		//logger.info("encryptor "+encryptor);
+		String result=encryptor.decrypt(value);
+		logger.info("received value "+value);
+		logger.info("decrypted value "+result);
+		return result;
+	}
 //
 //	@Autowired
 //	private KeycloakRolsRepository keycloakRolsRepository;
@@ -36,8 +68,9 @@ public class MasterDataController {
 //	@Autowired
 //	private KeycloakGroupRoleMappingRepository keycloakGroupRoleMappingRepository;
 
-	@GetMapping("/getUserRoles")
-	public ResponseEntity<JSONObject> getUserRoles(HttpServletRequest request) {
+	
+	@GetMapping("/getUserRolesTest")
+	public ResponseEntity<JSONObject> getUserRolesTest(HttpServletRequest request) {
 		String serviceNumber = request.getHeader("username"); 
 		logger.info("serviceNumber recieved in username field "+serviceNumber);
 		List<String> rolesList = new ArrayList<String>();

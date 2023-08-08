@@ -11,22 +11,23 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.mis.eoffice.db5Models.FileInventoryKNH;
 import com.mis.eoffice.db5Repo.FileInventoryRepositoryKNH;
-import com.mis.eoffice.serviceImpls.Messages;
 
 @Service
 public class OperationsDataServiceImplKNH {
-
 	private static final Logger logger = LoggerFactory.getLogger(OperationsDataServiceImplKNH.class);
-
+	
+	@Value("${filestatus}")
+	String state;
 	@Autowired
 	private FileInventoryRepositoryKNH fileInventoryRepository;
 	
 //	//	Total Files In Inbox
-	String state=Messages.getString("OperationsDataServiceImpl.FILESTATUS"); //$NON-NLS-1$
+//	String state=Messages.getString("OperationsDataServiceImpl.FILESTATUS"); //$NON-NLS-1$
 	
 	public Integer getTotalFileInbox(String sauName)
 	{

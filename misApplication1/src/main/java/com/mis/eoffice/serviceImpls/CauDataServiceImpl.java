@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.mis.eoffice.db1Models.FileSauBranchInventory;
@@ -16,9 +17,11 @@ import com.mis.eoffice.service.CauDataService;
 
 @Service
 public class CauDataServiceImpl implements CauDataService {
-
 	private static final Logger logger = LoggerFactory.getLogger(CauDataServiceImpl.class);
-
+	
+	@Value("${command}")
+	String command;
+	
 	@Autowired
 	private FileSauBranchInventoryRepository fileBranchSauInventoryRepository;
 
@@ -28,7 +31,7 @@ public class CauDataServiceImpl implements CauDataService {
 	@Override
 	public String mapCauData() {
 		//fileBranchSauInventoryRepository.deleteAll();
-		String command=Messages.getString("HierarchyDataServiceImpl.CMD");
+		//String command=Messages.getString("HierarchyDataServiceImpl.CMD");
 		logger.info("Entered Command "+command);
 		fileBranchSauInventoryRepository.deleteByCommand(command);
 		List<FileSauInventory> sauDatas1 = fileSauInventoryRepository.findAll();

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
 import javax.servlet.http.HttpServletRequest;
@@ -13,6 +14,11 @@ import org.json.simple.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -20,6 +26,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponentsBuilder;
 
 import com.mis.eoffice.db1Repo.DataSauInventoryRepository;
 import com.mis.eoffice.dto.DetailedTable;
@@ -38,9 +46,13 @@ import com.mis.eoffice.serviceImplsKNH.DetailedTableServiceImplKNH;
 @RestController
 @RequestMapping("/api")
 public class FileController {
-
 	private static final Logger logger = LoggerFactory.getLogger(FileController.class);
-
+	
+	@Value("${userRoles.apiurl}")
+	String apiUrl;
+	@Value("${userRoles.pathparam}")
+	String pathParam;
+	
 	@Autowired 
 	private DetailedTableService ds;
 
@@ -67,7 +79,58 @@ public class FileController {
 
 	@Autowired
 	private DataSauInventoryRepository dataSauInventoryRepository;
+	
+	@GetMapping("/getUserRoles")
+	public ResponseEntity<JSONObject> getUserRoles(HttpServletRequest request) {
+		String token = (String) request.getHeader("Authorization");
+		//logger.info("token "+token);
+		String serviceNumber = request.getHeader("username");  //$NON-NLS-1$
+		logger.info("serviceNumber recieved in username field "+serviceNumber); //$NON-NLS-1$
+		Map<String, Object> params = new HashMap<>();
+		params.put(pathParam, serviceNumber); //$NON-NLS-1$
+		RestTemplate restTemplate = new RestTemplate();
+		UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(apiUrl); //$NON-NLS-1$
+		for (Entry<String, Object> entry : params.entrySet()) {
+			builder.queryParam(entry.getKey(), entry.getValue());
+		}
+		HttpHeaders headers = new HttpHeaders();
+		headers.set("Accept", "application/json"); //$NON-NLS-1$ //$NON-NLS-2$
+		headers.set("Authorization", token); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+		//$NON-NLS-1$ //$NON-NLS-2$
+		logger.info("params"+ params);  //$NON-NLS-1$
+		ResponseEntity<List<JSONObject>> response = restTemplate.exchange(
+				builder.toUriString(), 
+				HttpMethod.GET, 
+				new HttpEntity(headers),
+				new ParameterizedTypeReference<List<JSONObject>>() {});
+		List<JSONObject> resbody=response.getBody();
+		logger.info("resbody "+resbody); //$NON-NLS-1$
+	
+		List<String> rolesList = new ArrayList<String>();
+		for(JSONObject jo:resbody) {
+			logger.info("sectionId "+jo.get("sectionId")); //$NON-NLS-1$ //$NON-NLS-2$
+			String grpName=(String) jo.get("sectionId");  //$NON-NLS-1$
+			logger.info("sectionId received "+grpName);  //$NON-NLS-1$
+			rolesList.add(grpName);
 
+		}
+		logger.info("rolesList "+rolesList); //$NON-NLS-1$
+		
+		JSONObject json = new JSONObject();
+		json.put("status", HttpStatus.OK); //$NON-NLS-1$
+		json.put("data", rolesList); //$NON-NLS-1$
+		return ResponseEntity.ok(json);
+
+	}
+	@GetMapping("/hello")
+	private ResponseEntity<List<JSONObject>> greeting(@PathParam("ser_no") String ser_no,HttpServletRequest request){
+		logger.info("ser_no "+ser_no);
+		JSONObject json = new JSONObject();
+		List<JSONObject> list=new ArrayList<JSONObject>();
+		json.put("sectionId",ser_no);
+		list.add(json);
+		return ResponseEntity.ok(list);
+	}
 
 	// Already Pushed
 

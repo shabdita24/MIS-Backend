@@ -52,6 +52,8 @@ public class MisController {
 		headers.set("Authorization", "Bearer "+Messages.getString("MisController.TOKEN")); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
 		//$NON-NLS-1$ //$NON-NLS-2$
 		log.info("params"+ params);  //$NON-NLS-1$
+		log.info("builder.toUriString() "+ builder.toUriString());  //$NON-NLS-1$
+
 		ResponseEntity<List<JSONObject>> response = restTemplate.exchange(
 				builder.toUriString(), 
 				HttpMethod.GET, 

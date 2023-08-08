@@ -5,6 +5,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import com.mis.eoffice.db1Models.FileSauInventory;
 import com.mis.eoffice.db1Models.HierarchyDataInventory;
@@ -17,9 +18,11 @@ import com.mis.eoffice.serviceImplsKNH.OperationsDataServiceImplKNH;
 
 @Service
 public class SauDataServiceImpl implements SauDataService{
-
 	private static final Logger logger = LoggerFactory.getLogger(SauDataServiceImpl.class);
 
+	@Value("${command}")
+	String command;
+	
 	@Autowired
 	private DataSauInventoryRepository hierarchyInventoryRepository;
 
@@ -40,7 +43,7 @@ public class SauDataServiceImpl implements SauDataService{
 	public String mapSauData1()
 	{
 		//fileSauInventoryRepository.deleteAll();
-		String command=Messages.getString("HierarchyDataServiceImpl.CMD");
+		//String command=Messages.getString("HierarchyDataServiceImpl.CMD");
 		logger.info("Entered Command "+command);
 		fileSauInventoryRepository.deleteByCommand(command);
 		logger.info("Parsing End for Hierarchical Data Operations.");

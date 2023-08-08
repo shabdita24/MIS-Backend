@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.mis.eoffice.db2Models.FileInventory;
@@ -19,14 +20,17 @@ import com.mis.eoffice.service.OperationsDataService;
 
 @Service
 public class OperationsDataServiceImpl implements OperationsDataService{
-
 	private static final Logger logger = LoggerFactory.getLogger(OperationsDataServiceImpl.class);
 
+	
+	@Value("${filestatus}")
+	String state;
+	
 	@Autowired
 	private FileInventoryRepository fileInventoryRepository;
 	
 //	//	Total Files In Inbox
-	String state=Messages.getString("OperationsDataServiceImpl.FILESTATUS"); //$NON-NLS-1$
+//	String state=Messages.getString("OperationsDataServiceImpl.FILESTATUS"); //$NON-NLS-1$
 	@Override
 	public Integer getTotalFileInbox(String sauName)
 	{

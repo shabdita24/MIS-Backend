@@ -6,6 +6,7 @@ import org.json.simple.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import com.mis.eoffice.db1Models.HierarchyDataInventory;
@@ -16,9 +17,11 @@ import com.mis.eoffice.service.HierarchyDataService;
 
 @Service
 public class HierarchyDataServiceImpl implements HierarchyDataService{
-
 	private static final Logger logger = LoggerFactory.getLogger(HierarchyDataServiceImpl.class);
 
+	@Value("${command}")
+	String command;
+	
 	@Autowired
 	private DepartmentConfigRepository departmentConfigRepository;
 
@@ -30,7 +33,7 @@ public class HierarchyDataServiceImpl implements HierarchyDataService{
 	{
 
 		//dataSauInventoryRepository.deleteAll();
-		String command=Messages.getString("HierarchyDataServiceImpl.CMD");
+		//String command=Messages.getString("HierarchyDataServiceImpl.CMD");
 		logger.info("Entered Command "+command);
 		dataSauInventoryRepository.deleteByCommand(command);
 		// Query Fetch iaf_department_config_s table with where condition dep_name_small='AIRHQ'

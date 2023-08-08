@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -27,7 +28,6 @@ import com.mis.eoffice.db2Models.FileInventory;
 import com.mis.eoffice.db2Repo.AppointmentDisplayNameRepository;
 import com.mis.eoffice.db2Repo.FileFolderNameRepository;
 import com.mis.eoffice.db2Repo.FileInventoryRepository;
-import com.mis.eoffice.db4Models.FileInventoryBMRL;
 import com.mis.eoffice.dto.DetailedTable;
 import com.mis.eoffice.dto.ResponseDetailTable;
 import com.mis.eoffice.service.DetailedTableService;
@@ -35,6 +35,8 @@ import com.mis.eoffice.service.DetailedTableService;
 @Service
 public class DetailedTableServiceImpl implements DetailedTableService {
 	private static final Logger logger = LoggerFactory.getLogger(DetailedTableServiceImpl.class);
+	@Value("${filestatus}")
+	String status;
 
 	@Autowired
 	private FileInventoryRepository filerepo;
@@ -51,7 +53,7 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 	@Autowired
 	private DataSauInventoryRepository htrepo;
 
-	String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
+	//String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
 
 	@Override
 	public ResponseDetailTable getdetailedtableInboxFile(String sauName, Integer num,String command,Integer pageNo, Integer rows) {

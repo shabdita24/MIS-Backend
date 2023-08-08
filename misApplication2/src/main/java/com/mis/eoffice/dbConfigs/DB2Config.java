@@ -4,7 +4,10 @@ import java.util.HashMap;
 import javax.sql.DataSource;
 
 import org.apache.log4j.Logger;
+import org.jasypt.encryption.StringEncryptor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +21,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
+@EnableConfigurationProperties
 @EnableJpaRepositories(
 		entityManagerFactoryRef = "db2EntityManagerFactory",
 		transactionManagerRef = "db2TransactionManager",
@@ -30,13 +34,21 @@ public class DB2Config {
 	@Autowired
 	private Environment env;
 
+	@Autowired
+	@Qualifier("jasyptStringEncryptor")
+	private StringEncryptor encryptor;
+
 	@Bean(name = "db2DataSource")
 	public DataSource getdataSource() {
 		DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
 		dataSourceBuilder.driverClassName(env.getProperty("db2.datasource.driverClassName"));
 		dataSourceBuilder.url(env.getProperty("db2.datasource.url"));
-		dataSourceBuilder.username(env.getProperty("db2.datasource.username"));
-		dataSourceBuilder.password(env.getProperty("db2.datasource.password"));
+		String encryptedPassword = env.getProperty("db2.datasource.password");
+		String decryptedPassword = encryptor.decrypt(encryptedPassword);
+		dataSourceBuilder.password(decryptedPassword);
+		String encryptedUsername = env.getProperty("db2.datasource.username");
+		String decryptedUsername = encryptor.decrypt(encryptedUsername);
+		dataSourceBuilder.username(decryptedUsername);
 		return dataSourceBuilder.build();
 	}
 
@@ -56,8 +68,8 @@ public class DB2Config {
 				env.getProperty("db2.jpa.hibernate.ddl-auto"));
 		properties.put("spring.jpa.properties.hibernate.dialect",
 				env.getProperty("db.jpa.properties.hibernate.dialect"));
-//		properties.put("spring.jpa.database-platform","org.hibernate.dialect.Oracle12cDialect");
-		
+		//		properties.put("spring.jpa.database-platform","org.hibernate.dialect.Oracle12cDialect");
+
 		entityManagerFactoryBean.setJpaPropertyMap(properties);
 		return entityManagerFactoryBean;
 	}

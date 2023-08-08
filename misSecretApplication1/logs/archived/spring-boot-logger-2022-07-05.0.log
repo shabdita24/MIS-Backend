@@ -1,0 +1,213 @@
+2022-07-05 19:25:59,929 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication1 using Java 1.8.0_301 on shabdita-cc with PID 12004 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication1\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication1)
+2022-07-05 19:25:59,936 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-05 19:26:00,029 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2022-07-05 19:26:00,041 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/admin/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2022-07-05 19:26:00,042 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-07-05 19:26:00,043 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05 19:26:00,043 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05 19:26:01,262 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-05 19:26:01,263 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05 19:26:01,376 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 95 ms. Found 3 JPA repository interfaces.
+2022-07-05 19:26:01,377 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-05 19:26:01,378 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05 19:26:01,413 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2022-07-05 19:26:01,415 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-05 19:26:01,416 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05 19:26:01,449 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2022-07-05 19:26:03,560 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-05 19:26:03,574 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-05 19:26:03,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-05 19:26:03,576 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-05 19:26:03,841 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-05 19:26:03,842 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3797 ms
+2022-07-05 19:26:04,263 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-05 19:26:04,495 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-05 19:26:04,698 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-05 19:26:05,022 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-05 19:26:07,484 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-05 19:26:07,518 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-05 19:26:09,703 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-05 19:26:10,357 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-05 19:26:10,369 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-05 19:26:10,389 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-05 19:26:10,460 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-07-05 19:26:12,438 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-07-05 19:26:12,442 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-05 19:26:14,497 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-05 19:26:14,590 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-05 19:26:14,591 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-05 19:26:14,603 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-07-05 19:26:14,689 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-07-05 19:26:16,499 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-07-05 19:26:16,502 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-05 19:26:18,678 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-05 19:26:18,782 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-05 19:26:18,783 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-07-05 19:26:20,515 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35add5a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@37593867, org.springframework.security.web.header.HeaderWriterFilter@12a7e256, org.springframework.web.filter.CorsFilter@1c6d56cc, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@33eaafde, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@100e1c2e, org.springframework.security.web.authentication.logout.LogoutFilter@33d874f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12ecc9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8f20def, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@6ffb7c80, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@989bafe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19c8419e, org.springframework.security.web.session.SessionManagementFilter@42c9a6c1, org.springframework.security.web.access.ExceptionTranslationFilter@7c96ef58, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4eaa80c0]
+2022-07-05 19:26:20,790 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-05 19:26:20,821 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-05 19:26:20,841 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication1'
+2022-07-05 19:26:20,866 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication1 in 21.622 seconds (JVM running for 26.523)
+2022-07-05 19:27:21,012 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 19:27:21,013 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-05 19:27:21,016 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-07-05 19:27:21,567 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] command 7WG
+2022-07-05 19:27:21,570 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-07-05 19:27:22,354 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-1] filename == 7WG-101-32-HRC BM-I
+2022-07-05 19:27:23,265 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-07-05 19:28:14,074 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] command 7WG
+2022-07-05 19:28:14,076 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table********
+2022-07-05 19:28:14,077 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-2] command 7WG
+2022-07-05 19:28:15,096 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-2] filename == 7WG-101-16-HRC BM-I
+2022-07-05 19:28:16,299 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-2] filename == 7WG-101-29-HRC BM-I
+2022-07-05 19:28:17,528 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-2] filename == 7WG-100-8-HRC BM-I
+2022-07-05 19:28:18,862 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-2] filename == 7WG-101-22-HRC BM-I
+2022-07-05 19:28:20,118 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-2] filename == 7WG-101-15-HRC BM-I
+2022-07-05 19:28:20,783 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table Processed********
+2022-07-05 19:28:47,538 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] command 7WG
+2022-07-05 19:28:47,538 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table********
+2022-07-05 19:28:48,020 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-3] filename == 7WG-190-7-HRC(HRC1) BM-I
+2022-07-05 19:28:48,635 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table Processed********
+2022-07-05 19:30:28,885 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] command 7WG
+2022-07-05 19:30:28,886 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table********
+2022-07-05 19:30:30,235 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-16-HRC BM-I
+2022-07-05 19:30:30,923 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-29-HRC BM-I
+2022-07-05 19:30:31,544 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-100-8-HRC BM-I
+2022-07-05 19:30:32,162 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-22-HRC BM-I
+2022-07-05 19:30:32,896 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-15-HRC BM-I
+2022-07-05 19:30:33,468 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-30-HRC BM-I
+2022-07-05 19:30:34,055 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-31-HRC BM-I
+2022-07-05 19:30:34,844 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-1-HRC BM-I
+2022-07-05 19:30:35,457 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-3-HRC BM-I
+2022-07-05 19:30:36,069 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-8-HRC BM-I
+2022-07-05 19:30:36,606 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-9-HRC BM-I
+2022-07-05 19:30:37,273 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-20-HRC BM-I
+2022-07-05 19:30:37,995 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-21-HRC BM-I
+2022-07-05 19:30:38,682 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-24-HRC BM-I
+2022-07-05 19:30:39,325 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-28-HRC BM-I
+2022-07-05 19:30:39,954 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-100-4-HRC BM-I
+2022-07-05 19:30:40,624 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-100-5-HRC BM-I
+2022-07-05 19:30:41,156 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-2-HRC BM-I
+2022-07-05 19:30:41,904 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-4-HRC BM-I
+2022-07-05 19:30:42,595 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-5-HRC BM-I
+2022-07-05 19:30:43,236 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-12-HRC BM-I (PC1)
+2022-07-05 19:30:43,850 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-11-HRC BM-I
+2022-07-05 19:30:44,468 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-13-HRC BM-I
+2022-07-05 19:30:45,287 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-17-HRC BM-I
+2022-07-05 19:30:46,075 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-18-HRC BM-I
+2022-07-05 19:30:46,756 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-19-HRC BM-I
+2022-07-05 19:30:47,335 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-26-HRC BM-I BM-II (PC2)
+2022-07-05 19:30:47,948 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-101-27-HRC BM-I
+2022-07-05 19:30:48,563 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table Processed********
+2022-07-05 19:32:36,054 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] command 7WG
+2022-07-05 19:32:36,055 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] ********Detailed Table********
+2022-07-05 19:32:37,631 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-16-HRC BM-I
+2022-07-05 19:32:38,247 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-29-HRC BM-I
+2022-07-05 19:32:38,924 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-100-8-HRC BM-I
+2022-07-05 19:32:39,507 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-22-HRC BM-I
+2022-07-05 19:32:40,226 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-15-HRC BM-I
+2022-07-05 19:32:40,866 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-30-HRC BM-I
+2022-07-05 19:32:41,485 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-31-HRC BM-I
+2022-07-05 19:32:42,069 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-1-HRC BM-I
+2022-07-05 19:32:42,733 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-3-HRC BM-I
+2022-07-05 19:32:43,346 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-8-HRC BM-I
+2022-07-05 19:32:43,961 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-9-HRC BM-I
+2022-07-05 19:32:44,552 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-20-HRC BM-I
+2022-07-05 19:32:45,172 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-21-HRC BM-I
+2022-07-05 19:32:45,711 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-24-HRC BM-I
+2022-07-05 19:32:46,339 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-28-HRC BM-I
+2022-07-05 19:32:47,646 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-100-4-HRC BM-I
+2022-07-05 19:32:48,984 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-100-5-HRC BM-I
+2022-07-05 19:32:49,635 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-2-HRC BM-I
+2022-07-05 19:32:50,238 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-4-HRC BM-I
+2022-07-05 19:32:50,900 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-5-HRC BM-I
+2022-07-05 19:32:51,484 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-12-HRC BM-I (PC1)
+2022-07-05 19:32:52,139 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-11-HRC BM-I
+2022-07-05 19:32:52,868 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-13-HRC BM-I
+2022-07-05 19:32:53,399 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-17-HRC BM-I
+2022-07-05 19:32:53,995 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-18-HRC BM-I
+2022-07-05 19:32:54,504 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-19-HRC BM-I
+2022-07-05 19:32:55,042 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-26-HRC BM-I BM-II (PC2)
+2022-07-05 19:32:55,571 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-7] filename == 7WG-101-27-HRC BM-I
+2022-07-05 19:32:56,401 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-7] ********Detailed Table Processed********
+2022-07-05 19:33:02,471 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'db4'
+2022-07-05 19:33:02,473 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2022-07-05 19:33:04,667 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2022-07-05 19:33:04,669 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-05 19:33:04,672 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-2 - Shutdown initiated...
+2022-07-05 19:33:07,791 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-2 - Shutdown completed.
+2022-07-05 19:33:07,793 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-05 19:33:07,799 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-1 - Shutdown initiated...
+2022-07-05 19:33:10,522 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-1 - Shutdown completed.
+2022-07-05 19:33:10,892 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MisSecretApplication1 using Java 1.8.0_301 on shabdita-cc with PID 12004 (C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication1\target\classes started by Shabdita in C:\Users\admin\Documents\workspace-sts-3.9.11.RELEASE\MIS\misSecretApplication1)
+2022-07-05 19:33:10,893 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: development
+2022-07-05 19:33:11,246 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-05 19:33:11,246 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05 19:33:11,263 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2022-07-05 19:33:11,263 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-05 19:33:11,264 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05 19:33:11,283 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2022-07-05 19:33:11,283 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-05 19:33:11,284 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05 19:33:11,302 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2022-07-05 19:33:11,676 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-05 19:33:11,677 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-05 19:33:11,677 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-05 19:33:11,678 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-05 19:33:11,705 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-05 19:33:11,706 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 809 ms
+2022-07-05 19:33:11,839 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db1]
+2022-07-05 19:33:11,908 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-07-05 19:33:13,796 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-07-05 19:33:13,799 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-05 19:33:16,113 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-05 19:33:16,214 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-05 19:33:16,215 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db1'
+2022-07-05 19:33:16,231 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db2]
+2022-07-05 19:33:16,298 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2022-07-05 19:33:18,089 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2022-07-05 19:33:18,092 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-05 19:33:20,257 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-05 19:33:20,359 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-05 19:33:20,359 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db2'
+2022-07-05 19:33:20,372 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db4]
+2022-07-05 19:33:20,433 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2022-07-05 19:33:22,273 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2022-07-05 19:33:22,277 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-07-05 19:33:24,358 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [restartedMain] Envers integration enabled? : true
+2022-07-05 19:33:24,438 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-05 19:33:24,438 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db4'
+2022-07-05 19:33:24,972 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14552e6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@46c80461, org.springframework.security.web.header.HeaderWriterFilter@1ee6aee6, org.springframework.web.filter.CorsFilter@3a05414, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@4da99368, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@17a195e, org.springframework.security.web.authentication.logout.LogoutFilter@2698da51, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3348b373, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1872ba62, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@4e07bc29, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@1fe6fc5e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e46fb1c, org.springframework.security.web.session.SessionManagementFilter@1d84a771, org.springframework.security.web.access.ExceptionTranslationFilter@7fe14281, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@446f9550]
+2022-07-05 19:33:25,047 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-05 19:33:25,063 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-05 19:33:25,070 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/misSecretApplication1'
+2022-07-05 19:33:25,080 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MisSecretApplication1 in 14.243 seconds (JVM running for 450.736)
+2022-07-05 19:33:25,084 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-07-05 19:42:56,048 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05 19:42:56,051 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-05 19:42:56,055 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2022-07-05 19:42:56,393 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] command 7WG
+2022-07-05 19:42:56,394 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table********
+2022-07-05 19:42:57,636 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-1] filename == 7WG-101-16-HRC BM-I
+2022-07-05 19:42:58,837 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-1] filename == 7WG-101-29-HRC BM-I
+2022-07-05 19:42:59,594 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-1] filename == 7WG-100-8-HRC BM-I
+2022-07-05 19:43:00,245 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-1] filename == 7WG-101-22-HRC BM-I
+2022-07-05 19:43:00,803 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-1] filename == 7WG-101-15-HRC BM-I
+2022-07-05 19:43:01,355 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-1] ********Detailed Table Processed********
+2022-07-05 19:43:27,662 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] command 7WG
+2022-07-05 19:43:27,664 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table********
+2022-07-05 19:43:28,455 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-2] filename == 7WG-101-32-HRC BM-I
+2022-07-05 19:43:29,044 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-2] ********Detailed Table Processed********
+2022-07-05 19:44:11,684 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] command 7WG
+2022-07-05 19:44:11,685 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table********
+2022-07-05 19:44:12,816 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-3] filename == 7WG-101-16-HRC BM-I
+2022-07-05 19:44:13,651 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-3] filename == 7WG-101-29-HRC BM-I
+2022-07-05 19:44:14,201 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-3] filename == 7WG-100-8-HRC BM-I
+2022-07-05 19:44:14,808 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-3] filename == 7WG-101-22-HRC BM-I
+2022-07-05 19:44:15,361 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-3] filename == 7WG-101-15-HRC BM-I
+2022-07-05 19:44:16,351 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-3] ********Detailed Table Processed********
+2022-07-05 19:46:42,494 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] command 7WG
+2022-07-05 19:46:42,495 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table********
+2022-07-05 19:46:42,497 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] command 7WG
+2022-07-05 19:46:43,228 INFO com.mis.eoffice.serviceImplsBMRL.DetailedTableServiceImplBMRL [http-nio-8080-exec-5] filename == 7WG-190-7-HRC(HRC1) BM-I
+2022-07-05 19:46:43,878 INFO com.mis.eoffice.controller.FileController [http-nio-8080-exec-5] ********Detailed Table Processed********

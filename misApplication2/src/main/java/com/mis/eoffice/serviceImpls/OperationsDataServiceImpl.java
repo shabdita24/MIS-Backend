@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.mis.eoffice.db2Models.FileInventory;
@@ -24,9 +25,11 @@ public class OperationsDataServiceImpl implements OperationsDataService{
 
 	@Autowired
 	private FileInventoryRepository fileInventoryRepository;
+	@Value("${filestatus}")
+	String state;
 	
 //	//	Total Files In Inbox
-	String state=Messages.getString("OperationsDataServiceImpl.FILESTATUS");
+//	String state=Messages.getString("OperationsDataServiceImpl.FILESTATUS");
 	@Override
 	public Integer getTotalFileInbox(String sauName)
 	{

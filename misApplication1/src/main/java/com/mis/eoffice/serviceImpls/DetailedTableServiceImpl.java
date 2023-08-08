@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -35,7 +36,10 @@ import com.mis.eoffice.service.DetailedTableService;
 @Service
 public class DetailedTableServiceImpl implements DetailedTableService {
 	private static final Logger logger = LoggerFactory.getLogger(DetailedTableServiceImpl.class);
-
+	
+	@Value("${filestatus}")
+	String status;
+	
 	@Autowired
 	private FileInventoryRepository filerepo;
 
@@ -51,7 +55,7 @@ public class DetailedTableServiceImpl implements DetailedTableService {
 	@Autowired
 	private DataSauInventoryRepository htrepo;
 
-	String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
+	//String status = Messages.getString("OperationsDataServiceImpl.FILESTATUS");
 	//SELECT *
 	//	  FROM iaf_mis_s
 	//	  ORDER BY r_object_id
